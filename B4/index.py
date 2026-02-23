@@ -143,6 +143,21 @@
 
 #tuple stores multiple values or items i a single variable,its orderes,its indexed
 #it allow duplicates, its im mutable or we can say un changeble
-tp = (12,'wasiq',43,90,'ubaid','hanan')
-tp[0] = 'khan'
-print(tp)
+# tp = (12,'wasiq',43,90,'ubaid','hanan')
+# tp[0] = 'khan'
+# print(tp)
+
+
+#set basically stores multiple items or values in single variable, it's not ordered,its not indexed,its mutble 
+#but we can only or remove
+st = {'Sahil','ubaid',12,'khan','Furqan'}
+st.add("Adil")
+st.remove(12)
+print(type(st))  #here type means which type of data a variable holds
+print(len(st)) #here len how many elements or items or there i a variable
+print(st)
+
+
+lt =['wasiq', 'umer','ubaid','khan',121,234,90.8]
+print(type(lt))
+print(len(lt))
