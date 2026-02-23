@@ -516,3 +516,36 @@
 #     num = int(input("Enter an number:-"))
 #     print(num)
 
+
+#5 1 ,5
+#4 1,2,4
+#1 1
+
+#11
+#8
+
+
+# for i in range(20):
+#     if i == 10:
+#         break  #here break means to stop the iteration at 10
+#     print(i)
+
+
+# for i in range(20):
+#     if i == 10:
+#         continue  #here continue means to skip the iteration at 10
+#     print(i)
+
+
+#5
+#4
+n = int(input("Enter an number:-"))  #ist step
+if n <=1: 
+    print("Its not Prime Number")
+else:
+    for i in range(2,n):
+        if n % i ==0:
+            print("Not Prime number")
+            break
+    else:
+        print("Prime number")
