@@ -551,4 +551,39 @@
 #         print("Prime number")
 
 
+# num = [21,32,11,45,65,89,91,72,22]
+# flag = 0
 
+# #22
+# x = int(input("Enter an number:-"))
+# for nums in num:
+#     if  x== nums:
+#         flag=1
+        
+# if flag == 1:
+#     print(x,'is in the list')
+# else:
+#     print(x,'is not in list')
+
+#hello
+#mam
+word = input("Enter an word:-")
+reverse =''
+
+for ch in word:
+    #'' = h + '' 
+    #h = e+h = eh
+    #eh = l +eh = leh
+    #leh = l + leh = lleh
+    #lleh = o + lleh = olleh
+    
+    
+    #''= m + '' = m
+    #m = a + m = am
+    #am = m + am =mam
+    reverse = ch+reverse
+            #olleh
+if word == reverse:
+    print("it's Palindrome")
+else:
+    print("it's not Palindrome")
