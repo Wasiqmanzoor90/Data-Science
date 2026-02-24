@@ -150,14 +150,28 @@
 
 #set basically stores multiple items or values in single variable, it's not ordered,its not indexed,its mutble 
 #but we can only or remove
-st = {'Sahil','ubaid',12,'khan','Furqan'}
-st.add("Adil")
-st.remove(12)
-print(type(st))  #here type means which type of data a variable holds
-print(len(st)) #here len how many elements or items or there i a variable
-print(st)
+# st = {'Sahil','ubaid',12,'khan','Furqan'}
+# st.add("Adil")
+# st.remove(12)
+# print(type(st))  #here type means which type of data a variable holds
+# print(len(st)) #here len how many elements or items or there i a variable
+# print(st)
 
 
-lt =['wasiq', 'umer','ubaid','khan',121,234,90.8]
-print(type(lt))
-print(len(lt))
+# lt =['wasiq', 'umer','ubaid','khan',121,234,90.8]
+# print(type(lt))
+# print(len(lt))
+
+
+#Dictionary stores multiple value or items in a single variable through the process  key-value pairs,it' ordered
+#its un indexed, it only allows duplicate value it doesn't allow duplicate keys!, its mutable
+dt = {
+    "name":"wasiq",
+    "Roll-no":21,
+    "Pin-code":190001,
+    "Zip-code":190001
+}
+dt["name"]='Sahil'  #here we update though key
+dt['Caste']='Bhat'  # here we add a value
+del dt["Zip-code"]   #here we delete by del keyword
+print(dt)

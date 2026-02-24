@@ -539,13 +539,16 @@
 
 #5
 #4
-n = int(input("Enter an number:-"))  #ist step
-if n <=1: 
-    print("Its not Prime Number")
-else:
-    for i in range(2,n):
-        if n % i ==0:
-            print("Not Prime number")
-            break
-    else:
-        print("Prime number")
+# n = int(input("Enter an number:-"))  #ist step
+# if n <=1: 
+#     print("Its not Prime Number")
+# else:
+#     for i in range(2,n):
+#         if n % i ==0:
+#             print("Not Prime number")
+#             break
+#     else:
+#         print("Prime number")
+
+
+
