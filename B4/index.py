@@ -178,11 +178,14 @@
 # print(dt)
 
 
-lt = [['hanan','kazin',11,21,76],['sahil','Umer',109,23.76],[24,'imaan','muskan',54,89]]
-lt[1][0]='furakan'  #here we update
-del lt[1][1]  #deletation
-# print(lt[2][4])
-# print(lt[1][3])
-# print(lt[0][4])
-print(len(lt))
+# lt = [['hanan','kazin',11,21,76],['sahil','Umer',109,23.76],[24,'imaan','muskan',54,89]]
+# lt[1][0]='furakan'  #here we update
+# del lt[1][1]  #deletation
+# # print(lt[2][4])
+# # print(lt[1][3])
+# # print(lt[0][4])
+# print(len(lt))
+
+
+
 
