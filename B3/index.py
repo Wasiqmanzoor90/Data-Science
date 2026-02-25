@@ -566,24 +566,74 @@
 #     print(x,'is not in list')
 
 #hello
-#mam
-word = input("Enter an word:-")
-reverse =''
+#mom
+# word = input("Enter an word:-")
+# reverse =''
 
-for ch in word:
-    #'' = h + '' 
-    #h = e+h = eh
-    #eh = l +eh = leh
-    #leh = l + leh = lleh
-    #lleh = o + lleh = olleh
+# for ch in word:
+    
+#     #'' = h + ""
+#     #h =  e + h = eh
+#     #eh = l + eh = leh
+#     #leh = l + leh = lleh
+#     #lleh = o + lleh = olleh
     
     
-    #''= m + '' = m
-    #m = a + m = am
-    #am = m + am =mam
-    reverse = ch+reverse
-            #olleh
-if word == reverse:
-    print("it's Palindrome")
-else:
-    print("it's not Palindrome")
+#     #'' =  m + '' = m
+#     #m =  o + m = om
+#     #om = m + om = mom
+#     reverse = ch+reverse
+       
+#       #hello == olleh 
+#       #mom == mom     
+# if word == reverse:
+#     print("it's Palindrome")
+# else:
+#     print("it's not Palindrome")
+
+
+
+# for i in range(10):
+#     print(i)
+
+# i = 0
+# while True:
+#     if i < 30:
+#         i = int(input("Enter n number:-"))
+#         print(i) 
+
+
+# while True:
+#     n = int(input("Enter an number:-"))
+#     if n % 2 == 0:
+#         print("Even number")
+#     else:
+#         print("Odd number")
+#     ch = input("Enter yes to repeat:-")
+#     if ch !='yes':
+#         print("You are Done")
+#         break
+
+
+while True:
+    try:
+        n1 = float(input("Enter an ist number:-"))
+        op = input("Enter an operator(+,-,*,/)")
+        n2 = float(input("Enter an second number:-"))
+
+        if op == '+':
+            print(n1+n2)
+        elif op == '-':
+            print(n1-n2)
+        elif op == "*":
+            print(n1*n2)
+        elif op == '/':
+            print(n1/n2)
+        else:
+            print("Invalid Operator")
+    except ZeroDivisionError:
+        print("Cant Divide by zero")
+    choice = input("Enter yes to repeat")
+    if choice != 'yes':
+        print("You are done")
+        break
