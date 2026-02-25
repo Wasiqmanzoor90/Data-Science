@@ -165,13 +165,24 @@
 
 #Dictionary stores multiple value or items in a single variable through the process  key-value pairs,it' ordered
 #its un indexed, it only allows duplicate value it doesn't allow duplicate keys!, its mutable
-dt = {
-    "name":"wasiq",
-    "Roll-no":21,
-    "Pin-code":190001,
-    "Zip-code":190001
-}
-dt["name"]='Sahil'  #here we update though key
-dt['Caste']='Bhat'  # here we add a value
-del dt["Zip-code"]   #here we delete by del keyword
-print(dt)
+# dt = {
+#     "name":"wasiq",
+#     "Roll-no":21,
+#     "Pin-code":190001,
+#     "Zip-code":190001
+# }
+# dt["name"]='Sahil'  #here we update though key
+# dt['Caste']='Bhat'  # here we add a value
+# del dt["Zip-code"]   #here we delete by del keyword
+# dt.pop("Pin-code")  #here we delete by pop method
+# print(dt)
+
+
+lt = [['hanan','kazin',11,21,76],['sahil','Umer',109,23.76],[24,'imaan','muskan',54,89]]
+lt[1][0]='furakan'  #here we update
+del lt[1][1]  #deletation
+# print(lt[2][4])
+# print(lt[1][3])
+# print(lt[0][4])
+print(len(lt))
+
