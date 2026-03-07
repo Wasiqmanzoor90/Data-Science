@@ -188,4 +188,18 @@
 
 
 
+# lt = [['wasiq',21,24,45,67],['Adil','Sahil',32,891,754],[True,23.89,43,75,12]]
+# lt[0][0]='Moomin'  #updation
+# del lt[2][0]  #deletion
+# lt[1].insert(0,'Hanan')
+# print(lt)
 
+
+lt = [[['Hanan','ubaid',11,23,34,65],['Kazim','umer','habis',True]],    [['Imaad','abid',34.12],['sahil','khan',112,341]],    [['Madeeha','lubna',23,11.54,90],['kinza',78.90,True]]]
+
+lt[0][1][0]='Hazim' #updation
+del lt[2][0][0]   #deletion
+# print(lt[2][1][1])
+# print(lt[0][1][1])
+# print(lt[1][1][0])
+print(lt[2])
