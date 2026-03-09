@@ -640,9 +640,20 @@
    
    
 #Function is a block of code, its used for specific task, its reusable
-def add():
-    a = 10
-    b = 12
-    print(a+b)
-
+# def add():
+#     a = 10
+#     b = 12
+#     print(a+b)
 # add()
+
+
+
+
+from index2 import add
+#20
+n1 =int(input("Enter ist number:-"))
+#10
+n2 =int(input("Enter second number:-"))
+add(n1,n2)
+
+print()
