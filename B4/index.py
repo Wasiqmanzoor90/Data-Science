@@ -195,11 +195,40 @@
 # print(lt)
 
 
-lt = [[['Hanan','ubaid',11,23,34,65],['Kazim','umer','habis',True]],    [['Imaad','abid',34.12],['sahil','khan',112,341]],    [['Madeeha','lubna',23,11.54,90],['kinza',78.90,True]]]
+# lt = [[['Hanan','ubaid',11,23,34,65],['Kazim','umer','habis',True]],    [['Imaad','abid',34.12],['sahil','khan',112,341]],    [['Madeeha','lubna',23,11.54,90],['kinza',78.90,True]]]
 
-lt[0][1][0]='Hazim' #updation
-del lt[2][0][0]   #deletion
-# print(lt[2][1][1])
-# print(lt[0][1][1])
-# print(lt[1][1][0])
-print(lt[2])
+# lt[0][1][0]='Hazim' #updation
+# del lt[2][0][0]   #deletion
+# # print(lt[2][1][1])
+# # print(lt[0][1][1])
+# # print(lt[1][1][0])
+# print(lt[2])
+
+
+
+# lt = [[['wasiq','ubaid',12,45,True],['sahil','khan',21.78]],    [['Madeeha','jasira',56.90,False],['Jasira','owais','Lubna',12.89]],   [['Hazim','khan',90,True],['Kinza','Yasir','Furkan']]]
+
+# lt[2][0][1]='Reeba'  #updation
+# del lt[2][1][1]  #delete
+# lt[0][1].insert(1,'adil')
+# # print(lt[1][0][1])
+# # print(lt[0][1][1])
+# # print(lt[2][0][0])
+# # print(lt[1][1][2])
+# print(lt[0])
+
+
+
+dt = {
+    1:{'name':"sahil",'Roll-no':21},
+    2:{'name':"Moomin",'Roll-no':22},
+    3:{'name':"Furkan",'Roll-no':23}
+}
+
+
+dt[1]={'name':"umer",'Roll-no':11} #updation
+dt[2]['Roll-no']=12
+del dt[3]['Roll-no']
+dt[4]={'name':"Tehseen",'Roll-no':13}
+print(dt[1])
+print(dt)

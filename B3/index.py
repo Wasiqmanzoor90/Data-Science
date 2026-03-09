@@ -615,25 +615,34 @@
 #         break
 
 
-while True:
-    try:
-        n1 = float(input("Enter an ist number:-"))
-        op = input("Enter an operator(+,-,*,/)")
-        n2 = float(input("Enter an second number:-"))
+# while True:
+#     try:
+#         n1 = float(input("Enter an ist number:-"))
+#         op = input("Enter an operator(+,-,*,/)")
+#         n2 = float(input("Enter an second number:-"))
 
-        if op == '+':
-            print(n1+n2)
-        elif op == '-':
-            print(n1-n2)
-        elif op == "*":
-            print(n1*n2)
-        elif op == '/':
-            print(n1/n2)
-        else:
-            print("Invalid Operator")
-    except ZeroDivisionError:
-        print("Cant Divide by zero")
-    choice = input("Enter yes to repeat")
-    if choice != 'yes':
-        print("You are done")
-        break
+#         if op == '+':
+#             print(n1+n2)
+#         elif op == '-':
+#             print(n1-n2)
+#         elif op == "*":
+#             print(n1*n2)
+#         elif op == '/':
+#             print(n1/n2)
+#         else:
+#             print("Invalid Operator")
+#     except ZeroDivisionError:
+#         print("Cant Divide by zero")
+#     choice = input("Enter yes to repeat")
+#     if choice != 'yes':
+#         print("You are done")
+#         break
+   
+   
+#Function is a block of code, its used for specific task, its reusable
+def add():
+    a = 10
+    b = 12
+    print(a+b)
+
+# add()
