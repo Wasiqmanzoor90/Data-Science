@@ -649,11 +649,42 @@
 
 
 
-from index2 import add
-#20
-n1 =int(input("Enter ist number:-"))
-#10
-n2 =int(input("Enter second number:-"))
-add(n1,n2)
+# from index2 import add
+# #20
+# n1 =int(input("Enter ist number:-"))
+# #10
+# n2 =int(input("Enter second number:-"))
+# add(n1,n2)
 
-print()
+# print()
+
+
+
+# def evenodd(n):
+#     if n % 2 == 0:
+#         print("Even number")
+#     else:
+#         print("Odd number")
+
+# #8
+# num = int(input("Enter an number:-"))
+# evenodd(num)
+
+
+# def check(x):
+#     if x > 0:
+#         print("Positive number")
+#     elif x < 0:
+#         print("Negative number")
+#     else:
+#         print("You enterred zero")
+    
+# num = int(input("Enter an number:-"))  
+# check(num)
+
+
+# def sq(x):
+#     return x*x*x
+
+# num = int(input("Enter an number:-"))
+# print(sq(num))
