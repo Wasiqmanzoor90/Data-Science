@@ -688,3 +688,5 @@
 
 # num = int(input("Enter an number:-"))
 # print(sq(num))
+
+

@@ -235,21 +235,37 @@
 
 
 
-dt = {
-    1:{"name":{"First-name":"Sahil","Lastname":"Bhat"}, "Adress":{"District":"Srinagar","Pin-code":190001,"local-adress":"Hyderpora"}},
-    2:{"name":{"First-name":"Adil","Lastname":"Ahmad"}, "Adress":{"District":"Pulwama","Pin-code":192301,"local-adress":"Kaka-Pora"}},
-    3:{"name":{"First-name":"Furkan","Lastname":"Ahmad"}, "Adress":{"District":"Budgam","Pin-code":192302,"local-adress":"Beerwah"}},
-    4:{"name":{"First-name":"Tehseen","Lastname":"Motto"}, "Adress":{"District":"Srinagr","Pin-code":190002,"local-adress":"Nawkadal"}},
-    5:{"name":{"First-name":"Moomin","Lastname":"Shareif"}, "Adress":{"District":"Srinagar","Pin-code":190017,"local-adress":"Shalteng"}},
-} 
-dt[1]['name']['First-name']= 'Rahil'  #here we update
-dt[5]['name']={"First-name":"Mumin","Lastname":"Dar"}
+# dt = {
+#     1:{"name":{"First-name":"Sahil","Lastname":"Bhat"}, "Adress":{"District":"Srinagar","Pin-code":190001,"local-adress":"Hyderpora"}},
+#     2:{"name":{"First-name":"Adil","Lastname":"Ahmad"}, "Adress":{"District":"Pulwama","Pin-code":192301,"local-adress":"Kaka-Pora"}},
+#     3:{"name":{"First-name":"Furkan","Lastname":"Ahmad"}, "Adress":{"District":"Budgam","Pin-code":192302,"local-adress":"Beerwah"}},
+#     4:{"name":{"First-name":"Tehseen","Lastname":"Motto"}, "Adress":{"District":"Srinagr","Pin-code":190002,"local-adress":"Nawkadal"}},
+#     5:{"name":{"First-name":"Moomin","Lastname":"Shareif"}, "Adress":{"District":"Srinagar","Pin-code":190017,"local-adress":"Shalteng"}},
+# } 
+# dt[1]['name']['First-name']= 'Rahil'  #here we update
+# dt[5]['name']={"First-name":"Mumin","Lastname":"Dar"}
 
-del dt[2]['name']['Lastname']  #gere we delete
-dt[6]={"name":{"First-name":"sheikh","Lastname":"wasiq"}, "Adress":{"District":"Srinagar","Pin-code":190017,"local-adress":"Bemina"}} #here we add
-# print(dt[2]['Adress']['Pin-code'])
-# print(dt[4]['Adress']['District'])
-# print(dt[4]['name']['Lastname'])
-# print(dt[5]['Adress']['local-adress'])
-# print(dt[1]['name']['First-name'])
-print(dt[6])
+# del dt[2]['name']['Lastname']  #gere we delete
+# dt[6]={"name":{"First-name":"sheikh","Lastname":"wasiq"}, "Adress":{"District":"Srinagar","Pin-code":190017,"local-adress":"Bemina"}} #here we add
+# # print(dt[2]['Adress']['Pin-code'])
+# # print(dt[4]['Adress']['District'])
+# # print(dt[4]['name']['Lastname'])
+# # print(dt[5]['Adress']['local-adress'])
+# # print(dt[1]['name']['First-name'])
+# print(dt[6])
+
+#Typecating:- when we convert one data type into anothere datype
+#indetation: Basically it means block of code
+# age = int(input("Enter your age:-"))
+
+# if age > 18:
+#     print("You are elgible to vote")
+# else:
+#     print("You are not elgible to vote")
+
+
+grade = input("Enter your grade")
+if grade == 'A':
+    print("Topper")
+else:
+    print("Average")
