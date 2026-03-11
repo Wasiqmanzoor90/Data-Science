@@ -690,3 +690,22 @@
 # print(sq(num))
 
 
+#lamda function is an anomous function which we for small tasks 
+# add = lambda x,y: x+y
+
+# n1 = int(input("Enter ist number:-"))
+# n2 = int(input("Enter second number:-"))
+# print(add(n1,n2))
+
+
+
+# evenodd = lambda x: 'even' if  x %2==0 else 'odd'
+# n = int(input("Enter an number:-"))
+# print(evenodd(n))
+
+
+
+#map is used for iteration
+# num=[2,5,9,6,8]
+# sq = list(map(lambda x: x**2, num))
+# print(sq)
