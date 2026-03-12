@@ -709,3 +709,5 @@
 # num=[2,5,9,6,8]
 # sq = list(map(lambda x: x**2, num))
 # print(sq)
+
+

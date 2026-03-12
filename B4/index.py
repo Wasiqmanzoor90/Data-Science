@@ -264,8 +264,41 @@
 #     print("You are not elgible to vote")
 
 
-grade = input("Enter your grade")
-if grade == 'A':
-    print("Topper")
-else:
-    print("Average")
+# grade = input("Enter your grade")
+# if grade == 'A':
+#     print("Topper")
+# else:
+#     print("Average")
+
+
+#when we have to check multiple conditions we use nested if else
+# grade = input("Enter your grade:-")
+# if grade == 'A':
+#     print("Topper student")
+# elif grade == 'B':
+#     print("Good student")
+# elif grade == 'C':
+#     print("Average")
+# else:
+#     print("Fail")
+    
+    
+    
+# n = int(input("Enter an number:-"))
+# if n>0:
+#     print(n,"is Positive number")
+# elif n < 0 :
+#     print("Negative")
+# else:
+#     print("0 You entered zero")
+
+
+#in and operator both the codition should be true
+#in or operator one of the condition should be true
+# a = 13
+# b =20
+
+# if a > 18 or b>18:
+#     print("Done")
+# else:
+#     print("Not done")
