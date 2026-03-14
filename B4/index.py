@@ -302,3 +302,26 @@
 #     print("Done")
 # else:
 #     print("Not done")
+
+
+# n = int(input("Enter an number:-"))
+# if n % 2 == 0:
+#     print("even number")
+# else:
+#     print("Odd number")
+    
+    
+# n1 = int(input("Enter ist number:-"))
+# op = input("Enter an operator(+,-,*,/)")
+# n2 = int(input("Enter second number:-"))
+
+# if op == '+':
+#     print(n1+n2)
+# elif op =='-':
+#     print(n1-n2)
+# elif op == '*':
+#     print(n1*n2)
+# elif op == '/':
+#     print(n1/n2)
+# else:
+#     print("invalid operator")

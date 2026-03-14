@@ -710,4 +710,28 @@
 # sq = list(map(lambda x: x**2, num))
 # print(sq)
 
+# num =['11','22','78','89','101','67']
+# st = list(map(int,num))
+# print(st)
+
+# names = ['BOB','ALIC','JOHN','AIMAN','KHAN']
+# st = list(map(str.lower,names))
+# print(st)
+
+
+# num=[2,3,4,5,6,7,8,9]
+# st = list(filter(lambda x: x%2==0,num))
+# print(st)
+
+
+# num = [-21,-3,87,56,11,19,-89,-67]
+# st = list(filter(lambda x: x <0,num))
+# print(st)
+
+# fruit=['Banana','apple','kiwi','mango','cherry']
+# st = list(filter(lambda x: len(x)>5,fruit))
+# print(st)
+
+
+
 
