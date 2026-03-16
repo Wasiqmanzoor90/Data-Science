@@ -731,3 +731,14 @@
 # fruit=['Banana','apple','kiwi','mango','cherry']
 # st = list(filter(lambda x: len(x)>5,fruit))
 # print(st)
+
+
+# for i in range(5): #outer loop
+#     for j in range(3):  #inner
+#         print(i)
+        
+        
+for i in range(5):
+    print()
+    for j in range(3):
+        print("Hello world",end=" ")
