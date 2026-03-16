@@ -325,3 +325,31 @@
 #     print(n1/n2)
 # else:
 #     print("invalid operator")
+
+
+# print("My name is wasiq")
+# print("My name is wasiq")
+# print("My name is wasiq")
+# print("My name is wasiq")
+# print("My name is wasiq")
+
+
+#loop is a program that runs multiple times untill it met the specific condition
+
+
+# for i in range(50):
+#     print("Hello world")
+
+#0
+#break is keyword that stops the execution
+# for i in range(20):
+#     if i == 11:
+#         break
+#     print(i)
+    
+
+#continue is a keyword that skips the current number of execution
+# for i in range(13):
+#     if i == 6:
+#         continue
+#     print(i)

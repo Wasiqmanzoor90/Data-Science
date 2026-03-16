@@ -731,7 +731,3 @@
 # fruit=['Banana','apple','kiwi','mango','cherry']
 # st = list(filter(lambda x: len(x)>5,fruit))
 # print(st)
-
-
-
-
