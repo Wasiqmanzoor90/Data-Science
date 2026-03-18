@@ -714,13 +714,13 @@
 #it intialize by __init()__
 
 
-class Calc:
+# class Calc:
     
-    def __init__(self):
-        print("Hello im from constructor")
-        self.add(12,13)
-    def add(self,a,b):
-        print(a+b)
+#     def __init__(self):
+#         print("Hello im from constructor")
+#         self.add(12,13)
+#     def add(self,a,b):
+#         print(a+b)
 
 
 # c = Calc()

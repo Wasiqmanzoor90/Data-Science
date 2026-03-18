@@ -364,7 +364,24 @@
 
 
 
-tab = int(input("Enter an number:-"))
-for i in range(1,11):
-    res = tab*i
-    print(tab,'x',i,'=',res)
+# tab = int(input("Enter an number:-"))
+# for i in range(1,11):
+#     res = tab*i
+#     print(tab,'x',i,'=',res)
+
+
+
+# nums = [1,2,3,2,4,3]
+# unique = list(set(nums))  #set is to remove duplicates is a particular list
+# print(unique) 
+
+
+# text = input("Enter an sentence:-")
+# words = text.split()  #split means to remove the spaces
+# print("Words count",len(words))
+
+
+# num = [24.99,101,45,51]
+# # print(num[-1])
+# num.sort() #sort simply means sorting the value in ascending order
+# print("Second largest",num[-2])
