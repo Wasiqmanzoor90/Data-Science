@@ -353,3 +353,18 @@
 #     if i == 6:
 #         continue
 #     print(i)
+
+
+#when we want to get from particular item to another or we can say range based! we use the concept of slicing
+# lt = ['wasiq', 'umer','ubaid','khan',121,234,90.8]
+# print(lt[1:7])
+# print(lt[2:])
+# print(lt[:3])
+# print(lt[-1])
+
+
+
+tab = int(input("Enter an number:-"))
+for i in range(1,11):
+    res = tab*i
+    print(tab,'x',i,'=',res)
