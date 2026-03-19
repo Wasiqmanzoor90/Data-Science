@@ -744,3 +744,17 @@
 #         print("Hello world",end=" ")
         
 
+# nums = [1,2,3,2,4,3]
+# unique = list(set(nums))  #set is to remove duplicates is a particular list
+# print(unique) 
+
+
+# text = input("Enter an sentence:-")
+# words = text.split()  #split means to remove the spaces
+# print("Words count",len(words))
+
+
+# num = [24.99,101,45,51]
+# # print(num[-1])
+# num.sort() #sort simply means sorting the value in ascending order
+# print("Second largest",num[-2])

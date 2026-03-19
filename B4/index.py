@@ -371,17 +371,42 @@
 
 
 
-# nums = [1,2,3,2,4,3]
-# unique = list(set(nums))  #set is to remove duplicates is a particular list
-# print(unique) 
+# data=['wasiq','umer','khan',121,78,90]
+# for ok in data:
+#     print(ok)
+
+# a = 'furkan'
+# for name in a:
+#     print(name)
 
 
-# text = input("Enter an sentence:-")
-# words = text.split()  #split means to remove the spaces
-# print("Words count",len(words))
+# dt ={
+#     'name':"Sahil",
+#     "Roll-no":21,
+#     "Pin-code":190001
+# }
+
+# for key,value in dt.items():
+#     print(key,value)
+    
+# for i in range(1,20):
+#     if i % 2 ==0:
+#         print(i)
 
 
-# num = [24.99,101,45,51]
-# # print(num[-1])
-# num.sort() #sort simply means sorting the value in ascending order
-# print("Second largest",num[-2])
+#manual swapping here we use third variable for swapping
+# a = 20
+# b=15
+# c = a
+# a = b
+# b=c
+# print(a)
+# print(b)
+
+#automatic swaping which is in python only
+a = 32
+b=15
+
+a,b = b,a
+print(a)
+print(b)
