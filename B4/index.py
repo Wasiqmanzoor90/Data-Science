@@ -404,9 +404,41 @@
 # print(b)
 
 #automatic swaping which is in python only
-a = 32
-b=15
+# a = 32
+# b=15
 
-a,b = b,a
-print(a)
-print(b)
+# a,b = b,a
+# print(a)
+# print(b)
+
+
+
+# num = [11,21,3,4,93,39,89,107,111,207]
+# flag = 0
+# #23
+# x = int(input("Enter an number:-"))
+
+# for nums in num:
+#     if x == nums:
+#         flag=1
+
+# if flag ==1:
+#     print(x,'is in list')
+# else:
+#     print(x,'is not in list')
+
+
+#8
+#6
+#11
+#7
+n = int(input("Enter an number:-"))
+if n<=1:
+    print("Not Prime")
+else:
+    for i in range(2,n):
+        if n%i==0:
+            print(n,"is not Prime")
+            break
+    else:
+        print(n,"Prime number")
