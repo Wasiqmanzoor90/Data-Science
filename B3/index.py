@@ -760,3 +760,24 @@
 # print("Second largest",num[-2])
 
 
+#OOPS Stands for object oriented programing, its used to maintain our code in more orginised way its is resubale and define clean code archeture
+#OOPS Have four pillars
+#Encapsulation, Abstraction, Polymorphism and inheritence
+
+
+#A class is a design or template for creating something or we can say an object
+#self is an adress to a particular object
+class Caluculator:
+    def add(self):
+        a = 10
+        b=12
+        print(a+b)
+    
+    def sub(self):
+        a = 21
+        b=3
+        print(a-b)
+        
+cal = Caluculator()  #An object is actual thing that is created from class
+cal.add()
+cal.sub()
