@@ -432,13 +432,113 @@
 #6
 #11
 #7
-n = int(input("Enter an number:-"))
-if n<=1:
-    print("Not Prime")
+# n = int(input("Enter an number:-"))
+# if n<=1:
+#     print("Not Prime")
+# else:
+#     for i in range(2,n):
+#         if n%i==0:
+#             print(n,"is not Prime")
+#             break
+#     else:
+#         print(n,"Prime number")
+
+
+
+# grade = input("Enter your grade:-")
+# if grade == 'A':
+#     print("Topper")
+# elif grade == 'B':
+#     print("Good")
+# elif grade == 'C':
+#     print("Average")
+# elif grade == 'D':
+#     print("Below Average")
+# else:
+#     print("Fail")
+
+
+# '21'
+
+# age = int(input("Enter your age:-"))
+# if age > 18:
+#     print("You are elgible to vote")
+# else:
+#     print("You are not elgible to vote")
+
+
+
+# lt = ['wasiq','moomin',12,23,56,'hanan',11]
+# print(lt[1:5])
+    
+# for val in lt:
+#     print(val)
+    
+
+# dt ={
+#     'name':"Sahil",
+#     "Roll-no":21,
+#     "Pin-code":190001
+# }
+# for key, value in dt.items():
+#     print(key, ':',value)
+
+# num = [22,45,11,99,89,101,32,24,90]
+# flag = 0
+# x = int(input("Enter an number:-"))
+
+# for nums in num:
+#     if x == nums:
+#         flag =1
+        
+# if flag == 1:
+#     print(x,'is in list')
+# else:
+#     print(x,'is not in list')
+
+#7
+#6
+
+# n = int(input("Enter an number:-"))
+# if n <=1:
+#     print("Not Prime")
+# else:
+#     for i in range(2,n):
+#         if n%i==0:
+#             print("Not Prime")
+#             break
+        
+#     else:
+#         print("Prime number")
+
+
+#hello
+#mom
+word = input("Enter an word:-")
+rev = ""
+
+for ch in word:
+    
+    #"" = h + ""
+    #h = e + h = eh
+    #eh = l + eh = leh
+    #leh = l + leh =lleh          rev = olleh
+    #lleh = o + lleh = olleh
+    
+    
+    
+    #""  = m + "" = m
+    #m  = o + m = om
+    #om = m + om = mom
+    rev = ch+ rev
+
+
+   #olleh == hello
+   #mom  == mom
+if rev == word:
+    print("Palindrome")
 else:
-    for i in range(2,n):
-        if n%i==0:
-            print(n,"is not Prime")
-            break
-    else:
-        print(n,"Prime number")
+    print("Not Palindrome")
+
+
+

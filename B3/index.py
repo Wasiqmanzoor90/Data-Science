@@ -767,17 +767,17 @@
 
 #A class is a design or template for creating something or we can say an object
 #self is an adress to a particular object
-class Caluculator:
-    def add(self):
-        a = 10
-        b=12
-        print(a+b)
+# class Caluculator:
+#     def add(self):
+#         a = 10
+#         b=12
+#         print(a+b)
     
-    def sub(self):
-        a = 21
-        b=3
-        print(a-b)
+#     def sub(self):
+#         a = 21
+#         b=3
+#         print(a-b)
         
-cal = Caluculator()  #An object is actual thing that is created from class
-cal.add()
-cal.sub()
+# cal = Caluculator()  #An object is actual thing that is created from class
+# cal.add()
+# cal.sub()
