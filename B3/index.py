@@ -781,3 +781,34 @@
 # cal = Caluculator()  #An object is actual thing that is created from class
 # cal.add()
 # cal.sub()
+
+#Polymorphism same function with diffrent behaviour
+
+
+class Dog:
+    def speak(self):
+        print("Dog Barks")
+        
+class Cat:
+    def speak(self):
+        print("Cat Meows")
+        
+# c = Cat()
+# d = Dog()
+# d.speak()
+# c.speak()
+
+
+
+#when we inherit properties from parent class to child class its called inheritence
+class Animal:
+    def speak(self):
+        print("Animal Speaks")
+        
+class dog(Animal):
+    def bark(self):
+        print("Dog barks!")
+        
+d = dog()
+d.speak()
+d.bark()
