@@ -808,7 +808,31 @@ class Animal:
 class dog(Animal):
     def bark(self):
         print("Dog barks!")
+       
+       
+#encapsulation simply means when you bundle the data
+#abstraction simply means hiding the processs or we can say its hide complexity of you code
+#encapsulation and abstraction bot work at same time
         
-d = dog()
-d.speak()
-d.bark()
+# d = dog()
+# d.speak()
+# d.bark()
+def names():
+    print("My name is Aiman")
+    print("My name is Aqib")
+    print("My name is Adnan")
+
+# names()
+
+#constructor get run automatically when the object of the class is created
+#it intialize when we write __init__()
+
+class Ils:
+    def __init__(self):
+        print("Hello im from constructor:)")
+    
+    def name(self):
+        print("My name is wasiq")
+
+il = Ils()
+il.name()
