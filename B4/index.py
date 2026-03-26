@@ -323,6 +323,8 @@
 #     print(n1*n2)
 # elif op == '/':
 #     print(n1/n2)
+# elif op == '%':
+#     print(n1%n2)
 # else:
 #     print("invalid operator")
 
@@ -514,31 +516,58 @@
 
 #hello
 #mom
-word = input("Enter an word:-")
-rev = ""
+# word = input("Enter an word:-")
+# rev = ""
 
-for ch in word:
+# for ch in word:
     
-    #"" = h + ""
-    #h = e + h = eh
-    #eh = l + eh = leh
-    #leh = l + leh =lleh          rev = olleh
-    #lleh = o + lleh = olleh
+#     #"" = h + ""
+#     #h = e + h = eh
+#     #eh = l + eh = leh
+#     #leh = l + leh =lleh          rev = olleh
+#     #lleh = o + lleh = olleh
     
     
     
-    #""  = m + "" = m
-    #m  = o + m = om
-    #om = m + om = mom
-    rev = ch+ rev
+#     #""  = m + "" = m
+#     #m  = o + m = om
+#     #om = m + om = mom
+#     rev = ch+ rev
 
 
-   #olleh == hello
-   #mom  == mom
-if rev == word:
-    print("Palindrome")
-else:
-    print("Not Palindrome")
+#    #olleh == hello
+#    #mom  == mom
+# if rev == word:
+#     print("Palindrome")
+# else:
+#     print("Not Palindrome")
 
 
 
+
+
+# for i in range(10):
+#     print(i)
+
+
+# i =0
+# while i<=30:
+#     i = int(input("Enter an number:-"))
+#     print(i)
+    
+
+#in while loop we dont know the current number of itertion and in for loop we knoow the current number itteration
+
+
+
+while True:
+    n = int(input("Enter an number:-"))
+    if n%2==0:
+        print("Even number")
+    else:
+        print("Odd number")
+    
+    cht =input("Enter yes to repeat:-")
+    if cht!='yes':
+        print("You are done")
+        break
