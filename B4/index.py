@@ -560,15 +560,34 @@
 
 
 
-while True:
-    n = int(input("Enter an number:-"))
-    if n%2==0:
-        print("Even number")
-    else:
-        print("Odd number")
+# while True:
+#     n = int(input("Enter an number:-"))
+#     if n%2==0:
+#         print("Even number")
+#     else:
+#         print("Odd number")
     
-    cht =input("Enter yes to repeat:-")
-    if cht!='yes':
-        print("You are done")
-        break
+#     cht =input("Enter yes to repeat:-")
+#     if cht!='yes':
+#         print("You are done")
+#         break
     
+# a = 'wasiq'
+# a[0]='h'
+# print(a)
+
+
+
+
+# for i in range(5):  #outer looop
+#     for j in range(3):  #inner loop
+#         print(i)
+
+
+for i in range(6):
+    print()
+    for j in range(4):
+        print("Hello World",end=" ")
+        
+        
+        
