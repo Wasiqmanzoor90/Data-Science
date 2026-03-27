@@ -801,13 +801,13 @@ class Cat:
 
 
 #when we inherit properties from parent class to child class its called inheritence
-class Animal:
-    def speak(self):
-        print("Animal Speaks")
+# class Animal:
+#     def speak(self):
+#         print("Animal Speaks")
         
-class dog(Animal):
-    def bark(self):
-        print("Dog barks!")
+# class dog(Animal):
+#     def bark(self):
+#         print("Dog barks!")
        
        
 #encapsulation simply means when you bundle the data
@@ -832,7 +832,34 @@ class Ils:
         print("Hello im from constructor:)")
     
     def name(self):
-        print("My name is wasiq")
+        
+        print("wasiq")
 
-il = Ils()
-il.name()
+
+    def lastname(self):
+        print("Mohamad")
+
+
+
+# il = Ils()
+# il.name()
+# il.lastname()
+
+
+
+
+# a = 10
+# b=20
+# c =a
+# a = b
+# b =c
+# print(a)
+# print(b)
+
+
+# a = 10
+# b =20
+# a,b = b,a
+# print(a,b)
+
+
