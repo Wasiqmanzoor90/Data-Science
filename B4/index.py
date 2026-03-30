@@ -584,10 +584,39 @@
 #         print(i)
 
 
-for i in range(6):
-    print()
-    for j in range(4):
-        print("Hello World",end=" ")
+# for i in range(6):
+#     print()
+#     for j in range(4):
+#         print("Hello World",end=" ")
+        
+
         
         
         
+#function is a block of code that we use for a specific task,it is re usabele ,its organised, its clean and easy to unserstand,it pn;y runs when it get called
+
+#Argument pass mean means when pass the value from function to real function
+
+def add(x,y):
+   
+    print(x+y)
+    
+def sub(a,b):
+    print(a-b)
+
+
+a=int(input("Enter an number:-"))
+b=int(input("Enter an number:-"))
+# add(a,b)
+sub(a,b)
+
+
+
+def evenodd(n):
+    if n%2==0:
+        print("Even number")
+    else:
+        print("odd number")
+    
+# x = int(input("Enter an number:-"))
+# evenodd(x)
