@@ -597,26 +597,91 @@
 
 #Argument pass mean means when pass the value from function to real function
 
-def add(x,y):
+# def add(x,y):
    
-    print(x+y)
+#     print(x+y)
     
-def sub(a,b):
-    print(a-b)
+# def sub(a,b):
+#     print(a-b)
 
 
-a=int(input("Enter an number:-"))
-b=int(input("Enter an number:-"))
-# add(a,b)
-sub(a,b)
+# a=int(input("Enter an number:-"))
+# b=int(input("Enter an number:-"))
+# # add(a,b)
+# sub(a,b)
 
 
 
-def evenodd(n):
-    if n%2==0:
-        print("Even number")
-    else:
-        print("odd number")
+# def evenodd(n):
+#     if n%2==0:
+#         print("Even number")
+#     else:
+#         print("odd number")
     
-# x = int(input("Enter an number:-"))
-# evenodd(x)
+# # x = int(input("Enter an number:-"))
+# # evenodd(x)
+
+
+
+# def posneg(x):
+#     if x < 0:
+#         print(x,"Negative number")
+#     elif x>0:
+#         print(x,"Positive number")
+#     else:
+#         print(x, "is neutral or we can say zero")
+        
+# n = int(input("Enter an number:-"))
+# posneg(n)
+
+
+
+# def sq(x):
+#     return x*x*x
+
+
+# n = int(input("Enter an number:-"))
+# print(sq(n))
+
+
+
+
+# x = int(input("enter an number"))
+# print(x*x)
+
+
+
+
+#python exception handling is a process which gracefully handles the error for smooth flow
+
+# try:
+#     n1 = int(input("Enter ist number:-"))
+#     op = input("Enter an operator(+,-,*,/)")
+#     n2 = int(input("Enter second number:-"))
+
+#     if op == '+':
+#         print(n1+n2)
+#     elif op =='-':
+#         print(n1-n2)
+#     elif op == '*':
+#         print(n1*n2)
+#     elif op == '/':
+#         print(n1/n2)
+#     elif op == '%':
+#         print(n1%n2)
+#     else:
+#         print("invalid operator")
+
+# except ZeroDivisionError:
+#     print("Cant divide by zero")
+    
+    
+from index2 import add
+
+x = int(input("Enter ist number:-"))
+y = int(input("Enter second number:-"))
+
+print(add(x,y))
+
+print()
+

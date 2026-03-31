@@ -34,6 +34,10 @@
 
 
 
-file = open('File.txt','w')
-file.write("Jasira")
-file.close()
+# file = open('File.txt','w')
+# file.write("Jasira")
+# file.close()
+
+
+
+    
