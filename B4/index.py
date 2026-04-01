@@ -676,12 +676,36 @@
 #     print("Cant divide by zero")
     
     
-from index2 import add
+# from index2 import add
 
-x = int(input("Enter ist number:-"))
-y = int(input("Enter second number:-"))
+# x = int(input("Enter ist number:-"))
+# y = int(input("Enter second number:-"))
 
-print(add(x,y))
+# print(add(x,y))
+# print()
 
-print()
 
+
+
+
+
+#lambda is a anomnyms function that we use for smaller tasks
+# add = lambda a,b: a+b
+# x = int(input("Enter an number:-"))
+# y = int(input("Enter an number:-"))
+# print(add(x,y))
+
+
+# evenodd = lambda x: 'even' if x %2 == 0 else "odd"
+
+# n = int(input("Enter an number:-"))
+# print(evenodd(n))
+
+
+# sq = lambda x: x*x
+# n = int(input("Enter an number:-"))
+# print(sq(n))
+
+
+maxy = lambda a,b: a if a>b else b
+print(maxy(12,13))
