@@ -827,17 +827,17 @@ def names():
 #constructor get run automatically when the object of the class is created
 #it intialize when we write __init__()
 
-class Ils:
-    def __init__(self):
-        print("Hello im from constructor:)")
+# class Ils:
+#     def __init__(self):
+#         print("Hello im from constructor:)")
     
-    def name(self):
+#     def name(self):
         
-        print("wasiq")
+#         print("wasiq")
 
 
-    def lastname(self):
-        print("Mohamad")
+#     def lastname(self):
+#         print("Mohamad")
 
 
 

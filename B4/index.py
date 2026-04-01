@@ -707,5 +707,5 @@
 # print(sq(n))
 
 
-maxy = lambda a,b: a if a>b else b
-print(maxy(12,13))
+# maxy = lambda a,b: a if a>b else b
+# print(maxy(12,13))

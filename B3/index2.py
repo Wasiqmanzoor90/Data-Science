@@ -52,10 +52,12 @@
 #     f.write(" and my name is syed aiman")
 
 
-with open(r"C:\Users\Dell\Desktop\jasira.txt",'w') as f:
-    f.write("My name is jasira")
+# with open(r"C:\Users\Dell\Desktop\jasira.txt",'w') as f:
+#     f.write("My name is jasira")
     
     
-with open(r"C:\Users\Dell\Desktop\exam.txt",'r') as f:
-    data = f.read()
-    print(data)
+# with open(r"C:\Users\Dell\Desktop\exam.txt",'r') as f:
+#     data = f.read()
+#     print(data)
+
+
