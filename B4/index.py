@@ -709,3 +709,25 @@
 
 # maxy = lambda a,b: a if a>b else b
 # print(maxy(12,13))
+
+
+
+# num = [2,8,6,4,9,12,5]
+# sq = list(map(lambda x: x**2,num))
+# print(sq)
+
+
+
+
+# num =['11','90','34','39','101','29']
+# st = list(map(int,num))
+# print(st)
+
+# names = ['BOB','ALICE','ADIL','SAHIL','MADDEHA']
+# st = list(map(str.lower,names))
+# print(st)
+
+
+# names = ['bob', 'alice', 'adil', 'sahil', 'maddeha']
+# mp = list(map(str.upper,names))
+# print(mp)
