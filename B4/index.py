@@ -731,3 +731,6 @@
 # names = ['bob', 'alice', 'adil', 'sahil', 'maddeha']
 # mp = list(map(str.upper,names))
 # print(mp)
+
+
+# ok
