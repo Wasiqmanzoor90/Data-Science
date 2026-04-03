@@ -733,4 +733,18 @@
 # print(mp)
 
 
-# ok
+
+# num  = [12,7,15,23,29,85,18]
+# st = list(filter(lambda x: x%2==0,num))
+# print('even',st)
+
+
+# num = [-43,-9,34,2,-89,11,45]
+# sq = tuple(filter(lambda x:  x>0   ,num))
+# print(sq)
+
+
+fruit = ['Banana','apple','grapes','kiwi','pineapple']
+
+qt = list(filter(lambda x:   len(x)>6 ,fruit))
+print(qt)
