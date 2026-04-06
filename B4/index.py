@@ -744,7 +744,34 @@
 # print(sq)
 
 
-fruit = ['Banana','apple','grapes','kiwi','pineapple']
+# fruit = ['Banana','apple','grapes','kiwi','pineapple']
 
-qt = list(filter(lambda x:   len(x)>6 ,fruit))
-print(qt)
+# qt = list(filter(lambda x:   len(x)>6 ,fruit))
+# print(qt)
+
+
+
+
+# num = [22,11,78,45,11,32,45]
+# unq = list(set(num))  #here set means remove duplicate values in list
+# print(unq)
+
+
+# num = [34,67,90,21,24,29,101,87]
+# num.sort()  #here we get sort the value by ascending order and then find the greated number
+# print(num[-1])
+
+# text = input("Enter an sentence:-")
+# un = text.split()
+# print("Words are",len(un))
+
+
+# rows = 4
+# for i in range(rows):
+#     print(rows*"*")
+    
+
+# rows = int(input("Enter an number:-"))
+# for i in range(1,rows):
+#     print(i*"*")
+   
