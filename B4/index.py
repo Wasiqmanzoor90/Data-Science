@@ -775,3 +775,33 @@
 # for i in range(1,rows):
 #     print(i*"*")
    
+
+
+
+#Object oriented programing language also knows as oops is way of writing code in more mannnered, resusbale and organised way
+#it define how you write your code!
+#There are basically four pillars of OOPS!
+#Encapsulation
+#inheritence
+#polymorphism
+#abstraction
+
+
+
+#class is a design for creating an template for something that we call object
+#self is a refrence or we can say addres of an class 
+class ILS:
+    def python(self):
+        print(self)
+        print("Hello im from python!")
+    
+    def Ml(self):
+        print(self)
+        print("Im from Machine Learning")
+        
+        
+inst = ILS()   #An object ia a real thing that comes from class 
+inst.python()
+inst.Ml()
+
+
