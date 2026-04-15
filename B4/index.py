@@ -801,7 +801,36 @@ class ILS:
         
         
 inst = ILS()   #An object ia a real thing that comes from class 
-inst.python()
-inst.Ml()
+# inst.python()
+# inst.Ml()
+
+#polymorphism means same function but diffrent behaviour
+class Dog:
+    def speak(self):
+        print("Woof woof")
+        
+class cat:
+    def speak(self):
+        print("Meow Meow")
+
+d = Dog()
+c = cat()
+# d.speak()
+# c.speak()
 
 
+
+#inheritence simply means when we inherit properties from parent class to child class
+class animal:
+    def speak(self):
+        print("Animal Speaks!")
+        
+
+class dog(animal):
+    def bark(self):
+        print("Dog barks")
+        
+
+d = dog()
+d.bark()
+d.speak()
