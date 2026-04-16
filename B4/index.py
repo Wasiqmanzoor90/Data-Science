@@ -826,11 +826,22 @@ class animal:
         print("Animal Speaks!")
         
 
+
+#constructor is concept that rns automatically when object of a class is creaated
 class dog(animal):
+    def __init__(self):
+        print("My name is khan")
+        self.bark()
     def bark(self):
         print("Dog barks")
-        
-
+    def speak(self):
+        print("Woof woof")
+       
+       
+       
+            
 d = dog()
-d.bark()
 d.speak()
+
+d.speak()
+
