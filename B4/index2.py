@@ -25,6 +25,18 @@
 
 
 #Here we are handling external files
-file = open(r'C:\Users\Dell\Desktop\exam.txt','r')
-data = file.read()
-print(data)
+# file = open(r'C:\Users\Dell\Desktop\exam.txt','r')
+# data = file.read()
+# print(data)
+# file.close()
+
+# with open('file.txt','r') as f:
+#     data = f.read()
+#     print(data)
+    
+    
+# with open('file.txt','w') as f:
+#     f.write("Hello World!")
+    
+with open('file.txt','a') as f:
+    f.write(" and i'm from internet")
