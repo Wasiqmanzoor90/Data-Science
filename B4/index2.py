@@ -38,5 +38,5 @@
 # with open('file.txt','w') as f:
 #     f.write("Hello World!")
     
-with open('file.txt','a') as f:
-    f.write(" and i'm from internet")
+# with open('file.txt','a') as f:
+#     f.write(" and i'm from internet")
