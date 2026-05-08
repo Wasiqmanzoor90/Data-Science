@@ -132,10 +132,11 @@
 
 
 
-#list means when we store multiple items/values in single variable,its ordered,it's indexed,it's changeble(mutable)
-#index is numerical location of a item presented in the list
-lt = ['wasiq',12,90,'ehsaan','wareed',10.89,True]
-lt[3]='zeeshan'  #here we update the list
-lt.append('Taha') #here we simply add
-lt.insert(1,'Zamin') #here we add value by index 
-print(lt[1])
+#List is a data structure that stores multiple items or values into a single variable,
+# its ordered,it's indexed
+#index is numerical location of an item/value presented in a particaular variable
+lt = ['wasiq','Gazala',12,67,56.90,True]
+lt[1]='Madeeha'  #here we update existing value
+lt.append('Mariya')  #here append means when we didnt add by index 
+lt.insert(1,'umer')  #here we add a value with the help of index
+print(lt)
