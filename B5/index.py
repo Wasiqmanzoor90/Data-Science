@@ -131,12 +131,48 @@
 # print(c)
 
 
-
 #List is a data structure that stores multiple items or values into a single variable,
 # its ordered,it's indexed
 #index is numerical location of an item/value presented in a particaular variable
-lt = ['wasiq','Gazala',12,67,56.90,True]
-lt[1]='Madeeha'  #here we update existing value
-lt.append('Mariya')  #here append means when we didnt add by index 
-lt.insert(1,'umer')  #here we add a value with the help of index
-print(lt)
+# lt = ['wasiq','Gazala',12,67,56.90,True]
+# lt[1]='Madeeha'  #here we update existing value
+# lt.append('Mariya')  #here append means when we didnt add by index 
+# lt.insert(1,'umer')  #here we add a value with the help of index
+# print(lt)
+
+
+
+
+
+
+
+#list stores multiple items in a single variable, it's ordered,its indexed, its mutable(changeble)
+#index is a numerical location of item presented in a particular variable
+# lt = [12,'Kinza',17.89,'Umer','Khan']
+# lt[1]='Reeba' #here we update the existing value
+# lt.append('Kaleem')  #here we add with value
+# lt.insert(3,'Moomin') #here we add with index
+# lt.remove('Reeba') #here we remove by value
+# lt.pop(3) #here we remove index
+# print(len(lt))
+# print(lt)
+
+
+
+
+
+
+
+
+
+
+
+#Tuple stores multiple items in a single variable,its ordered,its indexed, it's immutable
+tp = (12,'Abdul','Siyab',19,45)
+print(type(tp))
+
+
+
+
+
+
