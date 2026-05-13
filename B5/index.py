@@ -147,29 +147,29 @@
 
 
 #list stores multiple items in a single variable, it's ordered,its indexed, its mutable(changeble)
-#index is a numerical location of item presented in a particular variable
-lt = [12,'Kinza',17.89,'Umer','Khan']
-lt[1]='Reeba' #here we update the existing value
-lt.append('Kaleem')  #here we add with value
-lt.insert(3,'Moomin') #here we add with index
-lt.remove('Reeba') #here we remove by value
-lt.pop(3) #here we remove index
-print(len(lt))
-print(lt)
+# #index is a numerical location of item presented in a particular variable
+# lt = [12,'Kinza',17.89,'Umer','Khan']
+# lt[1]='Reeba' #here we update the existing value
+# lt.append('Kaleem')  #here we add with value
+# lt.insert(3,'Moomin') #here we add with index
+# lt.remove('Reeba') #here we remove by value
+# lt.pop(3) #here we remove index
+# print(len(lt))
+# print(lt)
 
 
 
-# Tuple stores multiple items in a single variable,its ordered,its indexed, it's immutable
-tp = (12,'Abdul','Siyab',19,45)
-print(type(tp))
+# # Tuple stores multiple items in a single variable,its ordered,its indexed, it's immutable
+# tp = (12,'Abdul','Siyab',19,45)
+# print(type(tp))
 
 
 
-#set stores multiple item into single variable,its unordered, its un indexed, it's sometimes im mutable and sometimes mutable
-st = {'wasiq',12,89,'khan','umer'}
-st.add("Emaan")
-st.remove('wasiq')
-print(st)
+# #set stores multiple item into single variable,its unordered, its un indexed, it's sometimes im mutable and sometimes mutable
+# st = {'wasiq',12,89,'khan','umer'}
+# st.add("Emaan")
+# st.remove('wasiq')
+# print(st)
 
 
 
@@ -181,5 +181,8 @@ dt ={
     "Class": "6th"
 }
 dt["Name"]='ubaid'
-
+dt['Section'] = 'B'  #here we add
+del dt["id"]  #here we remove bu key
 print(dt)
+
+
