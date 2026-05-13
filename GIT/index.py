@@ -1,0 +1,220 @@
+# # #Arthmatic Operators
+# # #Addition
+# # a = 12
+# # b =11
+# # c = a+b
+# # print(c)
+
+
+# # c = 91
+# # d = 1
+# # print(c-d)
+
+
+# # e = 4
+# # f = 7
+# # print(e*f)
+
+
+# # g = 10
+# # h = 2
+# # print(g/h)
+
+
+# # #Modlues means when we want to find reminder
+# # i = 10
+# # j = 2
+# # print(i%j)
+
+# # p = 21
+# # l = 2
+# # print(p%l)
+
+
+
+# #comparison operators
+
+# a  = 10
+# b = 18
+# print(a==b)
+
+
+# c = 14
+# d = 14
+# print(c==d)
+
+
+# e = 32
+# f = 19
+# print(e!=f)
+
+# #Greater than operstor
+# age = 17
+# print(age>18)
+
+# #less thn operator
+# age = 17
+# # print(age<18)
+
+# #Greater than equal to
+# age  = 18
+# print(age>=18)
+
+# #less than equal to
+# age = 18
+# print(age<=18)
+
+
+#aasignment operators
+# a = 12
+
+# b = 20
+# b = b+3
+# b+=3
+# # print(b)
+
+# c = 13
+# c = c-3
+# # print(c)
+
+# d = 4
+# # d = d*4
+# d*=4
+# print(d)
+
+
+# e  = 10
+# # e = e/2
+# e/=2
+# # print(e)
+
+# f = 10
+# # f = f%2
+# f%=2
+# # print(f)
+
+
+
+# # arthmatic operator
+# #exponent
+# a = 5
+# print(a**3)
+
+# #floor division
+# b = 10
+# print(b//3)
+
+
+#Data type tell us which type of data a variable holds
+#int :- int holds numerical value
+#float :- it holds decimael value
+#string :- it holds character or we can say text value  ''
+#bool :- boolean holds true/ false value
+
+
+# jp = 10
+# print(type(jp))
+
+
+# na = 'wasiq'
+# print(type(na))
+
+# num = '10'
+# print(type(num))
+
+# n1 = 10.67
+# print(type(n1))
+
+# cp = True
+# print(type(cp))
+
+
+# a = 12
+# b = 13
+# print(a==b)
+
+
+
+# name = 'wasiq'
+# print(name.upper())
+
+# b = 'EHSAAN'
+# print(b.lower())
+
+
+# name = input('Enter you name:-')#taha
+# age = input("Enter your age:-")
+# print(name)
+# print(age)
+
+# np = input('Enter your name:-')
+# age = input("Enter your age:-")
+# print(np)
+# print(age)
+
+
+
+#list means when we store multiple items/values in single variable,its ordered,it's indexed,it's changeble(mutable)
+#index is numerical location of a item presented in the list
+# lt = ['wasiq',12,90,'ehsaan','wareed',10.89,True]
+# lt[3]='zeeshan'  #here we update the list
+# lt.append('Taha') #here we simply add
+# lt.insert(1,'Zamin') #here we add value by index 
+# print(lt[1])
+
+
+
+
+
+
+
+# dt = ['ehsaan','wasiq',12,56,90,87,True]
+# # print(dt[1])
+# # print(dt[5])
+# # print(dt[6])
+
+# dt[1]='wareed'  #here we update the existing value
+# dt.append("Musaib")  #here we add without index
+# dt.insert(2,'zamin') #here we add value by index
+# dt.remove('ehsaan')  #here it removes by value
+# dt.pop(2)  #here it removes by index
+# print(len(dt))  #here it gives use total  umber of items in a particular list
+# print(type(dt)) #here it tells use which of variable it is
+# # print(dt)
+
+
+
+
+#tuple stores multiple items into a single valriable,it's ordered,it's indexed,it's im mutable(un-changeble)
+# tp=('Hanan','Khan',12,87.90,True,'khan')
+# # print(type(tp))
+# # print(len(tp))
+# # print(tp[0])
+# print(tp)
+
+
+
+# #set dores multiple items into single variable, it's un-ordered, it's un-indexed, it doesn't allow duplicate value, sometimes it's mutable and sometimes it's imutable
+# st = {'wasiq','Abdul',12,65,90.67,True,'wasiq'}
+
+# st.remove('Abdul')
+# print(st)
+
+
+
+#dictionary stores multiple item into single variable, it stores data in the form of key-value pairs
+#its orders, it un indexed, it's mutable, it doesnt' allow duplicate keys but duplicate values
+dt ={
+"Name":"Taha",
+"Roll-no":22 ,
+"Adress":"Sgr" ,
+"local-adress": "Sgr"
+}
+dt['Name'] = "Eshaan" #here we update data through key name
+dt['School']='ils'  #here we add data through ckey name
+del dt['Roll-no']  #here we delete data
+print(len(dt))
+print(type(dt))
+print(dt)
+
+
