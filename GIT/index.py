@@ -202,19 +202,75 @@
 
 
 
-#dictionary stores multiple item into single variable, it stores data in the form of key-value pairs
-#its orders, it un indexed, it's mutable, it doesnt' allow duplicate keys but duplicate values
-dt ={
-"Name":"Taha",
-"Roll-no":22 ,
-"Adress":"Sgr" ,
-"local-adress": "Sgr"
-}
-dt['Name'] = "Eshaan" #here we update data through key name
-dt['School']='ils'  #here we add data through ckey name
-del dt['Roll-no']  #here we delete data
-print(len(dt))
-print(type(dt))
-print(dt)
+# #dictionary stores multiple item into single variable, it stores data in the form of key-value pairs
+# #its orders, it un indexed, it's mutable, it doesnt' allow duplicate keys but duplicate values
+# dt ={
+# "Name":"Taha",
+# "Roll-no":22 ,
+# "Adress":"Sgr" ,
+# "local-adress": "Sgr"
+# }
+# dt['Name'] = "Eshaan" #here we update data through key name
+# dt['School']='ils'  #here we add data through ckey name
+# del dt['Roll-no']  #here we delete data
+# print(len(dt))
+# print(type(dt))
+# print(dt)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # a = 12
+# # b = 45
+# # print(a==b)
+
+
+# # c = 13
+# # d = 11
+# # print(c!=d)
+
+
+# # x = 13
+# # print(x<10)
+
+
+# #greater than equal to
+# age = 18
+# print(age<=18)
+
+
+
+
+
+
+#index is a numerical location of item in particular variable
+#list stores multiple items into single variable, its ordered , its indexed
+# lt = [21,'wasiq',11,'khan']
+# print(lt)
+
+
+age = 19
+
+if age>18:
+    print("You are elgible")
+    print("Hello w")
+else:
+    print("You are not elgible")
+    
+    
+grade = 'A'
+if grade == 'A':
+    print("Pass")
+else:
+    print("Fail")
