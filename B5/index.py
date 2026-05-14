@@ -174,15 +174,30 @@
 
 
 #Dictionary stores multiple items into single variable through the process of key-value pairs, it's ordered, its un indexed
-dt ={
-    "Name":"Wasiq",
-    "Roll-no":21,
-    "id":21,
-    "Class": "6th"
-}
-dt["Name"]='ubaid'
-dt['Section'] = 'B'  #here we add
-del dt["id"]  #here we remove bu key
-print(dt)
+# dt ={
+#     "Name":"Wasiq",
+#     "Roll-no":21,
+#     "id":21,
+#     "Class": "6th"
+# }
+# dt["Name"]='ubaid'
+# dt['Section'] = 'B'  #here we add
+# del dt["id"]  #here we remove bu key
+# print(dt)
 
 
+
+age = 19
+
+if age>18:
+    print("You are elgible")
+    print("Hello w")
+else:
+    print("You are not elgible")
+    
+    
+grade = 'A'
+if grade == 'A':
+    print("Pass")
+else:
+    print("Fail")

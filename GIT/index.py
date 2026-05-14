@@ -260,17 +260,41 @@
 # print(lt)
 
 
-age = 19
 
-if age>18:
-    print("You are elgible")
-    print("Hello w")
-else:
-    print("You are not elgible")
-    
-    
-grade = 'A'
-if grade == 'A':
-    print("Pass")
-else:
-    print("Fail")
+
+
+
+# a = 10
+# b=12
+# print(a==b)
+
+
+# c = 23
+# d = 19
+# print(c!=d)
+
+
+# a = 18
+# print(a>12)
+
+# k = 15
+# print(k<18)
+
+
+# age = 18
+# print(age>=18)
+
+# age = 17
+# print(age<=17)
+
+
+
+# a = 20
+# # a = a+3
+# a+=3
+# print(a)
+
+
+a = 13
+a-=3
+print(a)
