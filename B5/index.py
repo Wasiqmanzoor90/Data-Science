@@ -227,21 +227,38 @@
 
 
 
-a = 21
+# a = 21
 
-print(type(a))
-
-
-b = 'wasiq'
-print(type(b))
-
-c = 10.34
-print(type(c))
+# print(type(a))
 
 
-d = True
-print(type(d))
+# b = 'wasiq'
+# print(type(b))
+
+# c = 10.34
+# print(type(c))
 
 
-cd = '23'
-print(type(cd))
+# d = True
+# print(type(d))
+
+
+# cd = '23'
+# print(type(cd))
+
+
+
+
+#list
+
+lt = [['wasiq','firdous',12,34,True],   ['aiman','gazala',59,False],   ['Mary','Aliza',45.90,True]]
+print(lt[1][1])
+print(lt[0][3])
+print(lt[1][2])
+print(lt[2][1])
+
+lt[1][1]='khumi'  #here we do updation
+lt.append('Siyam')  #here we add value
+lt[1].insert(1,'Saliq')
+del lt[2][1]  #here we delete by del
+print(lt)

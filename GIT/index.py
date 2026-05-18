@@ -303,13 +303,35 @@
 
 
 
-#index is numerical location of items presented in particular variable
-#list store multiple items or value in a single variable, it's orddered, its indexed
-lt =['wasiq',12,34.67,True,'ehssan','khan','alim',23,'Taha',False]
-lt[4]='Malik' #here we update through index
-lt.remove('Taha') #here we remove by value
-lt.pop(3) #here we remove by index
-lt.append('arfat') #here we add by value
-lt.insert(5,'ubaid') #here we add by index
+# #index is numerical location of items presented in particular variable
+# #list store multiple items or value in a single variable, it's orddered, its indexed
+# lt =['wasiq',12,34.67,True,'ehssan','khan','alim',23,'Taha',False]
+# lt[4]='Malik' #here we update through index
+# lt.remove('Taha') #here we remove by value
+# lt.pop(3) #here we remove by index
+# lt.append('arfat') #here we add by value
+# lt.insert(5,'ubaid') #here we add by index
 
+# print(lt)
+
+
+
+
+
+#nested list
+lt = [['Amir','Abdul',12,78,91],   ['Khan','Amina',True,89],    ['ubi','kumi',34,65,True]]
+# print(lt[1][1])
+# print(lt[2][1])
+# print(lt[0][1])
+# print(lt[1][2])
+# print(lt[2][0])
+lt[2][1]='zainab'  #here we update
+lt.append('wasiq')
+
+lt[1].insert(1,'Taha') #here we add by index
+del lt [0][1]  #here we delete
+print(len(lt))
 print(lt)
+
+
+
