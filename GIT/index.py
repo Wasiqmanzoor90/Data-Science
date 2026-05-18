@@ -295,6 +295,21 @@
 # print(a)
 
 
-a = 13
-a-=3
-print(a)
+# a = 13
+# a-=3
+# print(a)
+
+
+
+
+
+#index is numerical location of items presented in particular variable
+#list store multiple items or value in a single variable, it's orddered, its indexed
+lt =['wasiq',12,34.67,True,'ehssan','khan','alim',23,'Taha',False]
+lt[4]='Malik' #here we update through index
+lt.remove('Taha') #here we remove by value
+lt.pop(3) #here we remove by index
+lt.append('arfat') #here we add by value
+lt.insert(5,'ubaid') #here we add by index
+
+print(lt)

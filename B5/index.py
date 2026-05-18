@@ -187,17 +187,61 @@
 
 
 
-age = 19
+# age = 19
 
-if age>18:
-    print("You are elgible")
-    print("Hello w")
-else:
-    print("You are not elgible")
+# if age>18:
+#     print("You are elgible")
+#     print("Hello w")
+# else:
+#     print("You are not elgible")
     
     
-grade = 'A'
-if grade == 'A':
-    print("Pass")
-else:
-    print("Fail")
+# grade = 'A'
+# if grade == 'A':
+#     print("Pass")
+# else:
+#     print("Fail")
+    
+    
+    
+    
+# grade = input("Enter your grade:-")
+# if grade == 'A':
+#     print("Pass")
+# else:
+#     print("Fail")
+    
+
+
+
+#datatype tell us which type of data a particular variable holds
+
+#int -- numerical data
+#string --- textual data' --'
+#float --- decimal data
+#boolean -- true/false
+
+
+
+
+
+
+
+a = 21
+
+print(type(a))
+
+
+b = 'wasiq'
+print(type(b))
+
+c = 10.34
+print(type(c))
+
+
+d = True
+print(type(d))
+
+
+cd = '23'
+print(type(cd))
