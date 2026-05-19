@@ -251,14 +251,45 @@
 
 #list
 
-lt = [['wasiq','firdous',12,34,True],   ['aiman','gazala',59,False],   ['Mary','Aliza',45.90,True]]
-print(lt[1][1])
-print(lt[0][3])
-print(lt[1][2])
-print(lt[2][1])
+# lt = [['wasiq','firdous',12,34,True],   ['aiman','gazala',59,False],   ['Mary','Aliza',45.90,True]]
+# print(lt[1][1])
+# print(lt[0][3])
+# print(lt[1][2])
+# print(lt[2][1])
 
-lt[1][1]='khumi'  #here we do updation
-lt.append('Siyam')  #here we add value
-lt[1].insert(1,'Saliq')
-del lt[2][1]  #here we delete by del
+# lt[1][1]='khumi'  #here we do updation
+# lt.append('Siyam')  #here we add value
+# lt[1].insert(1,'Saliq')
+# del lt[2][1]  #here we delete by del
+# print(lt)
+
+
+
+
+# lt = [['wasiq','umer',12,56,True],    ['Khan',76,90,False]     ,['Aina','malik',65,89]]
+# # lt.append('Maria')
+# lt[1].insert(0,'kinza')
+# del lt [0][0]
+# lt[1][1] = 'Shouib'
+# # print(lt[1][0])
+# # print(lt[2][1])
+# print(len(lt))
+# print(lt)
+
+
+
+lt = [[['Umi',21,89,True],['Umaid','siyab','azra',11]],    [['Raju','Saint',33,87],['Aiman','sheeba',90.65,False]]]
+# print(lt[0][1][1])
+# print(lt[1][0][1])
+# print(lt[1][1][0])
+# print(lt[1][1][1])
+# print(lt[0][0][3])
+# print(lt[0][1][2])
+# print(lt[1][1][2])
+# print(lt[0][1][0])
+
+lt[0][1][1]='maira'  #here we update
+lt[1][0].insert(0,'Kumar')
+del lt[1][0][3]
+print(len(lt))
 print(lt)
