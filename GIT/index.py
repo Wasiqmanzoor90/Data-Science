@@ -318,20 +318,43 @@
 
 
 
-#nested list
-lt = [['Amir','Abdul',12,78,91],   ['Khan','Amina',True,89],    ['ubi','kumi',34,65,True]]
-# print(lt[1][1])
-# print(lt[2][1])
-# print(lt[0][1])
-# print(lt[1][2])
-# print(lt[2][0])
-lt[2][1]='zainab'  #here we update
-lt.append('wasiq')
+# #nested list
+# lt = [['Amir','Abdul',12,78,91],   ['Khan','Amina',True,89],    ['ubi','kumi',34,65,True]]
+# # print(lt[1][1])
+# # print(lt[2][1])
+# # print(lt[0][1])
+# # print(lt[1][2])
+# # print(lt[2][0])
+# lt[2][1]='zainab'  #here we update
+# lt.append('wasiq')
 
-lt[1].insert(1,'Taha') #here we add by index
-del lt [0][1]  #here we delete
-print(len(lt))
+# lt[1].insert(1,'Taha') #here we add by index
+# del lt [0][1]  #here we delete
+# print(len(lt))
+# print(lt)
+
+
+
+lt = [ [['Amir','Malik',12,67.89] ,['Umaid','Ubi',2,True]],  [[False,89.90],  ['siyab','maryam','aina']]  ]
+
+
+lt[0][1][0] = 'ubaid'
+lt[1][0].insert(0,'wareed')
+lt[0][1].insert(0,'Taha')
+del lt[0][1][1]
+lt[0].append('wasiq')
 print(lt)
 
+# print(lt[0][1][0])
+# print(lt[1][1][0])
+# print(lt[0][1][1])
+# print(lt[0][0][1])
+# print(lt[0][0][3])
+# print(lt[1][1][2])
+# print(lt[1][0][0])
 
 
+# print(lt[1][0][1])
+# print(lt[0][0][0])
+# print(lt[1][1][0])
+# print(lt[0][1][2])
