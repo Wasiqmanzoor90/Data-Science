@@ -335,15 +335,15 @@
 
 
 
-lt = [ [['Amir','Malik',12,67.89] ,['Umaid','Ubi',2,True]],  [[False,89.90],  ['siyab','maryam','aina']]  ]
+# lt = [ [['Amir','Malik',12,67.89] ,['Umaid','Ubi',2,True]],  [[False,89.90],  ['siyab','maryam','aina']]  ]
 
 
-lt[0][1][0] = 'ubaid'
-lt[1][0].insert(0,'wareed')
-lt[0][1].insert(0,'Taha')
-del lt[0][1][1]
-lt[0].append('wasiq')
-print(lt)
+# lt[0][1][0] = 'ubaid'
+# lt[1][0].insert(0,'wareed')
+# lt[0][1].insert(0,'Taha')
+# del lt[0][1][1]
+# lt[0].append('wasiq')
+# print(lt)
 
 # print(lt[0][1][0])
 # print(lt[1][1][0])
@@ -358,3 +358,23 @@ print(lt)
 # print(lt[0][0][0])
 # print(lt[1][1][0])
 # print(lt[0][1][2])
+
+
+
+
+
+dt ={
+    
+    "name":{"FirstName":"Shk","Lastname":"Wasiq"},
+    "Adress":{"Pincode":190001,'Local-Adress':'Maisuma'}
+    
+}
+
+dt["Adress"]['Local-Adress']= 'Sonwar'  #here we update
+dt['name']={'FirstName':'Taha','Lastname':"Sofi"} #here we are updating whole
+dt["name"]["MiddleName"] = 'Ahmad' #here we add internally
+dt["Contact"]={"code":92,"phn-no":9797854644} #here we add contact key
+del dt["Adress"]['Pincode'] #here we delete an individual
+print(len(dt))
+print(dt)
+# print(dt['name']['Lastname'])
