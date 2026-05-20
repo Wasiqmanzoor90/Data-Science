@@ -278,8 +278,8 @@
 
 
 
-lt = [[['Umi',21,89,True],['Umaid','siyab','azra',11]],    [['Raju','Saint',33,87],['Aiman','sheeba',90.65,False]]]
-# print(lt[0][1][1])
+# lt = [[['Umi',21,89,True],['Umaid','siyab','azra',11]],    [['Raju','Saint',33,87],['Aiman','sheeba',90.65,False]]]
+# # print(lt[0][1][1])
 # print(lt[1][0][1])
 # print(lt[1][1][0])
 # print(lt[1][1][1])
@@ -288,8 +288,35 @@ lt = [[['Umi',21,89,True],['Umaid','siyab','azra',11]],    [['Raju','Saint',33,8
 # print(lt[1][1][2])
 # print(lt[0][1][0])
 
-lt[0][1][1]='maira'  #here we update
-lt[1][0].insert(0,'Kumar')
-del lt[1][0][3]
-print(len(lt))
-print(lt)
+# lt[0][1][1]='maira'  #here we update
+# lt[1][0].insert(0,'Kumar')
+# del lt[1][0][3]
+# print(len(lt))
+# print(lt)
+
+
+
+
+
+
+dt = {
+    "name":{"FirstName":"Shk","LastName":'Wasiq'},
+    "Adress":{"Pincode":190001,"LoacalAdress":"Shergari sgr"}
+}
+
+
+dt["name"]['LastName'] = 'Maryam'  #here we update
+dt["Contact"] = {"code":92,"number":9797824344}  #here we add externally
+dt["name"]['MiddleName']='Binte'  #here we add internally
+
+print(type(dt))  #here we get type
+print(len(dt['Adress']))  #here we get length
+del dt['Contact']
+print(dt["name"]['FirstName'])
+print(dt['Adress']['Pincode'])
+print(dt['name']['MiddleName'])
+print(dt)
+
+
+
+
