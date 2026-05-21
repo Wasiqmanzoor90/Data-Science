@@ -299,24 +299,36 @@
 
 
 
+# dt = {
+#     "name":{"FirstName":"Shk","LastName":'Wasiq'},
+#     "Adress":{"Pincode":190001,"LoacalAdress":"Shergari sgr"}
+# }
+
+
+# dt["name"]['LastName'] = 'Maryam'  #here we update
+# dt["Contact"] = {"code":92,"number":9797824344}  #here we add externally
+# dt["name"]['MiddleName']='Binte'  #here we add internally
+
+# print(type(dt))  #here we get type
+# print(len(dt['Adress']))  #here we get length
+# del dt['Contact']
+# print(dt["name"]['FirstName'])
+# print(dt['Adress']['Pincode'])
+# print(dt['name']['MiddleName'])
+# print(dt)
+
+
+
+
 dt = {
-    "name":{"FirstName":"Shk","LastName":'Wasiq'},
-    "Adress":{"Pincode":190001,"LoacalAdress":"Shergari sgr"}
+    1:{"name":{"first":"Emaan","Last":"Khan"},"Adress":{"Pin-Code":190001,"LAdress":"Maisuma"}},
+    2:{"name":{"first":"Abdul","Last":"Hanan"},"Adress":{"Pincode":190002,"LAdress":"Pampore"}}
+    
 }
-
-
-dt["name"]['LastName'] = 'Maryam'  #here we update
-dt["Contact"] = {"code":92,"number":9797824344}  #here we add externally
-dt["name"]['MiddleName']='Binte'  #here we add internally
-
-print(type(dt))  #here we get type
-print(len(dt['Adress']))  #here we get length
-del dt['Contact']
-print(dt["name"]['FirstName'])
-print(dt['Adress']['Pincode'])
-print(dt['name']['MiddleName'])
-print(dt)
-
-
-
-
+dt[1]["name"]['first'] = 'Kinza'
+dt[2]["name"]={"first":"Mian","Last":"Qureshi"}
+dt[3]={"name":{"first":"Maryam","Last":"Firdous"},"Adress":{"Pincode":190002,"LAdress":"Nowhata"}}
+# print(len(dt[1]['name']['first']))
+print(dt[1]['name']['first'])
+print(dt[2]['name'])
+print(dt[3])
