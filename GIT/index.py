@@ -363,18 +363,33 @@
 
 
 
-dt ={
+# dt ={
     
-    "name":{"FirstName":"Shk","Lastname":"Wasiq"},
-    "Adress":{"Pincode":190001,'Local-Adress':'Maisuma'}
+#     "name":{"FirstName":"Shk","Lastname":"Wasiq"},
+#     "Adress":{"Pincode":190001,'Local-Adress':'Maisuma'}
     
-}
+# }
 
-dt["Adress"]['Local-Adress']= 'Sonwar'  #here we update
-dt['name']={'FirstName':'Taha','Lastname':"Sofi"} #here we are updating whole
-dt["name"]["MiddleName"] = 'Ahmad' #here we add internally
-dt["Contact"]={"code":92,"phn-no":9797854644} #here we add contact key
-del dt["Adress"]['Pincode'] #here we delete an individual
-print(len(dt))
-print(dt)
-# print(dt['name']['Lastname'])
+# dt["Adress"]['Local-Adress']= 'Sonwar'  #here we update
+# dt['name']={'FirstName':'Taha','Lastname':"Sofi"} #here we are updating whole
+# dt["name"]["MiddleName"] = 'Ahmad' #here we add internally
+# dt["Contact"]={"code":92,"phn-no":9797854644} #here we add contact key
+# del dt["Adress"]['Pincode'] #here we delete an individual
+# print(len(dt))
+# print(dt)
+# # print(dt['name']['Lastname'])
+
+
+
+dt={
+    1:{"name":{'fName':"Eshaan",'lName':"Khan"},'adress':{"pin-code":190001,'LAdress':"Batmalo"}},
+    2:{"name":{"fName":"Gazala","lName":"Malik"},"adress":{"Pin-code":190002,'LAress':"Maisuma"}}
+}
+print(len(dt[1]['name']['fName']))
+dt[2]['name']={'fName':"Wasiq",'lName':"Manzoor"}
+dt[1]['name']['fName'] = 'Murtaza'
+dt[3]={"name":{"fName":"Taha","lName":"sofi"},"adress":{"Pin-code":190002,'LAress':"Soura"}}# here we add 3rd key
+
+print(dt[1]['name']['fName'])
+print(dt[2])
+print(dt[3])
