@@ -381,15 +381,31 @@
 
 
 
-dt={
-    1:{"name":{'fName':"Eshaan",'lName':"Khan"},'adress':{"pin-code":190001,'LAdress':"Batmalo"}},
-    2:{"name":{"fName":"Gazala","lName":"Malik"},"adress":{"Pin-code":190002,'LAress':"Maisuma"}}
-}
-print(len(dt[1]['name']['fName']))
-dt[2]['name']={'fName':"Wasiq",'lName':"Manzoor"}
-dt[1]['name']['fName'] = 'Murtaza'
-dt[3]={"name":{"fName":"Taha","lName":"sofi"},"adress":{"Pin-code":190002,'LAress':"Soura"}}# here we add 3rd key
+# dt={
+#     1:{"name":{'fName':"Eshaan",'lName':"Khan"},'adress':{"pin-code":190001,'LAdress':"Batmalo"}},
+#     2:{"name":{"fName":"Gazala","lName":"Malik"},"adress":{"Pin-code":190002,'LAress':"Maisuma"}}
+# }
+# print(len(dt[1]['name']['fName']))
+# dt[2]['name']={'fName':"Wasiq",'lName':"Manzoor"}
+# dt[1]['name']['fName'] = 'Murtaza'
+# dt[3]={"name":{"fName":"Taha","lName":"sofi"},"adress":{"Pin-code":190002,'LAress':"Soura"}}# here we add 3rd key
 
-print(dt[1]['name']['fName'])
-print(dt[2])
-print(dt[3])
+# print(dt[1]['name']['fName'])
+# print(dt[2])
+# print(dt[3])
+
+
+
+
+pt={
+    
+    1:{"Name":{"first":"Wareed","Last":'Sofi'},"Class":{"Section":'A',"Roll-no":19}},
+    2:{"Name":{"first":"taha","Last":'Sofi'},"Class":{"Section":'B',"Roll-no":20}},
+}
+
+pt[1]['Name']["first"] = 'Hazik' #here we update
+
+pt[3]={"Name":{"first":"Shk","Last":'Wasiq'},"Class":{"Section":'C',"Roll-no":23}},
+del pt[1]
+print(pt[2]['Class']['Section'])
+print(pt)
