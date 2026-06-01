@@ -397,15 +397,43 @@
 
 
 
-pt={
+# pt={
     
-    1:{"Name":{"first":"Wareed","Last":'Sofi'},"Class":{"Section":'A',"Roll-no":19}},
-    2:{"Name":{"first":"taha","Last":'Sofi'},"Class":{"Section":'B',"Roll-no":20}},
-}
+#     1:{"Name":{"first":"Wareed","Last":'Sofi'},"Class":{"Section":'A',"Roll-no":19}},
+#     2:{"Name":{"first":"taha","Last":'Sofi'},"Class":{"Section":'B',"Roll-no":20}},
+# }
 
-pt[1]['Name']["first"] = 'Hazik' #here we update
+# pt[1]['Name']["first"] = 'Hazik' #here we update
 
-pt[3]={"Name":{"first":"Shk","Last":'Wasiq'},"Class":{"Section":'C',"Roll-no":23}},
-del pt[1]
-print(pt[2]['Class']['Section'])
-print(pt)
+# pt[3]={"Name":{"first":"Shk","Last":'Wasiq'},"Class":{"Section":'C',"Roll-no":23}},
+# del pt[1]
+# print(pt[2]['Class']['Section'])
+# print(pt)
+
+
+
+
+
+
+
+#indentation is a block of code
+
+
+grade = input("Enter an grade:-")
+if grade=='A':
+    print("Pass")
+else:
+    print("Fail")
+
+
+
+# grade = input("Enter your grade:-")
+
+# if grade == 'A':
+#     print("Tooper")
+# elif grade =='B':
+#     print("Good")
+# elif grade =='C':
+#     print("Average")
+# else:
+#     print("Fail")
