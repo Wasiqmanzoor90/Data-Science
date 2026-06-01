@@ -320,15 +320,48 @@
 
 
 
-dt = {
-    1:{"name":{"first":"Emaan","Last":"Khan"},"Adress":{"Pin-Code":190001,"LAdress":"Maisuma"}},
-    2:{"name":{"first":"Abdul","Last":"Hanan"},"Adress":{"Pincode":190002,"LAdress":"Pampore"}}
+# dt = {
+#     1:{"name":{"first":"Emaan","Last":"Khan"},"Adress":{"Pin-Code":190001,"LAdress":"Maisuma"}},
+#     2:{"name":{"first":"Abdul","Last":"Hanan"},"Adress":{"Pincode":190002,"LAdress":"Pampore"}}
     
-}
-dt[1]["name"]['first'] = 'Kinza'
-dt[2]["name"]={"first":"Mian","Last":"Qureshi"}
-dt[3]={"name":{"first":"Maryam","Last":"Firdous"},"Adress":{"Pincode":190002,"LAdress":"Nowhata"}}
-# print(len(dt[1]['name']['first']))
-print(dt[1]['name']['first'])
-print(dt[2]['name'])
-print(dt[3])
+# }
+# dt[1]["name"]['first'] = 'Kinza'
+# dt[2]["name"]={"first":"Mian","Last":"Qureshi"}
+# dt[3]={"name":{"first":"Maryam","Last":"Firdous"},"Adress":{"Pincode":190002,"LAdress":"Nowhata"}}
+# # print(len(dt[1]['name']['first']))
+# print(dt[1]['name']['first'])
+# print(dt[2]['name'])
+# print(dt[3])
+
+
+#loop is a program that runs multiple time untill it met a specific condition
+
+# for i in range(100):
+#     print("Ils is best")
+
+#i=0
+#i+1 = 1
+#i=2
+# for j in range(0,20,2):  
+#     print(j) #i = 0
+    
+    #2
+    
+    
+# grade = input("Enter your grade:-")
+# if grade == 'A':
+#     print("Pass")
+# else:
+#     print("Fail")
+
+
+
+grade = input("Enter your grade:-")
+if grade == 'A':
+    print("Tooper")
+elif grade =='B':
+    print('Good')
+elif grade == 'C':
+    print("Average")
+else:
+    print("Fail")
