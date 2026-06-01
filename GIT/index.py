@@ -425,7 +425,7 @@ if grade=='A':
 else:
     print("Fail")
 
-
+#ttt
 #oki
 # grade = input("Enter your grade:-")
 
