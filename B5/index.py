@@ -356,12 +356,36 @@
 
 
 
-grade = input("Enter your grade:-")
-if grade == 'A':
-    print("Tooper")
-elif grade =='B':
-    print('Good')
-elif grade == 'C':
-    print("Average")
-else:
-    print("Fail")
+# grade = input("Enter your grade:-")
+# if grade == 'A':
+#     print("Tooper")
+# elif grade =='B':
+#     print('Good')
+# elif grade == 'C':
+#     print("Average")
+# else:
+#     print("Fail")
+    
+#Type-Casting is the process of converting one data type to another
+# age =float(input("Enter your age:-"))
+# if age > 18:
+#     print("You are elgible")
+# else:
+#     print("You are not elgible")
+
+
+
+mage = int(input("Enter your age:-"))
+dage = int(input("Enter your age:-"))
+
+#And operator means both the condition should be true 
+# if mage>21 and dage >21:
+#     print("You can go")
+# else:
+#     print("You canot")
+    
+#or operator means one of the condition should be true 
+# if mage>21 or dage >21:
+#     print("You can go")
+# else:
+#     print("You canot")
