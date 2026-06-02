@@ -419,11 +419,11 @@
 #indentation is a block of code
 
 
-grade = input("Enter an grade:-")
-if grade=='A':
-    print("Pass")
-else:
-    print("Fail")
+# grade = input("Enter an grade:-")
+# if grade=='A':
+#     print("Pass")
+# else:
+#     print("Fail")
 
 #ttt
 #oki
@@ -437,3 +437,50 @@ else:
 #     print("Average")
 # else:
 #     print("Fail")
+
+
+
+#Type-casting means when we convert one data type into anaother
+# age = float(input("Enter an age;:-"))
+# if age >21:
+#     print("Youy can go to canada")
+# else:
+#     print("You cannot go")
+    
+    
+
+# zage = int(input("Enter an age:-"))
+# wage = int(input("Enter an age:-"))
+
+#And operataot simply means both the conditions should be true
+# if zage >21 and wage>31:
+#     print("You can go")
+# else:
+#     print("You cannot")
+    
+# #Or operator means one of the condition should be trur
+# if zage >21 or wage>21:
+#     print("You can go")
+# else:
+#     print("You cannot")
+
+
+#positive, negative and zero number
+
+# num = int(input("Enter an number:-"))
+# if num > 0:
+#     print("Postive number")
+# elif num == 0:
+#     print("You entered zero")
+# else:
+#     print("Negative number")
+
+
+#odd and even number
+
+# n2 = int(input("Enter an number:-"))
+
+# if n2 % 2 ==0:
+#     print("Even number")
+# else:
+#     print("Odd number")
