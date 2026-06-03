@@ -484,3 +484,21 @@
 #     print("Even number")
 # else:
 #     print("Odd number")
+
+
+
+n1 = float(input("Enter ist number:-"))
+op = input("Enter an operator(+,-,*,/)")
+n2 = float(input("Enter 2nd number:-"))
+
+if op == '+':
+    print(n1+n2)
+elif op == '-':
+    print(n1-n2)
+elif op == '*':
+    print(n1*n2)
+elif op == '/':
+    print(n1/n2)
+else:
+    print("Inavlid operator")
+

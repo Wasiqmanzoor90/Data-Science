@@ -375,8 +375,8 @@
 
 
 
-mage = int(input("Enter your age:-"))
-dage = int(input("Enter your age:-"))
+# mage = int(input("Enter your age:-"))
+# dage = int(input("Enter your age:-"))
 
 #And operator means both the condition should be true 
 # if mage>21 and dage >21:
@@ -389,3 +389,27 @@ dage = int(input("Enter your age:-"))
 #     print("You can go")
 # else:
 #     print("You canot")
+
+
+
+# n = int(input("Enter an number:-"))
+# # if n > 0:
+# #     print("Positive")
+# # else:
+# #     print("Negative number")
+
+
+# if n > 0:
+#     print("Positive number")
+# elif n == 0:
+#     print("zero number")
+# else:
+#     print("Negative number")
+
+
+
+x = int(input("Enter an number:-"))
+if x % 2 == 0:
+    print("even number")
+else:
+    print("Odd number")
