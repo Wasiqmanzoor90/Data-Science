@@ -485,20 +485,34 @@
 # else:
 #     print("Odd number")
 
+#try - except is a method to handle error gracefully
+# try:
+#     n1 = float(input("Enter ist number:-"))
+#     op = input("Enter an operator(+,-,*,/)")
+#     n2 = float(input("Enter 2nd number:-"))
+
+#     if op == '+':
+#         print(n1+n2)
+#     elif op == '-':
+#         print(n1-n2)
+#     elif op == '*':
+#         print(n1*n2)
+#     elif op == '/':
+#         print(n1/n2)
+#     else:
+#         print("Inavlid operator")
+
+# except ZeroDivisionError:
+#     print("Can't divide by zero")
 
 
-n1 = float(input("Enter ist number:-"))
-op = input("Enter an operator(+,-,*,/)")
-n2 = float(input("Enter 2nd number:-"))
+username = input("Enter your name:-")
+password = input("Enter your password:-")
 
-if op == '+':
-    print(n1+n2)
-elif op == '-':
-    print(n1-n2)
-elif op == '*':
-    print(n1*n2)
-elif op == '/':
-    print(n1/n2)
+if username == 'Wasiq':
+    if password == '12397':
+        print("Login sucessfull")
+    else:
+        print("Invalid password")
 else:
-    print("Inavlid operator")
-
+    print("Invalid username")

@@ -408,8 +408,29 @@
 
 
 
-x = int(input("Enter an number:-"))
-if x % 2 == 0:
-    print("even number")
-else:
-    print("Odd number")
+# x = int(input("Enter an number:-"))
+# if x % 2 == 0:
+#     print("even number")
+# else:
+#     print("Odd number")
+    
+#try - except is a method for handlin an error gracefully
+try:
+    n1 = float(input("Enter ist number:-"))
+    op = input("Enter an operator(+,-,*,/)")
+    n2 = float(input("Enter second number:-"))
+
+    if op == '+':
+        print(n1+n2)
+    elif op == '-':
+        print(n1-n2)
+    elif op== "*":
+        print(n1*n2)
+    elif op == "/":
+        print(n1/n2)
+    else:
+        print("invalid operator")
+except ZeroDivisionError:
+    print("Cant divide by zero")
+    
+    
