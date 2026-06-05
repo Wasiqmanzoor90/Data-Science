@@ -527,5 +527,17 @@
 #     print(i) 
 
        
-for i in range (10):
-    print(i,':',"My name is wasiq")
+# for i in range (10):
+#     print(i,':',"My name is wasiq")
+
+
+# for i in range(20):
+#     if i % 2 ==0:
+#         print(i)
+
+
+#7
+tab = int(input("Enter an number:-"))
+for i in range(1,11):
+    res = tab * i
+    print(tab,'x',i,'=',res)
