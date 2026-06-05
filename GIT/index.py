@@ -516,3 +516,16 @@
 #         print("Invalid password")
 # else:
 #     print("Invalid username")
+
+
+#0+1 = 1+1 = 2
+#i = 10
+#loop is a method that runs multiple times untill it met a specific condition or we can say the condition should be true
+#i is temporary variable and its starts by default from 0
+#range tell us from where we have to start and to end and its also how many steps we skip
+# for i in range(1,20,2):
+#     print(i) 
+
+       
+for i in range (10):
+    print(i,':',"My name is wasiq")
