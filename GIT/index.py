@@ -506,13 +506,13 @@
 #     print("Can't divide by zero")
 
 
-username = input("Enter your name:-")
-password = input("Enter your password:-")
+# username = input("Enter your name:-")
+# password = input("Enter your password:-")
 
-if username == 'Wasiq':
-    if password == '12397':
-        print("Login sucessfull")
-    else:
-        print("Invalid password")
-else:
-    print("Invalid username")
+# if username == 'Wasiq':
+#     if password == '12397':
+#         print("Login sucessfull")
+#     else:
+#         print("Invalid password")
+# else:
+#     print("Invalid username")

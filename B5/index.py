@@ -415,22 +415,88 @@
 #     print("Odd number")
     
 #try - except is a method for handlin an error gracefully
-try:
-    n1 = float(input("Enter ist number:-"))
-    op = input("Enter an operator(+,-,*,/)")
-    n2 = float(input("Enter second number:-"))
+# try:
+#     n1 = float(input("Enter ist number:-"))
+#     op = input("Enter an operator(+,-,*,/)")
+#     n2 = float(input("Enter second number:-"))
 
-    if op == '+':
-        print(n1+n2)
-    elif op == '-':
-        print(n1-n2)
-    elif op== "*":
-        print(n1*n2)
-    elif op == "/":
-        print(n1/n2)
-    else:
-        print("invalid operator")
-except ZeroDivisionError:
-    print("Cant divide by zero")
+#     if op == '+':
+#         print(n1+n2)
+#     elif op == '-':
+#         print(n1-n2)
+#     elif op== "*":
+#         print(n1*n2)
+#     elif op == "/":
+#         print(n1/n2)
+#     else:
+#         print("invalid operator")
+# except ZeroDivisionError:
+#     print("Cant divide by zero")
     
     
+
+#Loops is method that runs program multiple time untill it met a specific condition or we can say the condition become true
+
+#i is temporary variable
+#i=0
+#i=1
+#i=2
+#i ==10
+# for i in range(10):
+#     print(i)
+    
+
+# for i in range(5):
+#     print("Nyc")
+
+
+
+# for i in range(1,10,2):
+#     print(i)
+        
+        
+        
+# for i in range(10):
+#     if i % 2 == 0:
+#         print("Even number",i)
+
+#i=0
+#break keyword simply means to stop the itteration
+# for i in range(20):
+#     if i == 12:
+        
+#         break
+#     print(i)
+
+
+# age =18
+# print(age>18)
+
+# #continue keyword mean to particular remove an value from iteration
+# for i in range(10):
+#     if i <= 6:
+#         continue
+#     print(i)
+    
+    
+
+#i = 6
+# for i in range(10):
+#     if i > 6:
+#         break
+#     print(i)
+
+
+
+#3
+# tab = int(input("Enter an number:-"))
+# for i in range(1,11):  #i=4
+#     res = tab*i
+#     print(tab,'x',i,'=',res)
+
+
+#i=0
+# for i in range(10):
+#     if i<5:
+#         break
+#     print(i)
