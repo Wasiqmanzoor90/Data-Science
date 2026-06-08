@@ -537,7 +537,41 @@
 
 
 #7
-tab = int(input("Enter an number:-"))
-for i in range(1,11):
-    res = tab * i
-    print(tab,'x',i,'=',res)
+# tab = int(input("Enter an number:-"))
+# for i in range(1,11):
+#     res = tab * i
+#     print(tab,'x',i,'=',res)
+    
+    
+
+# lt = ['wasiq','aimnan','hello',12,34,98,True]
+
+
+# for bt in lt:
+#     print(bt)
+
+
+
+# dt={
+#     "name":"zamin",
+#     "Roll":23,
+#     "Adress":"Sgr"
+        
+# }
+# for k,v in dt.items():
+#     print(k,':-',v)
+
+
+
+num=[23,65,98,101,29,51,101]
+flag = 0
+x = int(input("Enter an number:-"))
+
+for numsss in num:
+    if x == numsss:
+        flag=1
+    
+if flag ==1:
+    print(x,"is in the list")
+else:
+    print(x,"is not in the list")

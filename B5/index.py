@@ -500,3 +500,39 @@
 #     if i<5:
 #         break
 #     print(i)
+
+
+
+
+# lt =['wasiq','aiman',12,45,90,True]
+
+# for dt in lt:
+#     print(dt)
+
+
+# dict = {
+#     "Name":"Moomin",
+#     "Roll-no":19,
+#     "Adress":"Sgr"
+# }
+
+# for key,values in dict.items():
+#     print(key,':-',values)
+
+
+
+
+num =[12,67,89,90,12,45]
+flag = 0
+
+x = int(input("Enter an number:-"))
+
+for z in num:
+    if x == z:
+        flag=1
+        
+if flag ==1:
+    print(x,'is in list')
+else:
+    print(x,'is not in list')
+    
