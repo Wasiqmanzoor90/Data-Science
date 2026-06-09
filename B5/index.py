@@ -522,17 +522,47 @@
 
 
 
-num =[12,67,89,90,12,45]
-flag = 0
+# num =[12,67,89,90,12,45]
+# flag = 0
 
-x = int(input("Enter an number:-"))
+# x = int(input("Enter an number:-"))
 
-for z in num:
-    if x == z:
-        flag=1
+# for z in num:
+#     if x == z:
+#         flag=1
         
-if flag ==1:
-    print(x,'is in list')
-else:
-    print(x,'is not in list')
+# if flag ==1:
+#     print(x,'is in list')
+# else:
+#     print(x,'is not in list')
     
+    
+    
+# a = 10
+# b =32
+# c = a 
+# a =b
+# b=c
+# print(a,b)
+
+
+
+# a = 16
+# b = 22
+# a,b = b,a
+# print(a,b)
+
+
+
+#6
+n = int(input("Enter an number:-"))
+if n <=1:
+    print("Not Prime")
+else:
+    for i in range(2,n):   #2,6
+            #6/2
+        if n%i==0:
+            print(n,"Not Prime")
+            break
+    else:
+        print(n,"Prime number")

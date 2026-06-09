@@ -563,15 +563,54 @@
 
 
 
-num=[23,65,98,101,29,51,101]
-flag = 0
-x = int(input("Enter an number:-"))
+# num=[23,65,98,101,29,51,101]
+# flag = 0
+# x = int(input("Enter an number:-"))
 
-for numsss in num:
-    if x == numsss:
-        flag=1
+# for numsss in num:
+#     if x == numsss:
+#         flag=1
     
-if flag ==1:
-    print(x,"is in the list")
+# if flag ==1:
+#     print(x,"is in the list")
+# else:
+#     print(x,"is not in the list")
+    
+    
+# a = 10
+# b = 19
+
+# c = a
+# a = b
+# b=c
+# print(a,b)
+
+
+# a = 32
+# b=16
+
+# a,b = b,a
+# print(a,b)
+
+
+
+#6
+#7
+#8
+n = int(input("Enter an number:-"))
+if n <=1:
+    print("Not Prime")
 else:
-    print(x,"is not in the list")
+    for i in range(2,n):  #2 : 6
+            #7/2 
+            #7/3
+            #7/4 . 5 .. 6
+            #6/2
+            #6/3
+            #8/2
+        if n % i==0:
+            print(n,"is not Prime number")
+            break
+            
+    else:
+        print("prime Number")
