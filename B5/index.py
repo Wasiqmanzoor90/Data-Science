@@ -555,14 +555,50 @@
 
 
 #6
-n = int(input("Enter an number:-"))
-if n <=1:
-    print("Not Prime")
+# n = int(input("Enter an number:-"))
+# if n <=1:
+#     print("Not Prime")
+# else:
+#     for i in range(2,n):   #2,6
+#             #6/2
+#         if n%i==0:
+#             print(n,"Not Prime")
+#             break
+#     else:
+#         print(n,"Prime number")
+        
+        
+        
+#Palindrome 
+
+#hello
+#mom
+word = input("Enter an word:-")
+rev = ""
+
+for ch in word:
+    #rev = h +"" = h
+    #h = e +h = eh
+    #eh = l +eh = leh
+    #leh = l +leh = lleh
+    #lleh = o + lleh = ollheh
+    
+    #""=m +"" = m
+    #m = 0 +m = om
+    #om = m +om = mom
+    rev= ch +rev
+    
+    
+    #ollleh = hello
+    #mom  = mom
+if rev == word:
+    print("Its Palindrome")
 else:
-    for i in range(2,n):   #2,6
-            #6/2
-        if n%i==0:
-            print(n,"Not Prime")
-            break
-    else:
-        print(n,"Prime number")
+    print("its not Palindrome")
+
+
+#slicing mean when you want get data in a particular range
+lt = ['wasiq','umer',12,56,True]
+print(lt[1:4])
+print(lt[-2])
+

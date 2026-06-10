@@ -597,20 +597,58 @@
 #6
 #7
 #8
-n = int(input("Enter an number:-"))
-if n <=1:
-    print("Not Prime")
-else:
-    for i in range(2,n):  #2 : 6
-            #7/2 
-            #7/3
-            #7/4 . 5 .. 6
-            #6/2
-            #6/3
-            #8/2
-        if n % i==0:
-            print(n,"is not Prime number")
-            break
+# n = int(input("Enter an number:-"))
+# if n <=1:
+#     print("Not Prime")
+# else:
+#     for i in range(2,n):  #2 : 6
+#             #7/2 
+#             #7/3
+#             #7/4 . 5 .. 6
+#             #6/2
+#             #6/3
+#             #8/2
+#         if n % i==0:
+#             print(n,"is not Prime number")
+#             break
             
-    else:
-        print("prime Number")
+#     else:
+#         print("prime Number")
+
+
+
+#hello
+ #mom
+word  = input("Enter an word:-")
+rev = ""
+
+
+for ch in word:
+    #"" = h+"" = h
+    #h = e+h = eh
+    #eh = l +eh = leh
+    #leh = l leh = lleh
+    #lleh = o +lleh = olleh 
+    
+    
+    #"" = m + "" = m
+    #m =o +m = om
+    #om = m +om = mom
+    rev = ch+rev
+    #olleh = hello
+    #mom = mom
+if rev == word:
+    print("Palindrome")
+else:
+    print("Not Palimdrome")
+
+
+
+
+
+
+lt = ['wasiq','taha','hanan',121,90]
+print(lt[1:5])
+print(lt[-2])
+print(lt[2:])
+print(lt[:2])
