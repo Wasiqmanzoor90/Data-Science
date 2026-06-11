@@ -571,34 +571,86 @@
         
 #Palindrome 
 
-#hello
-#mom
-word = input("Enter an word:-")
-rev = ""
+# #hello
+# #mom
+# word = input("Enter an word:-")
+# rev = ""
 
-for ch in word:
-    #rev = h +"" = h
-    #h = e +h = eh
-    #eh = l +eh = leh
-    #leh = l +leh = lleh
-    #lleh = o + lleh = ollheh
+# for ch in word:
+#     #rev = h +"" = h
+#     #h = e +h = eh
+#     #eh = l +eh = leh
+#     #leh = l +leh = lleh
+#     #lleh = o + lleh = ollheh
     
-    #""=m +"" = m
-    #m = 0 +m = om
-    #om = m +om = mom
-    rev= ch +rev
+#     #""=m +"" = m
+#     #m = 0 +m = om
+#     #om = m +om = mom
+#     rev= ch +rev
     
     
-    #ollleh = hello
-    #mom  = mom
-if rev == word:
-    print("Its Palindrome")
-else:
-    print("its not Palindrome")
+#     #ollleh = hello
+#     #mom  = mom
+# if rev == word:
+#     print("Its Palindrome")
+# else:
+#     print("its not Palindrome")
 
 
-#slicing mean when you want get data in a particular range
-lt = ['wasiq','umer',12,56,True]
-print(lt[1:4])
-print(lt[-2])
+# #slicing mean when you want get data in a particular range
+# lt = ['wasiq','umer',12,56,True]
+# print(lt[1:4])
+# print(lt[-2])
 
+
+  
+# i = 0
+
+# while i< 30:
+#     i = int(input("Enter an number:-"))
+#     print(i)
+
+
+
+
+# for i in range(10)
+
+
+# while True:
+#     x = int(input("Enter an number:-"))
+#     if x % 2==0:
+#         print("Even number")
+#     else:
+#         print("odd number")
+        
+#     ch = input("Enter y to repeat:-")
+#     if ch != 'y':
+#         break
+
+
+
+
+
+# try - except is a method to handle error gracefully
+# while True:
+#     try:
+#         n1 = float(input("Enter ist number:-"))
+#         op = input("Enter an operator(+,-,*,/)")
+#         n2 = float(input("Enter 2nd number:-"))
+
+#         if op == '+':
+#             print(n1+n2)
+#         elif op == '-':
+#             print(n1-n2)
+#         elif op == '*':
+#             print(n1*n2)
+#         elif op == '/':
+#             print(n1/n2)
+#         else:
+#             print("Inavlid operator")
+
+#     except ZeroDivisionError:
+#         print("Can't divide by zero")
+#     cht = input("Enter y to repeat:-")
+#     if cht!= 'y':
+#         break
