@@ -654,3 +654,50 @@
 #     cht = input("Enter y to repeat:-")
 #     if cht!= 'y':
 #         break
+
+
+#function is a block of code, it's reusbale , it organize our code in more suitable way, it only run when it gets called, when we to intialize a function we should use keyword def
+#Argument Passing is a methid when we pass a value from function name to real function
+# def add(x,y):
+#   print(x+y)
+
+
+# a = int(input("Enter an number:-"))
+# b=int(input("Enter an number:-"))
+# add(a,b)
+
+
+
+# def evenodd(n):
+#     if n % 2 == 0:
+#         print("Even number")
+#     else:
+#         print("odd number")
+    
+    
+    
+# x = int(input("Enter an number:-"))
+# evenodd(x)
+
+
+
+
+
+# def add(a,b):
+#     return a+b
+ 
+  
+# print(add(12,10))
+
+
+
+
+
+
+# def op():
+#     for i in range(10):
+#         print("Hello wasiq!")
+        
+
+
+# op()

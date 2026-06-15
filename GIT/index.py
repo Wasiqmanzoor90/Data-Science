@@ -704,3 +704,62 @@
 #     cht = input("Enter y to repeat:-")
 #     if cht!= 'y':
 #         break
+
+
+
+
+#funtion is block of code! its reusable, it keeps our code in orginsed  way, it only run when get called
+#Argument Paases is a method when we pass a value from function where its called to it real function
+# def add(x,y):
+#     return x+y
+    
+
+
+
+
+# #15
+# a = int(input("Enter an number:-"))
+# #5
+# b = int(input("Enter an number:-"))
+
+# print(add(a,b))
+
+
+
+
+
+# def repeat():
+#     for i in range(10):
+#         print("My name is wasiq")
+        
+# repeat()
+
+
+
+# def evenodd(n):
+#     if n % 2==0:
+#         print("Even number")
+#     else:
+#         print("odd number")
+
+
+
+
+
+# x = int(input("Enter an number"))
+# evenodd(x)
+
+
+
+
+
+def evenodd():
+    x = int(input("Enter an number"))
+    if x % 2==0:
+        print("Even number")
+    else:
+        print("odd number")
+
+
+
+evenodd()
