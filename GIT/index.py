@@ -753,13 +753,50 @@
 
 
 
-def evenodd():
-    x = int(input("Enter an number"))
-    if x % 2==0:
-        print("Even number")
-    else:
-        print("odd number")
+# def evenodd():
+#     x = int(input("Enter an number"))
+#     if x % 2==0:
+#         print("Even number")
+#     else:
+#         print("odd number")
 
 
 
-evenodd()
+# evenodd()
+
+
+
+# def sq(x):
+#     return x*x
+
+
+
+# n = int(input("Enter an number:-"))
+# print(sq(n))
+
+
+
+# def posneg():
+#     while True:
+#         x = int(input("Enter number:-"))
+#         if x> 0:
+#             print("Positive number")
+#         elif x == 0:
+#             print("zero")
+#         else:
+#             print("Negative")
+#         cht = input("Enter y to repeat:-")
+#         if cht!= 'y':
+#             break
+
+
+# posneg()
+
+from ok import evenodd, pal
+
+
+n = int(input("Enter an number:-"))
+evenodd(n)
+
+pal()
+

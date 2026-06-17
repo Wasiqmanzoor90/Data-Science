@@ -691,13 +691,129 @@
 
 
 
-
-
-
 # def op():
 #     for i in range(10):
 #         print("Hello wasiq!")
         
-
-
 # op()
+
+
+def add():
+    a = 21
+    b = 9
+    print(a+b)
+    
+    
+# def op():
+#     for i in range(10):
+#         print("My name is Mac")
+# # add()  
+# op()
+
+
+
+
+# def add(a,b):
+#     print(a+b)
+    
+
+
+
+# a = int(input("Enter n number:-"))
+# b = int(input("Enter n number:-"))
+# add(a,b)
+
+
+
+
+# def evenodd(x):
+#     if x % 2==0:
+#         print("Even number")
+#     else:
+#         print("Odd number")
+ 
+# n=int(input("Enter an number:-"))       
+# evenodd(n)
+
+
+
+# def add():
+#     a = 12
+#     b = 13
+#     return a+b
+
+
+# print(add())
+
+
+
+
+
+# def sq(x):
+#     return x*x
+
+
+
+# p = int(input("Enter an number:-"))
+# print(sq(p))
+
+
+# def posneg():
+#     while True:
+#         z = int(input("Enter an number:-")) 
+#         if z >0:
+#             print("Positive number")
+#         elif z == 0:
+#             print("You entered zero")
+#         else:
+#             print("Negative")
+#         cht = input("Enter y to repeat:-")
+#         if cht!='y':
+#             break  
+
+
+
+# posneg()
+
+
+
+
+
+# from maria import add
+# from maria import primeno
+
+
+# # add(1,6)
+# x = int(input("Enter an number:-"))
+# primeno(x)
+# print()
+
+
+
+#lambda function is a anonyms function that is used for small task
+
+# add = lambda x,y:x+y
+# n1 = int(input("Enter an number:-"))
+# n2 = int(input("Enter an number:-"))
+# print(add(n1,n2))
+
+
+# evenodd = lambda x: "even" if x%2==0 else 'odd'
+
+
+# n =int(input("Enter an number:-"))
+# print(evenodd(n))
+
+
+# num=[2,3,4,5,6,7]
+# sq=set(map(lambda x: x*x*x,num))
+# print(sq)
+
+
+num1 = ['22','33','111','90']
+
+for num in num1:
+    print(num)
+
+numerical = list(map(int,num1))
+print(numerical)
