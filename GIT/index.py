@@ -792,11 +792,85 @@
 
 # posneg()
 
-from ok import evenodd, pal
+# from ok import evenodd, pal
 
 
-n = int(input("Enter an number:-"))
-evenodd(n)
+# n = int(input("Enter an number:-"))
+# evenodd(n)
 
-pal()
+# pal()
 
+
+
+    #lambda function is a small anonymous function which is used to small tasks
+        
+# add = lambda x,y:  x+y
+
+# n1 = int(input("Enter an number:-"))
+# n2 = int(input("Enter an number:-"))
+# print(add(n1,n2))
+
+
+#even odd with the help of lambda
+
+# evenodd = lambda x: "even" if x%2==0 else "odd"
+# n = int(input("Enter an number:-"))
+# print(evenodd(n))
+
+
+# num = [2,3,4,5,6]
+
+# sq = tuple(map(lambda x: x*x,num))
+# print(sq)
+
+
+
+
+# num = ['11','23','90','64','91']
+# numerical = list(map(int,num))
+# print(type(numerical))
+
+# names= ['BOB','ALICE','ZAMIN','ESHAAN','KHAN']
+# sq = list(map(str.lower,names))
+# print(sq)
+
+# names=['bob', 'alice', 'zamin', 'eshaan', 'khan']
+# sq = list(map(str.upper,names))
+# print(sq)
+
+
+# num =[14,15,16,17,18,19,20,21,23,26]
+# sq = list(filter(lambda x: x%2==0,num))
+# print(sq)
+
+
+# num =[-14,15,-16,17,-18,-19,20,-21,23,-26]
+# sq = list(filter(lambda x: x>0,num))
+# print(sq)
+
+
+# fruit = ['Kiwi','apple','mango','banana','pineapple']
+# sq1 = list(filter(lambda x: len(x)>5,fruit))
+# print(sq1)
+
+
+
+# names = ['moomin','hanan','khan','murtaza','wareed','zamin','maryam']
+# sq = list(filter(lambda x: x.startswith('m'),names))
+# print(sq)
+
+
+# student=[
+#     {"name":"wareed","marks":30},
+#     {"name":"zamin","marks":80},
+#     {"name":"Eshann","marks":90},
+#     {"name":"Murtaza","marks":20},
+# ]
+# sq = list(filter(lambda x: x['marks']>36,student))
+# print(sq)
+
+
+
+# num =[4,5,6,17,18,19,20,21,23,26]
+# sq = list(filter(lambda x: x%2==0 and x>15,num))
+# print(sq)

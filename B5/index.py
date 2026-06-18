@@ -810,10 +810,56 @@ def add():
 # print(sq)
 
 
-num1 = ['22','33','111','90']
+# num1 = ['22','33','111','90']
 
-for num in num1:
-    print(num)
+# for num in num1:
+#     print(num)
 
-numerical = list(map(int,num1))
-print(numerical)
+# numerical = list(map(int,num1))
+# print(numerical)
+
+
+
+
+
+# name = ['BOB','MARYAM','ALCE','MARIA']
+# sq = list(map(str.lower,name))
+# print(sq)
+
+
+# name=['bob', 'maryam', 'alce', 'maria']
+# sq = list(map(str.upper,name))
+# print(sq)
+
+
+# num =[10,11,12,13,141,17,20,22]
+# sq = list(filter(lambda x: x%2==0,num))
+# print(sq)
+
+
+# num =[-10,-11,-12,13,-141,17,20,-22]
+# tq =  list(filter(lambda x: x>0,num))
+# print(tq)
+
+
+# fruit = ['kiwi','banana','apple','mango','pineapple','pomegranate']
+# sq = list(filter(lambda x:len(x)>5,fruit))
+# print(sq)
+
+
+
+# name = ['Maria','moomin','Umaid','Khan','abdul','hanan']
+# sq = list(filter(lambda x: x.startswith("M"),name))
+# print(sq)
+
+
+# student=[
+#     {"name":"maria","marks":30},
+#     {"name":"maryam","marks":90},
+#     {"name":"murtaza","marks":20},
+#     {"name":"moomin","marks":87},
+  
+# ]
+
+# sq = list(filter(lambda x:x['marks']>=36,student))
+# print(sq)
