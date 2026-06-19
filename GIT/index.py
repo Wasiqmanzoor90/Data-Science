@@ -874,3 +874,42 @@
 # num =[4,5,6,17,18,19,20,21,23,26]
 # sq = list(filter(lambda x: x%2==0 and x>15,num))
 # print(sq)
+
+
+
+
+
+# for i in range(5):  #outerloop
+#     for j in range(3):  #innerloop 
+#         print(j)
+        
+# #nested loop mean when we have loop inside a loop
+# for i in range(5):
+#     print()
+#     for j in range(3):
+#         print("Hello world")
+
+
+# num =[2,3,2,4,3,6,7]
+# uniq = list(set(num))
+# print(uniq)
+
+
+
+
+# num = [21,107,89,2,78,11,69]
+# num.sort()
+# print(num[-2])
+
+
+
+# num = [21,107,89,2,78,11,69]
+# num.sort(reverse=True)
+# print(num)
+
+
+
+#My name is wasiq
+sen = input("Enter an sentence:-")
+word = sen.split() # remove spaces
+print(len(word))
