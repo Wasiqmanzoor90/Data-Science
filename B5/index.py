@@ -863,3 +863,38 @@ def add():
 
 # sq = list(filter(lambda x:x['marks']>=36,student))
 # print(sq)
+
+
+
+#nested loop is a loop inside another loop
+#inner loop is a loop that is present inside another loop that run multiple time for each iteration of outer loop
+# for i in range(5):  #outer loop
+#     print()
+#     for j in range(3):  #inner loop
+#         print("Hello world")
+        
+        
+        
+#here we are removing duplicate value from list     
+# num = [2,3,2,4,5,4,6]
+# unique = list(set(num))
+# print(unique)
+
+#here we are sorting in ascending
+# num = [21,90,21,101,1,92]
+# num.sort()
+# print(num[-2])
+
+
+# word=input("Enter an sentence:-")
+# words1 = word.split() #here we remove the spaces
+# print("Total words:-",len(words1))
+
+
+
+
+
+#sort gives by default ascending order
+# num = [21,90,21,101,1,92]
+# num.sort(reverse=True)
+# print(num)
