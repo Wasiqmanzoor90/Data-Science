@@ -898,3 +898,47 @@ def add():
 # num = [21,90,21,101,1,92]
 # num.sort(reverse=True)
 # print(num)
+
+
+
+
+
+
+#Object oriented programing language is way of defining your code
+#class is a blueprint for creating an object
+#object is a final product that we comes from class
+
+#self is an adress of an object
+class ok:
+    def greeting(self):
+        print(self)
+        print("Hello from here")
+    
+    def goodbye():
+        print("Good bye will meet you")
+
+
+op = ok()  #op here means object
+op.greeting()
+
+
+
+#oops hjave four basic pillars
+#1 encapsulation
+#2 polymorphism
+#3 inheretence
+#4 abstraction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
