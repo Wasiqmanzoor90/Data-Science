@@ -909,17 +909,17 @@ def add():
 #object is a final product that we comes from class
 
 #self is an adress of an object
-class ok:
-    def greeting(self):
-        print(self)
-        print("Hello from here")
+# class ok:
+#     def greeting(self):
+#         print(self)
+#         print("Hello from here")
     
-    def goodbye():
-        print("Good bye will meet you")
+#     def goodbye():
+#         print("Good bye will meet you")
 
 
-op = ok()  #op here means object
-op.greeting()
+# op = ok()  #op here means object
+# op.greeting()
 
 
 
@@ -931,14 +931,60 @@ op.greeting()
 
 
 
+# class project:
+#     def hello(self):
+#         print("Hello from web")
+    
+#     def bye(self):
+#         print("Will se you later")
+    
+#     def wait(self):
+#         print("Please wait here in ILS")
+        
+
+
+# pro = project()
+# pro.hello()
+
+#encapsulatio means bundling of data
+#Abstraction hiding the complexity of you code
 
 
 
 
+#Polymorphism means same function diffrent behaviour
+
+# class cat:
+#     def speak(self):
+#         print("Meow Meow")
+        
+
+# class dog:
+#     def speak(self):
+#         print("Bow bow")
+        
+# d = dog()
+# c = cat()
+
+# d.speak()
+# c.speak()
 
 
 
+#Inheretence means to inherit something from parent class to child class
 
-
-
-
+class Animal:
+    def speak(self):
+        print("Animal Speaks!")
+    def walks(self):
+        print("Animal walks very fast")
+        
+class dog(Animal):
+    def bark(self):
+        print("Dog barks")
+        
+        
+d = dog()
+# d.bark()
+d.speak()
+d.walks()

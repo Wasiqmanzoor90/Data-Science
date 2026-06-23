@@ -910,6 +910,39 @@
 
 
 #My name is wasiq
-sen = input("Enter an sentence:-")
-word = sen.split() # remove spaces
-print(len(word))
+# sen = input("Enter an sentence:-")
+# word = sen.split() # remove spaces
+# print(len(word))
+
+
+
+#Object oriented programing language(OOPS) is way of writing your code in more organized and archetecture way
+#class is a blueprint which is used to create ral thing or we can say an object
+#objet is a real thing that get created from class 
+
+#self is an adress of an object
+
+# class ok:
+#     def greeting():
+#         print("Hello world")
+    
+    
+#     def goodbye(self):
+#         print(self)
+#         print("Good bye will meet you")
+        
+        
+
+# tp = ok()  # object get created from class
+# tp.goodbye()
+
+
+#OOPS have four principal
+#encapsulation
+#polymorphism
+#inheritence
+#abstraction
+
+
+
+ 
