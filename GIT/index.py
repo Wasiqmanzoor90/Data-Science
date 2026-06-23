@@ -946,3 +946,69 @@
 
 
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+# class Project:
+#       def hello(self):
+#           print("Hello from web!")
+        
+#       def bye(self):
+#           print("Will see you soon")
+    
+#       def wait(self):
+#           print("Wait in ILS!")
+          
+          
+          
+          
+          
+# #encapsulation means bundling of data       
+# #abstraction means hiding the complexity of your task          
+          
+# pro = Project()
+
+# pro.hello()
+
+# print()
+
+
+
+
+#Polymorphism mean same function diffrent behaviour
+# class dog:
+#     def speak(self):
+#         print("Bow Bow")
+        
+# class cat:
+#     def speak(self):
+#         print("Meow Meow")
+        
+# d  = dog()
+# c = cat()
+# d.speak()
+# c.speak()
+
+#we can inherit properties from parent class to child class
+class Animal:
+    def speak(self):
+        print("Animal speaks")
+    
+    def walking(self):
+        print("Animal walks very fast")
+        
+
+
+class dog(Animal):
+    def bark(self):
+        print("Dog barks")
+        
+        
+d = dog()
+d.bark()
+d.speak()
+d.walking()
