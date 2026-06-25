@@ -973,18 +973,37 @@ def add():
 
 #Inheretence means to inherit something from parent class to child class
 
-class Animal:
-    def speak(self):
-        print("Animal Speaks!")
-    def walks(self):
-        print("Animal walks very fast")
+# class Animal:
+#     def speak(self):
+#         print("Animal Speaks!")
+#     def walks(self):
+#         print("Animal walks very fast")
         
-class dog(Animal):
-    def bark(self):
-        print("Dog barks")
+# class dog(Animal):
+#     def bark(self):
+#         print("Dog barks")
         
         
-d = dog()
-# d.bark()
-d.speak()
-d.walks()
+# d = dog()
+# # d.bark()
+# d.speak()
+# d.walks()
+
+
+#Constructor is a special method that is used to initialize the object of a class
+
+class Ils:
+    def __init__(self):
+        print("Hello Murtaza how are you!")
+        self.staff()
+    
+    def staff(self):
+        print("Aina")
+        print("Alim")
+        print("Aleem")
+    
+    def bye(self):
+        print("Bye Murtza!")
+        
+
+ils = Ils()

@@ -21,3 +21,18 @@ def pal():
         
         
         
+class Ils:
+    def __init__(self):
+        print("Hello giys we are from Ils")
+        self.student()
+    def student(self):
+        print("Murtaza")
+        print("Moomin")
+        print("Ayaan")
+        print("Khan")
+
+    def bye(self):
+        print("Bye guys ")
+        
+        
+ils = Ils()

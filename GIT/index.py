@@ -994,21 +994,33 @@
 # c.speak()
 
 #we can inherit properties from parent class to child class
-class Animal:
-    def speak(self):
-        print("Animal speaks")
+# class Animal:
+#     def speak(self):
+#         print("Animal speaks")
     
-    def walking(self):
-        print("Animal walks very fast")
+#     def walking(self):
+#         print("Animal walks very fast")
         
 
 
-class dog(Animal):
-    def bark(self):
-        print("Dog barks")
+# class dog(Animal):
+#     def bark(self):
+#         print("Dog barks")
         
         
-d = dog()
-d.bark()
-d.speak()
-d.walking()
+# d = dog()
+# d.bark()
+# d.speak()
+# d.walking()
+
+
+#constructor gets automartically called when an object get created from class
+
+
+
+
+
+from ok import ils
+ils.bye()
+
+
