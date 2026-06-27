@@ -1014,13 +1014,17 @@
 # d.walking()
 
 
-#constructor gets automartically called when an object get created from class
+
+#constructor is a method that run automatically when a object of a class is created 
+
+# from index2 import ils
+# ils.goodbye()
 
 
+from index2 import cal
 
 
-
-from ok import ils
-ils.bye()
-
-
+a = int(input("Enter an number:-"))
+b = int(input("Enter an number:-"))
+# cal.add(a,b)
+cal.Mul(a,b)
