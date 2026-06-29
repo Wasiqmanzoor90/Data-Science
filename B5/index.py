@@ -992,18 +992,51 @@ def add():
 
 #Constructor is a special method that is used to initialize the object of a class
 
-class Ils:
-    def __init__(self):
-        print("Hello Murtaza how are you!")
-        self.staff()
+# class Ils:
+#     def __init__(self):
+#         print("Hello Murtaza how are you!")
+#         self.staff()
     
-    def staff(self):
-        print("Aina")
-        print("Alim")
-        print("Aleem")
+#     def staff(self):
+#         print("Aina")
+#         print("Alim")
+#         print("Aleem")
     
-    def bye(self):
-        print("Bye Murtza!")
+#     def bye(self):
+#         print("Bye Murtza!")
         
 
-ils = Ils()
+# ils = Ils()
+
+
+#file handling is a process of reading and writing data into a file
+
+#w here w stands for create mode
+
+# file = open("maria.txt",'w')
+# file.write("Hello i'm maria")
+# file.close()
+
+#r here means to rad a file
+# file = open("maria.txt",'r')
+# data = file.read()
+# print(data)
+
+#a here means append  data in a partcular file
+
+# file = open("maria.txt",'a')
+# file.write(" and i'm from bemina")
+# file.close()
+
+# file  = open("maria.txt",'w')
+# file.write(" and i am very good")
+# file.close()
+
+
+# file = open(r"C:\Users\Dell\Desktop\murtaza.txt",'r')
+# data = file.read()
+# print(data)
+
+file = open(r"C:\Users\Dell\Documents\maryam.txt",'w')
+file.write("Marya wear specs!")
+file.close()
