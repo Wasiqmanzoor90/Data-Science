@@ -1037,6 +1037,20 @@ def add():
 # data = file.read()
 # print(data)
 
-file = open(r"C:\Users\Dell\Documents\maryam.txt",'w')
-file.write("Marya wear specs!")
-file.close()
+# file = open(r"C:\Users\Dell\Documents\maryam.txt",'w')
+# file.write("Marya wear specs!")
+# file.close()
+
+# with open("maria.txt",'r') as f:
+#     p = f.read()
+#     print(p)
+
+
+# with open(r"C:\Users\Dell\Desktop\abc.txt",'w') as f:
+#     f.write("Hello from ILS!")
+    
+
+
+
+# with open(r"C:\Users\Dell\Desktop\abc.txt",'a') as f:
+#     f.write("\nAnd also hello from Wasiq")

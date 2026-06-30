@@ -76,3 +76,34 @@
 # file = open("C:\Users\Dell\Downloads\wareed.txt",'w')
 # file.write("Hello i am soura")
 # file.close()
+
+
+
+
+# with open("zamin.txt",'r') as f:
+#     d = f.read()
+#     print(d)
+
+
+
+# with open('zamin.txt','a') as f:
+#     f.write(" and i live in sgr")
+
+
+# with open("eshaan.txt",'w') as f:
+#     f.write("Hi i am eshaan")
+
+
+
+# with open(r"C:\Users\Dell\Desktop\ils.txt",'w') as f:
+#     f.write("Hi i am from ils\n")
+#     f.write("Hi i am from sgr ")
+
+
+with open(r"C:\Users\Dell\Desktop\ils.txt",'r') as f:
+    p = f.read()
+    print(p)
+
+
+# with open(r"C:\Users\Dell\Desktop\ils.txt", 'a') as f:
+#     f.write("\nAnd i live in batmalo")
