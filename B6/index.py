@@ -67,5 +67,42 @@
 # print(type(c))
 
 
-a = '10.87'
-print(a)
+# a = '10.87'
+# print(a)
+
+# a = 'ayat'
+# print(a)
+
+# b = 'athar'
+# print(b)
+
+
+#list stores multiple items in a single variable, its hetrogenous, its orderd, its mutable(Changable)
+#indexing is a numerical location of an item presented in list
+# lt = ['wasiq','madeeha',12,True, 'khan']
+# lt[1]='raziya'  #updation
+# lt.append('Ayat')  #add by value
+# lt.insert(1,'Eshaan')  #add by index
+# lt.remove('wasiq') #remove by value
+# lt.pop(4)  #remove by index
+# print(lt)
+
+
+# lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam']
+
+# print(lt[2])
+# print(lt[8])
+# print(lt[5])
+# print(lt[3])
+# print(lt[7])
+# print(lt[4])
+# print(lt[1])
+# print(lt[8])
+
+
+#tuple stores multiple items in a single varaiable, its im mutable(un-changable), its indexed, its ordered
+
+tp = ('wasiq','khan',21,89,True)
+tp[1]='Ubaid'
+print(tp)
+
