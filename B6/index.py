@@ -88,7 +88,7 @@
 # print(lt)
 
 
-# lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam']
+lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 
 # print(lt[2])
 # print(lt[8])
@@ -102,7 +102,30 @@
 
 #tuple stores multiple items in a single varaiable, its im mutable(un-changable), its indexed, its ordered
 
-tp = ('wasiq','khan',21,89,True)
-tp[1]='Ubaid'
-print(tp)
+# tp = ('wasiq','khan',21,89,True)
+# tp[1]='Ubaid'
+# print(tp)
 
+
+#set stores multiple item in s single variable, its un-ordered, it's un-indexed, it doesnt allow duplicate
+# st={'wasiq',21,True,'khan',45.78,'wasiq'}
+# st.add('Muzamil')
+# st.remove('khan')
+# print(st)
+
+
+#Dictionary stores multiple item in single variable through the process of key-value pairs, its orderd, its key value pairs, it can have duplicates but not duplicate keys, its mutable
+
+dt={
+    "name":"wasiq",
+    "Roll-no":21,
+    "Adresss":'sgr'
+   
+}
+# print(dt['name'])
+# print(dt['Roll-no'])
+dt['Adresss']='kup' #updation
+dt['pin-code']=190001
+dt.pop('Adresss')
+del dt['name']
+print(dt)
