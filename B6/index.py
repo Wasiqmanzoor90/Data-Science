@@ -116,16 +116,32 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 
 #Dictionary stores multiple item in single variable through the process of key-value pairs, its orderd, its key value pairs, it can have duplicates but not duplicate keys, its mutable
 
-dt={
-    "name":"wasiq",
-    "Roll-no":21,
-    "Adresss":'sgr'
+# dt={
+#     "name":"wasiq",
+#     "Roll-no":21,
+#     "Adresss":'sgr',
+#     "naaw":'wasiq'
    
-}
-# print(dt['name'])
-# print(dt['Roll-no'])
-dt['Adresss']='kup' #updation
-dt['pin-code']=190001
-dt.pop('Adresss')
-del dt['name']
-print(dt)
+# }
+# dt['name']='umer'
+# dt['Email']='z@gmail.com'
+# dt.pop('naaw')
+# del dt['Email']
+# print(dt)
+
+
+lt =[['wasiq','umer',True],   ['ubaid',12,89],   ['khan','Maryam',121]]
+# print(lt[0][1])
+# print(lt[2][1])
+# print(lt[1][0])
+# print(lt[2][2])
+# print(lt[1][2])
+
+lt[0][0]='Ayat'
+lt.append('Saboor')
+lt[0].insert(2,'Athar')
+lt[0].pop(0)
+del lt[0][0]
+print(lt)
+
+
