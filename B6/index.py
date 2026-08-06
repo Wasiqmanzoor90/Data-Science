@@ -130,18 +130,33 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 # print(dt)
 
 
-lt =[['wasiq','umer',True],   ['ubaid',12,89],   ['khan','Maryam',121]]
-# print(lt[0][1])
-# print(lt[2][1])
-# print(lt[1][0])
-# print(lt[2][2])
-# print(lt[1][2])
+# lt =[['wasiq','umer',True],   ['ubaid',12,89],   ['khan','Maryam',121]]
+# # print(lt[0][1])
+# # print(lt[2][1])
+# # print(lt[1][0])
+# # print(lt[2][2])
+# # print(lt[1][2])
 
-lt[0][0]='Ayat'
-lt.append('Saboor')
-lt[0].insert(2,'Athar')
-lt[0].pop(0)
-del lt[0][0]
+# lt[0][0]='Ayat'
+# lt.append('Saboor')
+# lt[0].insert(2,'Athar')
+# lt[0].pop(0)
+# del lt[0][0]
+# print(lt)
+
+
+
+lt = [  [['wasiq','Umer','Ubaid'],[121,78,True]],     [['Gazala','emaan',34.56],  ['Amir','Abdul',False]],
+      [['Madeeha','huda',78.90],['Seerat',89.89, True]]  ]
+
+# print(lt[1][0][1])
+# print(lt[2][1][0])
+# print(lt[0][1][0])
+# print(lt[2][0][1])
+# print(lt[1][0][0])
+
+lt[1][0][0]='sania'
+lt[0][0].insert(1,'Umaid')
+lt[0][1].append('Saboor')
+del lt[0][1][0]
 print(lt)
-
-
