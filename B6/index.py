@@ -146,17 +146,42 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 
 
 
-lt = [  [['wasiq','Umer','Ubaid'],[121,78,True]],     [['Gazala','emaan',34.56],  ['Amir','Abdul',False]],
-      [['Madeeha','huda',78.90],['Seerat',89.89, True]]  ]
+# lt = [  [['wasiq','Umer','Ubaid'],[121,78,True]],     [['Gazala','emaan',34.56],  ['Amir','Abdul',False]],
+#       [['Madeeha','huda',78.90],['Seerat',89.89, True]]  ]
 
-# print(lt[1][0][1])
-# print(lt[2][1][0])
-# print(lt[0][1][0])
-# print(lt[2][0][1])
-# print(lt[1][0][0])
+# # print(lt[1][0][1])
+# # print(lt[2][1][0])
+# # print(lt[0][1][0])
+# # print(lt[2][0][1])
+# # print(lt[1][0][0])
 
-lt[1][0][0]='sania'
-lt[0][0].insert(1,'Umaid')
-lt[0][1].append('Saboor')
-del lt[0][1][0]
-print(lt)
+# lt[1][0][0]='sania'
+# lt[0][0].insert(1,'Umaid')
+# lt[0][1].append('Saboor')
+# del lt[0][1][0]
+# print(lt)
+
+
+# dt ={
+      
+#       "Name":{"FirstName":"wasiq","LastName":"Manzoor"},
+#       "Adress":{"State":"Kashmir","Pincode":190001},
+#       "Subject":{"Major":"CAP2022","Minor":"ACP2022"}
+# }
+
+
+# dt["Name"]["FirstName"] = 'Umer'
+# dt['Occupation'] = {"Designation":"Jr Assnt",'Employ-code':9797}
+# del dt["Adress"]['Pincode']
+# print(dt)
+# print(dt['Occupation']['Employ-code'])
+
+
+dt ={
+      "1":{"Name":{"FirstName":"Ubaid","LastName":"Khan"},"Adress":{"State":"Kashmir","Pincode":190001}},
+      "2":{"Name":{"FirstName":"Imaad","LastName":"Bhat"},"Adress":{"State":"Kupwara","Pincode":192121}},
+      "3":{"Name":{"FirstName":"Mir","LastName":"Madeeha"},"Adress":{"State":"Baramulla","Pincode":192123}},
+}
+dt["1"]['Name']['FirstName'] = 'Ayat'
+del dt["1"]['Adress']['Pincode']
+print(dt["1"])
