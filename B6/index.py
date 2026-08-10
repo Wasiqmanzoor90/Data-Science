@@ -177,11 +177,41 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 # print(dt['Occupation']['Employ-code'])
 
 
-dt ={
-      "1":{"Name":{"FirstName":"Ubaid","LastName":"Khan"},"Adress":{"State":"Kashmir","Pincode":190001}},
-      "2":{"Name":{"FirstName":"Imaad","LastName":"Bhat"},"Adress":{"State":"Kupwara","Pincode":192121}},
-      "3":{"Name":{"FirstName":"Mir","LastName":"Madeeha"},"Adress":{"State":"Baramulla","Pincode":192123}},
-}
-dt["1"]['Name']['FirstName'] = 'Ayat'
-del dt["1"]['Adress']['Pincode']
-print(dt["1"])
+# dt ={
+#       "1":{"Name":{"FirstName":"Ubaid","LastName":"Khan"},"Adress":{"State":"Kashmir","Pincode":190001}},
+#       "2":{"Name":{"FirstName":"Imaad","LastName":"Bhat"},"Adress":{"State":"Kupwara","Pincode":192121}},
+#       "3":{"Name":{"FirstName":"Mir","LastName":"Madeeha"},"Adress":{"State":"Baramulla","Pincode":192123}},
+# }
+# dt["1"]['Name']['FirstName'] = 'Ayat'
+# del dt["1"]['Adress']['Pincode']
+# print(dt["1"])
+
+
+# if -ese
+#Indentation represents block of code = 1 indentation = 1 tab = 4 Spaces
+# grade = input("Enter Yoyr grade:-")
+
+# if grade == 'A':
+#     print("Tooper")
+# else:
+#       print("Fail")
+      
+# grade =input("Enter an grade:-")
+
+# if grade =='A':
+#       print("Topper")
+# elif grade =='B':
+#       print("Good")
+# elif grade== 'C':
+#       print("Average")
+# else:
+#       print("Fail")
+      
+#input gives by default string value
+#Type casting means converting one data type to another
+age = int(input("Enter Your age:-"))
+'21'
+if age >=18:
+      print("You can vote")
+else:
+      print("You cannot vote")
