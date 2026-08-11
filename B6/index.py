@@ -209,9 +209,60 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
       
 #input gives by default string value
 #Type casting means converting one data type to another
-age = int(input("Enter Your age:-"))
-'21'
-if age >=18:
-      print("You can vote")
+# age = int(input("Enter Your age:-"))
+# '21'
+# if age >=18:
+#       print("You can vote")
+# else:
+#       print("You cannot vote")
+
+# x = int(input("Enter an number:-"))
+# if x%2==0:
+#       print("Even number")
+# else:
+#       print("odd number")
+
+
+# x =int(input("Enter an number:-"))
+# if x>0:
+#       print("Positive number")
+# elif x==0:
+#       print("You entered zero")
+      
+# else:
+#       print("Negative number")
+
+
+# username = input("Enter your name:-")
+# password = input("Enter your password:-")
+
+# if username == 'wasiq':
+#       if password == '1234':
+#             print("Login sucessfull")
+#       else:
+#             print("Invalid password")
+# else:
+#       print("Inncorect username")
+
+
+#And mean both condition should be true
+#or means one of the conditions should be true
+# girl = int(input("girl age:-"))
+# boy = int(input("boy age:-"))
+
+# if girl>=18 or boy>=18:
+#       print("Allowed")
+# else:
+#       print("Not allowed")
+      
+      
+
+a = 2
+b = 21
+c=35
+if a>=b and a>=c:
+      print(a,"is greater")
+elif b>=a and b>=c:
+      print(b," is greater")
 else:
-      print("You cannot vote")
+      print(c,"is greater")
