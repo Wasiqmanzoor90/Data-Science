@@ -257,12 +257,33 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
       
       
 
-a = 2
-b = 21
-c=35
-if a>=b and a>=c:
-      print(a,"is greater")
-elif b>=a and b>=c:
-      print(b," is greater")
-else:
-      print(c,"is greater")
+# a = 2
+# b = 21
+# c=35
+# if a>=b and a>=c:
+#       print(a,"is greater")
+# elif b>=a and b>=c:
+#       print(b," is greater")
+# else:
+#       print(c,"is greater")
+
+
+#Excetion handling means to simply identify an error and handle it gracefully
+try:
+      n1 = int(input("Enter ist number:-"))
+      op = input("+,-,x,/:-")
+      n2 = int(input("Enter 2nd number:-"))
+
+      if op =='+':
+            print(n1+n2)
+      elif op == '-':
+            print(n1-n2)
+      elif op =='x':
+            print(n1*n2)
+      elif op == '/':
+            print(n1/n2)
+      else:
+            print('Invalid operator')
+
+except ZeroDivisionError:
+      print("Cant divide by zero")
