@@ -269,21 +269,38 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 
 
 #Excetion handling means to simply identify an error and handle it gracefully
-try:
-      n1 = int(input("Enter ist number:-"))
-      op = input("+,-,x,/:-")
-      n2 = int(input("Enter 2nd number:-"))
+# try:
+#       n1 = int(input("Enter ist number:-"))
+#       op = input("+,-,x,/:-")
+#       n2 = int(input("Enter 2nd number:-"))
 
-      if op =='+':
-            print(n1+n2)
-      elif op == '-':
-            print(n1-n2)
-      elif op =='x':
-            print(n1*n2)
-      elif op == '/':
-            print(n1/n2)
-      else:
-            print('Invalid operator')
+#       if op =='+':
+#             print(n1+n2)
+#       elif op == '-':
+#             print(n1-n2)
+#       elif op =='x':
+#             print(n1*n2)
+#       elif op == '/':
+#             print(n1/n2)
+#       else:
+#             print('Invalid operator')
 
-except ZeroDivisionError:
-      print("Cant divide by zero")
+# except ZeroDivisionError:
+#       print("Cant divide by zero")
+      
+  #i =0  
+  #i+1 = 1 
+  #i+1 = 2
+  #i = 9 +1
+  #loop is program that runs multiple time until the condition becomes true
+  #i is an temporary variable which have default value of 0
+# for i in range(9,91,9):
+#       print(i)
+      
+      
+      
+      
+tab = int(input("Enter an number:-"))
+for i in range(1,11):
+      res = tab * i
+      print(tab,'X',i,'=',res)
