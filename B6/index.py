@@ -294,13 +294,67 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
   #i = 9 +1
   #loop is program that runs multiple time until the condition becomes true
   #i is an temporary variable which have default value of 0
-# for i in range(9,91,9):
+  
+# for i in range(10):
 #       print(i)
       
+            
       
-      
-      
-tab = int(input("Enter an number:-"))
-for i in range(1,11):
-      res = tab * i
-      print(tab,'X',i,'=',res)
+# tab = int(input("Enter an number:-"))
+# for i in range(1,11):
+#       res = tab * i
+#       print(tab,'X',i,'=',res)
+
+
+# print('i am in ils')
+# print('i am in ils')
+# print('i am in ils')
+# print('i am in ils')
+
+#0
+#i+1
+# for i in range(1,20,2):
+#   print(i)
+
+
+# tab = int(input("Enter an number:-"))
+# for i in range(1,11):
+#   res= tab * i
+#   print(tab,'X',i,'=',res)
+
+
+# lt = ['wasiq','Umer',12,32,89,True]
+
+# for dt in lt:
+#   print(dt)
+
+
+
+# dt ={
+#   "Name":'Khan',
+#   "Roll-no":21,
+#   ' Adress':'Maisuma'
+# }
+
+# for key,value in dt.items():
+#   print(key,':-',value)
+
+
+#break stop current iteration
+# for i in range(10):
+#   if i ==5:
+#     break
+#   print(i)
+
+#continu skips current itteration
+# for i in range(10):
+#   if i ==5:
+#     continue
+#   print(i)
+
+
+for i in range(100):
+  if i %2==0:
+    print(i,'is even')
+  else:
+       print(i,'is odd')
