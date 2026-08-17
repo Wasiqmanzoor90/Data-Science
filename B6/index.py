@@ -353,8 +353,47 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 #   print(i)
 
 
-for i in range(100):
-  if i %2==0:
-    print(i,'is even')
+# for i in range(100):
+#   if i %2==0:
+#     print(i,'is even')
+#   else:
+#        print(i,'is odd')
+
+
+#7
+#
+#6
+
+#2-5
+
+
+x = int(input("Enter an number:-"))
+if x <=1:
+  print("Not prime")
+else:
+  for i in range(2,x):
+
+    if x % i ==0:
+      
+      print("Not Prime number")
+      break
+            
   else:
-       print(i,'is odd')
+      print("Prime number")
+
+
+
+
+n = [12,25,90,21,46,101,31]
+
+flag = 0
+x = int(input("Enter an number:-"))
+for num in n :
+  if x == num:
+    flag =1
+    
+if flag ==1:
+  print(x,'is in list')
+else:
+  print(x,"is not in list")
+   
