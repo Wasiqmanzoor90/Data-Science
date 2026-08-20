@@ -367,33 +367,104 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 #2-5
 
 
-x = int(input("Enter an number:-"))
-if x <=1:
-  print("Not prime")
-else:
-  for i in range(2,x):
+# x = int(input("Enter an number:-"))
+# if x <=1:
+#   print("Not prime")
+# else:
+#   for i in range(2,x):
 
-    if x % i ==0:
+#     if x % i ==0:
       
-      print("Not Prime number")
-      break
+#       print("Not Prime number")
+#       break
             
-  else:
-      print("Prime number")
+#   else:
+#       print("Prime number")
 
 
 
 
-n = [12,25,90,21,46,101,31]
+# n = [12,25,90,21,46,101,31]
 
-flag = 0
-x = int(input("Enter an number:-"))
-for num in n :
-  if x == num:
-    flag =1
+# flag = 0
+# x = int(input("Enter an number:-"))
+# for num in n :
+#   if x == num:
+#     flag =1
     
-if flag ==1:
-  print(x,'is in list')
-else:
-  print(x,"is not in list")
+# if flag ==1:
+#   print(x,'is in list')
+# else:
+#   print(x,"is not in list")
    
+   
+# #hello
+#mom
+# word = input("Enter an number:-")
+# rev = ''
+# for ch in word:
+#     #'' = h +'' = h
+#     #h = e + h = eh
+#     #eh = l + eh  = leh
+#     #leh = l+leh = lleh
+#     #lleh = o+lleh = olleh
+    
+#     #'' = m +''= m
+#     #m = o +m = om
+#     #om = m + om = mom
+#     rev = ch+rev
+    
+# if word == rev:
+#     print(word,"is Palindrome")
+# else:
+#     print(word,"is not palindrome")
+    
+# lt = [12,25,90,21,46,101,31]
+# # print(lt[1:5])
+# # print(lt[:])
+# # print(lt[-2])
+# # print(lt[::3])
+# # print(lt[2:])
+# print(lt[-1::])
+
+
+# print(lt[4:])
+
+# lt=[12,25,90,21,46,101,31]
+# lt.sort()
+# print(lt[-1])
+
+
+# My name is wasiq
+
+
+# word = input("Enter an sentence:-")
+# # word.split() #split mean remove spaces
+# print(len(word.split()))
+
+
+#my name is wasiq
+
+# lt=[12,25,90,21,46,101,31]
+# lt.sort(reverse=True)
+# print(lt)
+
+
+# for i in range(10):
+#   print(i)
+
+
+# i = 0
+# while i <30:
+#   i = int(input("Enter an number:-"))
+#   print(i)
+
+# while True:
+#   x = int(input("Enter an number:-"))
+#   if x % 2 == 0:
+#     print(x,'is even')
+#   else:
+#     print(x,'is odd')
+#   # cht = input("Do you want to continue:-")
+#   # if cht =='no':
+#   #   break
