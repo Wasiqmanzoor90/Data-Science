@@ -468,3 +468,74 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 #   # cht = input("Do you want to continue:-")
 #   # if cht =='no':
 #   #   break
+
+
+
+
+# while True:
+#   n = int(input("Enter an number:-"))
+#   if n <=1:
+#     print("Not prime number")
+#   else:
+#     for i in range(2,n):
+#       if n%i==0:
+#         print("Not Prime ")
+#         break
+#     else:
+#       print("Prime number")
+#   cht = input("Enter yes to continue:-")
+#   if cht !='yes':
+#     break
+
+
+# try:
+#   x = 10/0
+# except ZeroDivisionError:
+#   print("Cant divide by zero")
+
+#value error
+
+# try:
+#   num = int(input("Enter an number:-"))
+#   print(num)
+# except ValueError:
+#   print("Invalid value")
+
+#type error
+# try:
+#   a ="21"+2
+#   print(a)
+# except TypeError:
+#   print("Type mismatch error")
+
+# #name error
+# try:
+#   print(a)
+# except NameError:
+#   print('a is not defined')
+
+
+# try:
+#   lt= [12,78,90]
+#   print(lt[3])
+  
+# except IndexError:
+#   print("This item doesnt belong in list")
+
+
+#key error
+# try:
+#   dt={
+#     "name":"Michall"
+#   }
+#   print(dt['age'])
+# except KeyError:
+#   print("This key doesnt belong to dict")
+  
+
+
+try:
+  a =10
+  a.append(20)
+except AttributeError:
+  print("This thing doesnt belong to this ")
