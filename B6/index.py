@@ -534,8 +534,21 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
   
 
 
-try:
-  a =10
-  a.append(20)
-except AttributeError:
-  print("This thing doesnt belong to this ")
+# try:
+#   a =10
+#   a.append(20)
+# except AttributeError:
+#   print("This thing doesnt belong to this ")
+
+
+
+
+from index1 import add,sq
+a = int(input("Enter an number:-"))
+b= int(input("Enter an number:-"))
+add(a,b)
+
+sq(a)
+
+
+
