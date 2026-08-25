@@ -543,12 +543,44 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 
 
 
-from index1 import add,sq
-a = int(input("Enter an number:-"))
-b= int(input("Enter an number:-"))
-add(a,b)
+# from index1 import add,sq
+# a = int(input("Enter an number:-"))
+# b= int(input("Enter an number:-"))
+# add(a,b)
 
-sq(a)
+# sq(a)
 
 
 
+
+
+#lambda is a type of function which is used for smaller tasks
+
+
+
+# def add(a,b):
+#   return a+b
+
+
+# print(add(10,12))
+
+# add = lambda x,y: x+y
+# print(add(11,12))
+
+# sq = lambda x : x*x
+
+# print(sq(3))
+
+# even_odd = lambda x : 'even' if x%2==0 else 'odd' 
+
+# print(even_odd(9))
+
+
+# lt =[2,3,4,5,6]
+# sq = tuple(map(lambda x: x*x,lt))
+# print(sq)
+
+
+num =['11','21','55','10','89']
+ap = list((map(int,num)))
+print(ap)
