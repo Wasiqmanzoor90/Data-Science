@@ -581,6 +581,41 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 # print(sq)
 
 
-num =['11','21','55','10','89']
-ap = list((map(int,num)))
-print(ap)
+# num =['11','21','55','10','89']
+# ap = list((map(int,num)))
+# print(ap)
+
+
+
+
+# num =[1,2,3,4,5,6,7,8,9,10]
+# sq = list(filter(lambda x: x%2==0,num))
+# print(sq)
+
+
+# names = ['BOB','ALICE','KHAN','UMER']
+# n = list(map(str.lower,names))
+# print(n)
+
+# a = 'wasiq'
+
+# print(a.capitalize())
+
+# a = 'wasiq'
+
+# print(a.upper())
+
+# lt =[-90,21,-11,56,-90,11]
+# n = list(filter(lambda x: x<0,lt))
+# print(n)
+
+
+# fruits = ['Kiwi','apple','Mango','pinanapple','pomogrante']
+# n = list(filter(lambda x: len(x)>4,fruits))
+# print(n)
+
+
+
+names = ['bob','umer','wasiq']
+n = list(map(str.capitalize,names))
+print(n)
