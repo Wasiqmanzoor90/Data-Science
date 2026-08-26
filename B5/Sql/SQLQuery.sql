@@ -76,8 +76,8 @@ delete  -- it delets particular row from table
 
 select * from student
 
-insert into student(roll_no,name,class,section)
-values(2,'umer','9th','B'),
+insert into student(roll_no,name,class)
+values(2,'umer','9th'),
 (3,'Abdul','11th','c'),
 (4,'umi','9th','B'),
 (5,'rizwan','9th','c')
@@ -91,4 +91,32 @@ where roll_no = 1
 --here we delete particular row in table
 delete student where name = 'wasiq'
 
+select * from student
+use mydb1
 
+
+/*Constraint are rule that are applied to table
+
+Primary-Key--- Uniquely identifies each row in table
+Not null --- it doesnt allow nill value in a particular column
+Unique  --- the value shouldnt be repeted or we can say it should be unique
+Default -- pre defined
+check-- to apply condition
+Foreign key -- establish relationship be tween two table
+*/
+
+create table employ
+(
+empid int primary key,
+name varchar(30) not null,
+adress varchar(30) default 'Srinagar'
+)
+
+
+select * from employ
+
+insert into employ(empid,name,adress)
+values(2,'umer','bgl')
+
+insert into employ(empid,name,adress)
+values(4,'chen','kel')
