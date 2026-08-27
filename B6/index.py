@@ -616,6 +616,45 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 
 
 
-names = ['bob','umer','wasiq']
-n = list(map(str.capitalize,names))
-print(n)
+# names = ['bob','umer','wasiq']
+# n = list(map(str.capitalize,names))
+# print(n)
+
+
+#File handling is the process of creating updating and deleting a particulat file
+#r stands reading file
+#w stand creating a file
+#a stands updating a paricular file
+#x deleting a particular file
+
+
+#Here we create a file
+# file = open('file.txt','w')
+# file.write("Hello from world")
+# file.close()
+
+#here we read a particular file
+# f = open('file.txt','r')
+# data = f.read()
+# print(data)
+
+
+# f = open('file.txt','w')
+# f.write('Hello world')
+
+
+# f = open('file.txt','a')
+# f.write(' ,from wasiq')
+# f.close()
+
+# f = open('file.txt','r')
+# d = f.read()
+# print(d)
+
+
+# f = open('file.txt','x')
+# f.close()
+
+f = open('f1.txt','w+b')
+f.write(b"Hello sibtain")
+f.close()
