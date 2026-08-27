@@ -120,3 +120,80 @@ values(2,'umer','bgl')
 
 insert into employ(empid,name,adress)
 values(4,'chen','kel')
+
+
+
+use mydb1
+
+drop table employ
+
+
+create table employ
+(
+empid int Primary key,
+email varchar(30) unique,
+name varchar(30) not null,
+adress varchar(20) default 'srinagar', 
+age int check(age>=18),
+salary int
+
+)
+
+select * from employ
+insert into employ(empid,email,name,adress,age,salary)
+values(100,'wasiq@gmai','wasiq','sgr',43,100000),
+(101,'maria@gmai','maria','sgr',23,50000),
+(102,'tahir@gmai','tahir','poonch',20,20000),
+(103,'Adil@gmai','Adil','Kupwara',25,150000),
+(104,'muskaan@gmai','Muskaan','sgr',43,10000)
+
+
+--clause commond in sql means to filter out data, order data etc its use some comonds that are as under
+--where
+--from
+--order by
+--having
+
+
+select * from employ
+where email = 'maria@gmai'
+
+select * from employ
+where adress = 'sgr'
+
+
+--And means both of the condition should be true
+--or means one of the condition should be true
+select * from employ
+where adress ='sgr' and salary >30000
+
+
+select * from employ
+where name like '%q'
+
+select * from employ
+where name like 'm%'
+
+--Between means range
+select * from employ
+where salary between 50000 and 100000
+
+select * from employ
+
+--order by simply means to sort data by default it's asscending
+select * from employ
+order by salary
+
+select * from employ
+order by salary desc
+
+
+select * from employ
+order by age
+
+
+
+select * from employ
+order by age desc
+
+
