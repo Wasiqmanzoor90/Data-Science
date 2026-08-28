@@ -659,3 +659,14 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 # f.write(b"Hello sibtain")
 # f.close()
 
+# file = open(r'C:\Users\Dell\Desktop\OK\WASIQ.txt','w')
+# file.write("Hello wasiq")
+# file.close()
+
+# with open('wasiq.txt','w') as f:
+#   f.write("Hello ok")
+
+
+file = open('athar.txt','x')
+file.write("Hello ji")
+file.close()
