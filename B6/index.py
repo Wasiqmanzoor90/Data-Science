@@ -655,6 +655,7 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 # f = open('file.txt','x')
 # f.close()
 
-f = open('f1.txt','w+b')
-f.write(b"Hello sibtain")
-f.close()
+# f = open('f1.txt','w+b')
+# f.write(b"Hello sibtain")
+# f.close()
+

@@ -197,3 +197,37 @@ select * from employ
 order by age desc
 
 
+use mydb1
+
+select * from employ
+--Aggerate
+select max(salary) as max_salary from employ
+select min(salary) as min_salary from employ
+select avg(salary) as avg_sal from employ
+select sum(salary) as total from employ
+select count(*) as total_emp from employ 
+
+select * from employ
+order by age,name desc
+
+
+select count(*) from employ
+where adress = 'sgr'
+
+select avg(salary) from employ
+where adress = 'sgr'
+
+select count(*) as ok from employ
+where salary <50000 and adress ='sgr'
+
+
+
+select sum(salary) from employ
+where adress = 'sgr'
+
+select *  from employ
+where adress ='poonch'
+
+
+select * from employ
+where name ='wasiq'
