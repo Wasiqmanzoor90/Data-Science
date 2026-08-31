@@ -95,3 +95,54 @@
 
 # a = True
 # print(type(a))
+
+
+
+
+
+#Data type is a concept whhich tells us which type of data a particular variable holds
+#int -- it holds numerical value
+#string --- it holds textual data, string represent between quotes ''
+#boolean -- it holds true/false
+#float --it holds point value
+
+#int
+# a = 10
+# print(type(a))
+
+# #string
+# name = 'Hello'
+# print(type(name))
+
+# #boolean
+# c = True
+# print(type(c))
+
+# #float
+# d = 10.34
+# print(type(d))
+
+
+#attribute means function or features of a particular thing
+# a = 'wasiq'
+# print(a.capitalize())
+
+
+
+# c = 'rubhan'
+# print(c.upper())
+
+
+# d = 'MAHOOR'
+# print(d.lower())
+
+
+#list is a collection which holds multiple items into a single variable, it's heterogenous
+#index  is a numerical location of an iten which is present in list
+
+lt = ['wasiq',12,'Rubhan',56.90,True]
+# print(lt[2])
+# print(lt[0])
+# print(lt[3])
+#slicing is the process  of gettin an item from one partiuclar range to another
+print(lt[1:5])
