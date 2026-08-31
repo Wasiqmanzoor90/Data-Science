@@ -231,3 +231,49 @@ where adress ='poonch'
 
 select * from employ
 where name ='wasiq'
+
+use mydb1
+select * from employ
+
+alter table employ
+add Department varchar(30)
+
+update employ
+set Department = 'Hr'
+WHERE empid = 104
+
+
+--Group by is a clause that organize  rows with same value into group
+
+select adress , count(*) from employ
+group by adress
+
+
+select adress , count(*) as no_employ from employ
+group by adress
+order by no_employ desc
+
+
+select department , count(*) as no_employ from employ
+group by department
+order by no_employ desc
+
+select department, count(*) as no_employ from employ
+group by department
+having count(*) >1
+
+--it gives highest salary of eah department
+select department, max(salary) from employ
+group by department
+
+select adress, max(salary) from employ
+group by adress
+
+
+--sub query means query within query
+
+select max(salary) from employ
+
+--second largest salary
+select max(salary) from employ 
+where salary <(select max(salary) from employ)
