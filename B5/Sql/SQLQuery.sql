@@ -277,3 +277,71 @@ select max(salary) from employ
 --second largest salary
 select max(salary) from employ 
 where salary <(select max(salary) from employ)
+
+
+use mydb1
+
+create table department
+(
+Deptid int primary key,
+DeptName varchar(30),
+DeptLocation varchar(20)
+
+)
+
+create table employ(
+empid int primary key,
+empname varchar(30),
+salary int,
+age int check(age>=18),
+Deptid int,
+foreign key(Deptid) references department(Deptid)
+
+)
+
+insert into department(Deptid,DeptName,DeptLocation)
+values(100,'CS','America'),(101,'Marketing','inida'),(102,'HR','Srg')
+
+select * from department
+
+
+
+
+
+
+INSERT INTO employ (empid, empname, salary, age, Deptid) VALUES
+(1, 'John Doe', 75000, 28, 101),
+(2, 'Jane Smith', 82000, 34, 102),
+(3, 'Michael Brown', 61000, 22, 100),
+(4, 'Emily Davis', 95000, 41, 101),
+(5, 'David Wilson', 54000, 25, 100),
+(6, 'Sarah Martinez', 88000, 31, 102),
+(7, 'James Anderson', 72000, 29, 100),
+(8, 'Amanda Thomas', 67000, 27, 101),
+(9, 'Robert Jackson', 105000, 45, 100),
+(10, 'Lisa White', 59000, 23, 102),
+(11, 'William Harris', 83000, 36, 100),
+(12, 'Megan Martin', 91000, 38, 100),
+(13, 'Kevin Thompson', 64000, 26, 100),
+(14, 'Rachel Garcia', 76000, 30, 102),
+(15, 'Brian Martinez', 52000, 21, 100),
+(16, 'Christine Robinson', 110000, 48, 101),
+(17, 'Timothy Clark', 69000, 32, 100),
+(18, 'Laura Rodriguez', 80000, 33, 102),
+(19, 'Jason Lewis', 58000, 24, 100),
+(20, 'Stephanie Lee', 97000, 42, 101),
+(21, 'wasiq', 97000, 42, 101),
+(22, 'khan', 97000, 42, 101);
+
+
+
+
+
+select * from employ
+
+--join is a clause that is used to combine rows from two or more table
+
+--inner join retrieves data from two diffrent table based on same column
+select e.empname, e.salary, d.deptname from employ e
+inner join department d
+on e.Deptid = d.Deptid

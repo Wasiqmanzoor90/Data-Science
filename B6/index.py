@@ -667,6 +667,34 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 #   f.write("Hello ok")
 
 
-file = open('athar.txt','x')
-file.write("Hello ji")
-file.close()
+# file = open('athar.txt','x')
+# file.write("Hello ji")
+# file.close()
+
+
+
+#Object oriented programing language is programing concept that make our more cleaner  more reusble and more in format and provide clean code
+#Encapsulation
+#Abstraction
+#inheritence
+#polymorphism
+
+
+#class is a blueprint for creating an object
+#encapsulation means bundling of data
+#abstraction means hiding the complexity of code
+class ils:
+  def greet(self):
+    print("Hello from ils")
+    
+  def bye(self,a,b):
+    print(a+b)
+    print(self)
+    print('bye from ils')
+
+
+i = ils()   #object is a insatnce  of classs
+i.greet()
+i.bye(12,13)
+
+
