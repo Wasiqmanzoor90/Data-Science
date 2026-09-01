@@ -150,10 +150,10 @@
 # print(lt)
 
 
-pt = ['hanan','abdul',12,76,True,'sheikh']
-pt[0] = 'himyun'  #here we update
-pt.append('wasiq')  #here we add value
-pt.insert(1,'rubhhan')  #here we add at certin place
-pt.remove('wasiq')  #here we remove by value
-pt.pop(0)  #here we remove by index
-print(pt)
+# pt = ['hanan','abdul',12,76,True,'sheikh']
+# pt[0] = 'himyun'  #here we update
+# pt.append('wasiq')  #here we add value
+# pt.insert(1,'rubhhan')  #here we add at certin place
+# pt.remove('wasiq')  #here we remove by value
+# pt.pop(0)  #here we remove by index
+# print(pt)

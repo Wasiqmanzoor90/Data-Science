@@ -683,18 +683,46 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 #class is a blueprint for creating an object
 #encapsulation means bundling of data
 #abstraction means hiding the complexity of code
-class ils:
-  def greet(self):
-    print("Hello from ils")
+# class ils:
+#   def greet(self):
+#     print("Hello from ils")
     
-  def bye(self,a,b):
-    print(a+b)
-    print(self)
-    print('bye from ils')
+#   def bye(self,a,b):
+#     print(a+b)
+#     print(self)
+#     print('bye from ils')
 
 
-i = ils()   #object is a insatnce  of classs
-i.greet()
-i.bye(12,13)
+# i = ils()   #object is a insatnce  of classs
+# i.greet()
+# i.bye(12,13)
+
+#polymorphism means same function diffrent beaviour
+# class dog:
+#   def speak(self):
+#     print("bow bow")
+
+# class cat:
+#   def speak(self):
+#     print("Meow Meow")
+    
+# d = dog()
+# c = cat()
+# d.speak()
+# c.speak()
+  
+  
+class Animal:
+  def walk(self):
+    print("Animal is walkimg")
 
 
+
+class dog(Animal):
+  def bark(self):
+    print("Dog barks!")
+    
+    
+d = dog()
+d.bark()
+d.walk()
