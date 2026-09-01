@@ -137,12 +137,23 @@
 # print(d.lower())
 
 
-#list is a collection which holds multiple items into a single variable, it's heterogenous
+#list is a collection which holds multiple items into a single variable, it's ,its ordered, it's indexed, it's mutable(Changable)
 #index  is a numerical location of an iten which is present in list
 
-lt = ['wasiq',12,'Rubhan',56.90,True]
-# print(lt[2])
-# print(lt[0])
-# print(lt[3])
-#slicing is the process  of gettin an item from one partiuclar range to another
-print(lt[1:5])
+# lt = ['wasiq',12,'Rubhan',56.90,True]
+# # # print(lt[2])
+# # # print(lt[0])
+# # # print(lt[3])
+# # #slicing is the process  of gettin an item from one partiuclar range to another
+# # # print(lt[1:5])
+
+# print(lt)
+
+
+pt = ['hanan','abdul',12,76,True,'sheikh']
+pt[0] = 'himyun'  #here we update
+pt.append('wasiq')  #here we add value
+pt.insert(1,'rubhhan')  #here we add at certin place
+pt.remove('wasiq')  #here we remove by value
+pt.pop(0)  #here we remove by index
+print(pt)
