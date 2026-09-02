@@ -712,17 +712,38 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 # c.speak()
   
   
-class Animal:
-  def walk(self):
-    print("Animal is walkimg")
+# class Animal:
+#   def walk(self):
+#     print("Animal is walkimg")
 
 
 
-class dog(Animal):
-  def bark(self):
-    print("Dog barks!")
+# class dog(Animal):
+#   def bark(self):
+#     print("Dog barks!")
     
     
-d = dog()
-d.bark()
-d.walk()
+# d = dog()
+# d.bark()
+# d.walk()
+
+#acess specifier allows us to manage the visibilty and acessibilty of class  atributes
+#in python there no true acess specifier like jave , c++ and c#
+class ils:
+  def __init__(self):
+    print("Hello i am from constructor!")
+    self.__bye()
+  def hello(self):
+    print("Hello from ils")
+    
+  def _ok(self):
+    print("Hello from protected function")
+    
+  def __bye(self):
+    print("This is private function!")
+    
+
+i = ils()
+i.hello()
+i._ok()
+# i.__bye()

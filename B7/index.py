@@ -184,15 +184,15 @@
 
 #dictionary stores multiple items in a single variable through the process of key value pairs, it's ordered
 
-dt ={
-    "name":"wasiq",
-    "Roll-no" : 21,
-    "adress": 'sgr'
-}
+# dt ={
+#     "name":"wasiq",
+#     "Roll-no" : 21,
+#     "adress": 'sgr'
+# }
 
-dt['name'] = 'hanan'
-# print(dt['name'])  #here we update by key
-dt['pin-code'] = 190001  #here we add by key
+# dt['name'] = 'hanan'
+# # print(dt['name'])  #here we update by key
+# dt['pin-code'] = 190001  #here we add by key
 
-del dt['name']  #here we remove by key
-print(dt)
+# del dt['name']  #here we remove by key
+# print(dt)
