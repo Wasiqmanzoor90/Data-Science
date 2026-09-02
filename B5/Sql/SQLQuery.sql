@@ -300,7 +300,7 @@ foreign key(Deptid) references department(Deptid)
 )
 
 insert into department(Deptid,DeptName,DeptLocation)
-values(100,'CS','America'),(101,'Marketing','inida'),(102,'HR','Srg')
+values(103,'Housekeeping','America'),(104,'Machnaics','inida'),(102,'HR','Srg')
 
 select * from department
 
@@ -342,6 +342,24 @@ select * from employ
 --join is a clause that is used to combine rows from two or more table
 
 --inner join retrieves data from two diffrent table based on same column
-select e.empname, e.salary, d.deptname from employ e
-inner join department d
+select e.empname, e.salary, d.deptname from employ e join department d
+on e.Deptid = d.Deptid
+
+
+use mydb1
+select * from employ
+select * from department
+
+--left join means retreive all data from left side of table weathere it met condition or not
+select e.empname , d.deptname from employ e left join department d
+on e.Deptid = d.Deptid
+
+
+--right join means retreive all data from right side of table weathere it met condition or not
+select e.empname , d.deptname from employ e right join department d
+on e.Deptid = d.Deptid
+
+
+--full outer joins eans returning all from both tables
+select e.empname , e.salary, d.deptname from employ e full outer join department d
 on e.Deptid = d.Deptid
