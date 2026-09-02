@@ -157,3 +157,42 @@
 # pt.remove('wasiq')  #here we remove by value
 # pt.pop(0)  #here we remove by index
 # print(pt)
+
+# lt =['wasiq',12,'Rubhan',56.90,True]
+# lt[2]='Mahor' #update by index
+# lt.append('Khan')  #it add by value
+# lt.insert(1,'hanan') #here we by index
+# lt.remove('wasiq')  #here we remove by value
+# lt.pop(3) #here we remove by index
+# print(lt)
+
+
+
+
+
+#Tuple stores multiple item into single variable. it's ordered, it's indexed, it's im mutable(Un chnageble)
+# tp =(21,34,89,'wasiq','ibrahim','khalid')
+# tp[1] = 'hanan'
+# print(tp[3])
+
+#set stores multiple item in single variable, its un-ordered , its un indexed , idoent allow dupliacte value, its sometimes mutable and sometime im mutable
+# ss = {'wasiq','kazin','nazim',12,56,True}
+# ss.add('Mahoor')
+# ss.remove('wasiq')
+# print(ss)
+
+
+#dictionary stores multiple items in a single variable through the process of key value pairs, it's ordered
+
+dt ={
+    "name":"wasiq",
+    "Roll-no" : 21,
+    "adress": 'sgr'
+}
+
+dt['name'] = 'hanan'
+# print(dt['name'])  #here we update by key
+dt['pin-code'] = 190001  #here we add by key
+
+del dt['name']  #here we remove by key
+print(dt)
