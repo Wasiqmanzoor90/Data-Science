@@ -264,3 +264,25 @@
 # b =16
 # a,b = b,a
 # print(a,b)
+
+
+
+
+
+
+
+# name = 'wasiq'
+# name[0] = 'h'
+# print(name)
+
+
+
+#Nested list means list within list
+# lt = [['wasiq',12,True],['khan','umer',False]]
+# lt[0][0] = 'hasik'  #updation
+# lt[0].append('Mahoor')
+# lt[1].insert(1,'Rubhaan')
+# del lt[0][1]
+# # print(lt[1][0])
+# lt[1].pop(2)
+# print(lt)
