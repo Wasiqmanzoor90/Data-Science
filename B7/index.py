@@ -196,3 +196,71 @@
 
 # del dt['name']  #here we remove by key
 # print(dt)
+
+
+
+
+
+
+
+#start , stop, step
+# lt = ['wasiq','umer',12,'rubhan',True,56.90,'khan','Abdullha']
+# print(lt[1:4])
+# print(lt[-2])
+# print(lt[1:])
+# print(lt[:-2])
+# print(lt[:6])
+# print(lt[::2])
+
+# print(lt[1:])
+# print(lt[:-1])
+
+# print(lt[:2])
+# print(lt[::-2])
+# print(lt[0:8:3])
+
+
+
+# a = 10
+# print(type(a))
+
+
+# b = '20'
+# print(type(b))
+
+
+# c = True
+# print(type(c))
+
+# d = 20.89
+# print(type(d))
+
+
+# name = 'wasiq'
+# print(len(name))
+# print(name.capitalize())
+# print(name.upper())
+
+# name ='WASIQ'
+# print(name.lower())
+
+# name ='wasiq'
+# name[0] = 'h'
+# print(name)
+
+# a = 10
+# b = 25
+
+
+# c = a # a is empty c holds value 10
+# a = b  #  a holds 25  and b is empty
+# b = c  #b holds 10
+
+# print(a,b)
+
+
+
+# a = 10
+# b =16
+# a,b = b,a
+# print(a,b)

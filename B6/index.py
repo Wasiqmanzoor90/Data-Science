@@ -729,21 +729,49 @@ lt = ['Arslan','umaid',21,67,90,87.82,11,True,'Abdul','Maryam','Maryam']
 
 #acess specifier allows us to manage the visibilty and acessibilty of class  atributes
 #in python there no true acess specifier like jave , c++ and c#
-class ils:
-  def __init__(self):
-    print("Hello i am from constructor!")
-    self.__bye()
-  def hello(self):
-    print("Hello from ils")
+# class ils:
+#   def __init__(self):
+#     print("Hello i am from constructor!")
+#     self.__bye()
+#   def hello(self):
+#     print("Hello from ils")
     
-  def _ok(self):
-    print("Hello from protected function")
+#   def _ok(self):
+#     print("Hello from protected function")
     
-  def __bye(self):
-    print("This is private function!")
+#   def __bye(self):
+#     print("This is private function!")
     
 
-i = ils()
-i.hello()
-i._ok()
-# i.__bye()
+# i = ils()
+# i.hello()
+# i._ok()
+# # i.__bye()
+
+
+# lt = ['wasiq','umer',12,32,89,True,'khan','maryam','sania','ayaz','ayaat']
+# # print(lt[1:7])
+# # print(lt[6:])
+# # print(lt[-1])
+# # print(lt[:-2])
+
+# # print(lt[0:11:2])
+
+# print(lt[::-2])
+
+# from index1 import add
+# add(10,20)
+
+# try:
+#   a
+# except NameError:
+#   print("this var is not defined")
+
+# try:
+#   name = 'wasi'
+#   name.append()
+#   print(name)
+# except AttributeError:
+#   print("Str dont have append")
+
+# name =int(input("Enter an number"))

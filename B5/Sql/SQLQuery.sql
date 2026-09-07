@@ -363,3 +363,72 @@ on e.Deptid = d.Deptid
 --full outer joins eans returning all from both tables
 select e.empname , e.salary, d.deptname from employ e full outer join department d
 on e.Deptid = d.Deptid
+
+
+
+
+use mydb1
+
+select * from employ
+select * from department
+
+select e.empname, e.salary, d.deptname from employ e
+join department d
+on e.Deptid = d.Deptid
+
+
+--left join retreives all the data from left side of table
+select e.empname, d.deptname from  department d  left join employ e
+on  e.Deptid = d.Deptid
+
+--right joint join retreives all data from right side
+select e.empname , d.deptname from employ e right join department d
+on  e.Deptid = d.Deptid
+
+
+
+select e.empname,d.deptname from employ e full outer join department d
+on  e.Deptid = d.Deptid
+
+
+
+
+use mydb1
+
+--Second highest salary
+select max(salary) from employ
+where salary < (select max(salary) from employ)
+
+
+--salary less than average salary
+select empname, salary from employ
+where salary<(select AVG(salary) from employ)
+
+
+--Highest salary i each department
+select * from employ e
+where salary = (
+select MAX(salary) from employ
+where deptid = e.deptid
+)
+
+
+select * from employ
+where empname = 'emily davis'
+
+
+--employ from same department of emily davis
+
+select * from employ
+where deptid = (
+select deptid from employ
+where empname = 'emily davis'
+)
+
+select deptname from department
+where Deptid = (
+select Deptid from employ
+where empname = 'john doe'
+)
+
+
