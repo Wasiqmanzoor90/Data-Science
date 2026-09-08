@@ -431,4 +431,61 @@ select Deptid from employ
 where empname = 'john doe'
 )
 
+use mydb1
 
+select * from department
+
+--employes working in cs department
+select * from employ
+where deptid = (
+select deptid from department
+where DeptName = 'Cs'
+)
+
+--department having no employ
+select deptname from department
+where deptid not in
+
+(
+select deptid from employ
+)
+select * from employ
+
+--employ having no department
+select empname from employ
+where deptid is null
+
+
+select * from department
+--employes having sgr as dept location
+
+select empname from employ
+where deptid in
+(
+select deptid from department
+where DeptLocation = 'srg'
+)
+
+
+select AVG(age) from employ
+
+
+
+select empname, age from employ
+where age>(
+select AVG(age) from employ
+)
+
+
+select empname , salary, deptid from employ e
+where salary >(
+
+select avg(salary) from employ
+where deptid = e.deptid
+)
+
+--department having more than 3 employ
+select deptid
+from employ
+group by deptid
+having COUNT(*)>3
