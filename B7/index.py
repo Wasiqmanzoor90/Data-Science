@@ -286,3 +286,29 @@
 # # print(lt[1][0])
 # lt[1].pop(2)
 # print(lt)
+
+
+
+
+
+
+lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','inaya',101]  ,['Aabid','Gazala',89] ],   [ [47,90,45], ['Maryam','bhat','aahil']  ]  ]
+
+
+# print(lt[1][0][0])
+# print(lt[0][0][3])
+# print(lt[2][1][0])
+# print(lt[2][0][1])
+# print(lt[1][0][1])
+# print(lt[2][1][1])
+# print(lt[2][0][2])
+# print(lt[1][1][1])
+# print(lt[0][1][0])
+
+lt[1][0].append('Rubhaan')
+del lt[0][1][1]
+lt[0][0].insert(1,'Salik')
+lt[0][0][0] = 'Himyun'
+lt[2][1][0] = 'mary'
+lt[1][1].pop(1)
+print(lt)
