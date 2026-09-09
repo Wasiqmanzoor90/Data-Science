@@ -43,9 +43,9 @@ class varchar(10)
 )
 
 
+select * from student
 
-
-
+drop table student
 use mydb1
 
 /*DDL COMANDS
@@ -76,8 +76,8 @@ delete  -- it delets particular row from table
 
 select * from student
 
-insert into student(roll_no,name,class)
-values(2,'umer','9th'),
+insert into student(roll_no,class,section)
+values(2,'9th','a'),
 (3,'Abdul','11th','c'),
 (4,'umi','9th','B'),
 (5,'rizwan','9th','c')
@@ -86,8 +86,8 @@ values(2,'umer','9th'),
 
 update student
 set name ='wasiq'
-where roll_no = 1
-
+where roll_no = 2
+select * from student
 --here we delete particular row in table
 delete student where name = 'wasiq'
 
@@ -105,7 +105,7 @@ check-- to apply condition
 Foreign key -- establish relationship be tween two table
 */
 
-create table employ
+create table employe
 (
 empid int primary key,
 name varchar(30) not null,
@@ -113,10 +113,10 @@ adress varchar(30) default 'Srinagar'
 )
 
 
-select * from employ
+select * from employe
 
-insert into employ(empid,name,adress)
-values(2,'umer','bgl')
+insert into employe(empid,adress)
+values(3,'bgl')
 
 insert into employ(empid,name,adress)
 values(4,'chen','kel')
@@ -125,10 +125,10 @@ values(4,'chen','kel')
 
 use mydb1
 
-drop table employ
+drop table employe
 
 
-create table employ
+create table employe
 (
 empid int Primary key,
 email varchar(30) unique,
@@ -139,13 +139,16 @@ salary int
 
 )
 
-select * from employ
-insert into employ(empid,email,name,adress,age,salary)
-values(100,'wasiq@gmai','wasiq','sgr',43,100000),
+select * from employe
+insert into employe(empid,email,name,adress,age,salary)
+values
+(105,'musk@gmai','Musk','sgr',43,100),
+(100,'wasiq@gmai','wasiq','sgr',43,100000),
 (101,'maria@gmai','maria','sgr',23,50000),
 (102,'tahir@gmai','tahir','poonch',20,20000),
 (103,'Adil@gmai','Adil','Kupwara',25,150000),
-(104,'muskaan@gmai','Muskaan','sgr',43,10000)
+(104,'muskaan@gmai','Muskaan','sgr',43,10000),
+
 
 
 --clause commond in sql means to filter out data, order data etc its use some comonds that are as under
@@ -489,3 +492,5 @@ select deptid
 from employ
 group by deptid
 having COUNT(*)>3
+
+

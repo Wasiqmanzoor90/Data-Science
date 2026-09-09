@@ -107,9 +107,35 @@
 
 
 #list stores multiple values into a single variable
-#index is numerical adress of an value presented in particular list
-lt = ['wasiq',12,'khan','Ubaid',78.12,11]
-print(lt[5])
-print(lt[2])
-print(lt[1])
-print(lt[3])
+#index is numerical adress of an value presented in particular list, it's ordered, it's indexed , it allow duplicate value, it's mutable(Changeble)
+# lt = ['wasiq',12,'khan','Ubaid',78.12,11]
+# # print(lt[5])
+# # print(lt[2])
+# # print(lt[1])
+# # print(lt[3])
+# lt[1] = 'faizan'
+# lt.append('Gowhar') #here  we add by value
+# lt.insert(2,'Abdul')  #here we add by index
+# lt.remove('wasiq')  #here we remove by value
+# lt.pop(2) #here we remove by index
+# print(lt)
+
+
+
+
+# lt = ['wasiq',12,'khan','Ubaid',78.12,11,'hanan','umer',True]
+# # print(lt[2:9])
+# # print(lt[2:])
+# # print(lt[-2])
+# # print(lt[:6])
+
+# # print(lt[0:9:3])
+
+# print(lt[::-2])
+# print(len(lt))
+
+
+#Tuple stores mutiple item in a single variable, its ordered, it's indexed, it's im mutable(un changeble)
+tp = ('wasiq','hanan','abdul',12,90,'wasiq')
+# tp[1]='arshika'
+print(tp)
