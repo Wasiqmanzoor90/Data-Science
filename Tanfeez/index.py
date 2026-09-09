@@ -773,7 +773,6 @@
 
         
 
-#Method Resolution order means when two class have same attribute or method
 # class A:
 #     def show(self):
 #         print("This is from class A")
@@ -794,18 +793,67 @@
 
 #Multilevel inheritence means base class is derived from anther from base class creating heirarchy
 
-class A:
-    def a_method(self):
-        print("This is from class A")
+# class A:
+#     def a_method(self):
+#         print("This is from class A")
         
-class B(A):
-    def b_method(self):
-        print("This is from class B")
+# class B(A):
+#     def b_method(self):
+#         print("This is from class B")
         
         
-class C(B):
-    pass
+# class C(B):
+#     pass
 
-ob = C()
-ob.a_method()
-ob.b_method()
+# ob = C()
+# ob.a_method()
+# ob.b_method()
+
+
+
+# class A:
+#     def show(self):
+#         print("From class A")
+
+# class B:
+#     def show(self):
+#         super().show()
+#         print("Class B")
+
+# class C(B,A):
+#     pass
+
+# obj = C()
+# obj.show()
+# print(C.__mro__)
+# print(C.mro())
+
+
+
+# class Employe:
+#     def __init__(self,id,name):
+#         self.id = id
+#         self.name = name
+
+# class junior(Employe):
+#     def __init__(self, id, name,email):
+#         super().__init__(id, name)
+#         self.email = email
+        
+
+# obj = junior(1,'wasiq','was@')
+# print(obj.id,obj.name,obj.email)
+
+        
+        
+# class Person:
+#     def __init__(self, name, id):
+#         self.name = name
+#         self.id = id
+
+# class Emp(Person):
+#     def __init__(self, name_, id):
+#         self.name_ = name_   # Forgot to call Person’s __init__
+
+# emp = Emp("Jack", 103)
+# print(emp.name_,emp.id)
