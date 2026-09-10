@@ -811,21 +811,21 @@
 
 
 
-class A:
-    def show(self):
-        print("From class A")
+# class A:
+#     def show(self):
+#         print("From class A")
 
-class B:
-    def show(self):
+# class B:
+#     def show(self):
         
-        print("Class B")
+#         print("Class B")
 
-class C(A,B):
-    pass
+# class C(A,B):
+#     pass
 
-obj = C()
-obj.show()
-print(C.__mro__)
+# obj = C()
+# obj.show()
+# print(C.__mro__)
 # print(C.mro())
 
 
@@ -857,3 +857,5 @@ print(C.__mro__)
 
 # emp = Emp("Jack", 103)
 # print(emp.name_,emp.id)
+
+

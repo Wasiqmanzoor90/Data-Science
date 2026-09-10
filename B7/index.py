@@ -305,10 +305,28 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 # print(lt[1][1][1])
 # print(lt[0][1][0])
 
-lt[1][0].append('Rubhaan')
-del lt[0][1][1]
-lt[0][0].insert(1,'Salik')
-lt[0][0][0] = 'Himyun'
-lt[2][1][0] = 'mary'
-lt[1][1].pop(1)
-print(lt)
+# lt[1][0].append('Rubhaan')
+# del lt[0][1][1]
+# lt[0][0].insert(1,'Salik')
+# lt[0][0][0] = 'Himyun'
+# lt[2][1][0] = 'mary'
+# lt[1][1].pop(1)
+# print(lt)
+
+
+
+
+
+
+dt = {
+    
+    "1":{"Name":"wasiq","Roll_no":21},
+    "2":{"Name":"umer","Roll_no":22}
+}
+
+
+# dt["1"]={"Name":"ubaid","Roll_no":1}
+dt['1']['Name'] = 'Rubhaan'
+dt['3'] = {"Name":"Hanan","Roll_no":2}
+del dt['1']['Name']
+print(dt)

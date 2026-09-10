@@ -158,7 +158,7 @@ values
 --having
 
 
-select * from employ
+select * from employe
 where email = 'maria@gmai'
 
 select * from employ
@@ -167,24 +167,24 @@ where adress = 'sgr'
 
 --And means both of the condition should be true
 --or means one of the condition should be true
-select * from employ
+select * from employe
 where adress ='sgr' and salary >30000
 
 
-select * from employ
+select * from employe
 where name like '%q'
 
-select * from employ
+select * from employe
 where name like 'm%'
 
 --Between means range
-select * from employ
+select * from employe
 where salary between 50000 and 100000
 
 select * from employ
 
 --order by simply means to sort data by default it's asscending
-select * from employ
+select * from employe
 order by salary
 
 select * from employ
@@ -214,21 +214,21 @@ select * from employ
 order by age,name desc
 
 
-select count(*) from employ
+select count(*) from employe
 where adress = 'sgr'
 
-select avg(salary) from employ
+select avg(salary) from employe
 where adress = 'sgr'
 
-select count(*) as ok from employ
+select count(*) as lessthan50 from employe
 where salary <50000 and adress ='sgr'
 
 
 
-select sum(salary) from employ
+select sum(salary) from employe
 where adress = 'sgr'
 
-select *  from employ
+select *  from employe
 where adress ='poonch'
 
 
@@ -248,11 +248,12 @@ WHERE empid = 104
 
 --Group by is a clause that organize  rows with same value into group
 
-select adress , count(*) from employ
+select adress , count(*) from employe
 group by adress
 
+select * from employe
 
-select adress , count(*) as no_employ from employ
+select adress , count(*) as no_employ from employe
 group by adress
 order by no_employ desc
 
@@ -306,6 +307,7 @@ insert into department(Deptid,DeptName,DeptLocation)
 values(103,'Housekeeping','America'),(104,'Machnaics','inida'),(102,'HR','Srg')
 
 select * from department
+select * from employ
 
 
 
@@ -494,3 +496,4 @@ group by deptid
 having COUNT(*)>3
 
 
+use mydb1

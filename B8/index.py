@@ -135,7 +135,41 @@
 # print(len(lt))
 
 
-#Tuple stores mutiple item in a single variable, its ordered, it's indexed, it's im mutable(un changeble)
-tp = ('wasiq','hanan','abdul',12,90,'wasiq')
-# tp[1]='arshika'
-print(tp)
+# #Tuple stores mutiple item in a single variable, its ordered, it's indexed, it's im mutable(un changeble)
+# tp = ('wasiq','hanan','abdul',12,90,'wasiq')
+# # tp[1]='arshika'
+# print(tp)
+
+#set stores multiple item in a single variable,it's unordered, it's un indexed, it does,t allow duplicates, sometimes mutable
+# st={'wasiq',12,90,'ubaid','khan','wasiq'}
+# st.add('Zayeem')
+# st.remove('wasiq')
+# print(st)
+
+
+#Dictionary stores multiple item in a single variable, it stores data in key-value pairs, it's ordered
+
+# dt ={
+#     "name":"wasiq",
+#     "roll-no":21
+# }
+
+# dt["name"] = 'Maddeha' #here we update
+# dt['Adress'] = "Sgr"  #here we add 
+# del dt['name']  #here we delete
+# print(dt)
+
+
+#string is im mutable
+# a = 'wasiq'
+# a [0]= 'h' 
+# print(a)
+
+
+# name  = 'wasiq'
+# print(name.capitalize())
+# print(name.upper())
+
+
+# name = 'WASIQ'
+# print(name.lower())
