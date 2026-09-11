@@ -318,15 +318,38 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 
 
 
-dt = {
+# dt = {
     
-    "1":{"Name":"wasiq","Roll_no":21},
-    "2":{"Name":"umer","Roll_no":22}
+#     "1":{"Name":"wasiq","Roll_no":21},
+#     "2":{"Name":"umer","Roll_no":22}
+# }
+
+
+# # dt["1"]={"Name":"ubaid","Roll_no":1}
+# dt['1']['Name'] = 'Rubhaan'
+# dt['3'] = {"Name":"Hanan","Roll_no":2}
+# del dt['1']['Name']
+# print(dt)
+
+
+
+
+# dt = {
+#     "1":{"name":"wasiq","Roll-no":21,'Adress':'Sgr'},
+#     "2":{"name":"ubaid","Roll-no":22,'Adress':'Sgr'},
+#     "3":{"name":"umer","Roll-no":23,'Adress':'Sgr'}
+    
+# }
+# dt['1']['name'] = 'hazim'
+# dt["4"] = {'name':'Hanan','Roll-no':24,'Adress':'Sgr'}
+# del dt['1']['name']
+# print(dt)
+
+
+
+dt = {
+    "name":'wasiq',
+    "Roll-no":21,
+    "namee":"wasiq"
 }
-
-
-# dt["1"]={"Name":"ubaid","Roll_no":1}
-dt['1']['Name'] = 'Rubhaan'
-dt['3'] = {"Name":"Hanan","Roll_no":2}
-del dt['1']['Name']
 print(dt)
