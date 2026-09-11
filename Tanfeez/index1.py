@@ -29,3 +29,7 @@
 #         print(w, 'Is not Palindrome')
 
 
+
+
+def add(x,y):
+    return x+y

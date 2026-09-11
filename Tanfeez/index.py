@@ -859,3 +859,55 @@
 # print(emp.name_,emp.id)
 
 
+
+
+#Encapsulation, inhertence, Abtraction , Polymorphism
+
+#Class is a blueprint or template for creating an object
+#object is a real thing that is created fom a class
+
+
+# class ils:
+#     def hello(self):
+#         # print(self)
+#         print("Hello from ils")
+    
+#     def Bye(self):
+#         print("Bye from Ils")
+        
+
+
+# i = ils()
+# print()
+
+# i.hello()
+
+
+
+# class Dog:
+#     def speak(self):
+#         print("Bow Bow!")
+        
+# class Cat:
+#     def speak(self):
+#         print("Meow Meow!")
+
+# d = Dog()
+# d.speak()
+# c = Cat()
+# c.speak()
+
+
+
+class Animal:
+    def walk(self):
+        print("All animals walk!")
+        
+class Dog(Animal):
+    def speak(self):
+        print("Bow bow!")
+        
+        
+d = Dog()
+d.speak()
+d.walk()

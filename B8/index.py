@@ -173,3 +173,54 @@
 
 # name = 'WASIQ'
 # print(name.lower())
+
+
+
+
+#set stores multiple item in a single variable, it's not ordered, it's unindexed, it doesnt allow duplicate 
+# st ={'wasiq','abdul','khan',12,45,'khan'}
+# st.add('faizan')
+# st.remove('wasiq')
+# print(st)
+
+
+
+#dictionary stores multiple item in a single variable, in the process key-value pairs, key should not be same
+
+
+# dt ={
+    
+#     "name":'Faizan',
+#     "roll-no":12,
+#     "namee": 'Faizan'
+# }
+# dt['roll-no'] = 22 #here we update
+# dt['Adress'] ='sgr'  #here we add
+# del dt['namee']  #here we delete
+# print(dt)
+
+
+# dt={
+#     "1":{"name":"Faizan","Roll-no":21},
+#     "2":{"name":"Arrob","Roll-no":22},
+#     "3":{"name":"Faheem","Roll-no":23}
+# }
+
+# dt["1"]['name'] = 'wasiq'
+# dt["2"] = {"name":'Aruba','Roll-no':1}
+# del dt["1"]['name']
+# print(dt)
+
+
+lt = [['abdul','khan',23,True],  ['Hanan','kinza',56],   ['Ainan','gazala',False]]
+lt[1][0] = 'inayat'
+lt[0].append('Madeeha')
+lt[1].insert(0,'zayeem')
+del lt[0][1]
+# print(lt[0][1])
+# print(lt[1][1])
+# print(lt[2][1])
+# print(lt[0][3])
+# print(lt[1][2])
+# print(lt[1][0])
+print(lt)

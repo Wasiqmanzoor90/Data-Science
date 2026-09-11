@@ -386,6 +386,16 @@ on e.Deptid = d.Deptid
 select e.empname, d.deptname from  department d  left join employ e
 on  e.Deptid = d.Deptid
 
+
+
+select e.empname , d.deptname from  department d left join employ e 
+on e.Deptid = d.Deptid
+
+
+select e.empname , d.deptname from employ e right join department d
+on e.Deptid = d.Deptid
+
+
 --right joint join retreives all data from right side
 select e.empname , d.deptname from employ e right join department d
 on  e.Deptid = d.Deptid
@@ -395,10 +405,11 @@ on  e.Deptid = d.Deptid
 select e.empname,d.deptname from employ e full outer join department d
 on  e.Deptid = d.Deptid
 
-
-
+select * from employ
 
 use mydb1
+
+select AVG(salary) from employ
 
 --Second highest salary
 select max(salary) from employ
@@ -408,6 +419,7 @@ where salary < (select max(salary) from employ)
 --salary less than average salary
 select empname, salary from employ
 where salary<(select AVG(salary) from employ)
+
 
 
 --Highest salary i each department
@@ -449,12 +461,7 @@ where DeptName = 'Cs'
 
 --department having no employ
 select deptname from department
-where deptid not in
 
-(
-select deptid from employ
-)
-select * from employ
 
 --employ having no department
 select empname from employ
@@ -493,7 +500,7 @@ where deptid = e.deptid
 select deptid
 from employ
 group by deptid
-having COUNT(*)>3
+having COUNT(*)>8
 
 
 use mydb1
