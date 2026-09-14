@@ -504,3 +504,58 @@ having COUNT(*)>8
 
 
 use mydb1
+select * from employ
+select * from department
+
+
+
+--CTE (Common table expression) so basically it's a temporary view of named result that you can defined with
+
+select * from employ
+where salary >50000
+
+
+with highSalary as
+(
+select * from employ
+where salary > 50000
+)
+select * from highSalary
+
+
+with adultage as
+(
+
+select * from employ
+where age>25
+)
+select * from adultage
+
+
+
+
+--view is a temporary table of result stored in db
+create view highestsalary as
+select * from employ
+where salary >50000
+
+
+
+
+create view avg_salary as
+select * from employ
+where salary> (select AVG(salary) from employ)
+
+
+
+select * from highestsalary
+select * from avg_salary
+
+--drop view
+drop view highestsalary
+
+
+--here we update a view 
+alter view avg_salary as
+select * from employ
+where salary > 50000 and age >30

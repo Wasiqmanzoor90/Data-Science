@@ -899,15 +899,87 @@
 
 
 
-class Animal:
-    def walk(self):
-        print("All animals walk!")
+# class Animal:
+#     def walk(self):
+#         print("All animals walk!")
         
-class Dog(Animal):
-    def speak(self):
-        print("Bow bow!")
+# class Dog(Animal):
+#     def speak(self):
+#         print("Bow bow!")
         
         
-d = Dog()
-d.speak()
-d.walk()
+# d = Dog()
+# d.speak()
+# d.walk()
+
+
+#closure function means fuction within a function and it returns inner function
+
+# def add(x):
+#     def add1(y):
+#         return x+y
+#     return add1
+
+
+# res = add(12)
+# print(res(10))
+
+
+# def make_square(x):
+#     def sq(n):
+#         return x**n
+#     return(sq)
+
+
+# n1 = int(input("Enter an number:-"))
+# n2 = int(input("Enter an raise power-"))
+
+# res = make_square(n1)
+# print(res(n2))
+
+
+
+
+#in and is
+
+#in checks if a value exists in a sequence or collection
+# lt = ['wasiq','12',45,True,'khan']
+# print('w' in lt)
+
+
+#is operator is an identity operator used to check if two variable refers to exact same object in memory
+
+
+# a = 257
+# b = 257
+# print(a is b)
+
+
+#shallow copy means when we create a new variable and assign it to an existing variable, both variables will point to the same object in memory. Any changes made to one variable will affect the other variable as well.
+
+
+#deep copy means when we create a new variable and assign it to an existing variable, a new object is created in memory. Any changes made to one variable will not affect the other variable.
+
+# a = [1,2,3,4,5]
+# b = a
+# b.append(6)
+# print(a)
+# print(b)
+
+
+import copy
+# a = [1,2,3,4,5]
+# b = copy.deepcopy(a)
+# b.append(6)
+
+# print(a)
+# print(b)
+
+
+
+a = [1,2,3,4,5]
+b = copy.copy(a)
+b.append(6)
+print(a)
+print(b)
+
