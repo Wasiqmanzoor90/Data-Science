@@ -347,9 +347,44 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 
 
 
-dt = {
-    "name":'wasiq',
-    "Roll-no":21,
-    "namee":"wasiq"
+# dt = {
+#     "name":'wasiq',
+#     "Roll-no":21,
+#     "namee":"wasiq"
+# }
+# print(dt)
+
+
+# lt =[[['wasiq','khan',23],[False,'101',8]], [['Madeeha','91',10],['Gazala','Abdul','imaad']],  [[12,89],[102,True,'Rahil']]]
+# # print(lt[1][0][0])
+# # print(lt[1][1][1])
+# # print(lt[0][1][1])
+# # print(lt[1][1][0])
+# # print(lt[1][0][1])
+# # print(lt[0][1][2])
+
+
+# lt[0][0][0] = 'hanan'
+# lt[0][0].append('Himuyun')
+# lt[0][1].insert(0,'Mahoor')
+# print(lt)
+
+
+
+dt ={
+    1:{"Name":{"fname":"Sheikh" ,"lname":'Wasiq'},"Adress":{"Pincode":190001,"District":'sgr'}},
+    2:{"Name":{"fname":"Malik",'lname':"Rubhan"},"Adress":{"Pincode":190001, "District":"sgr"}},
+    3:{"Name":{"fname":"Mir",'lname':"Madeeha"},"Adress":{"Pincode":190002, "District":"kup"}},
+    4:{"Name":{"fname":"ubaid",'lname':"khan"},"Adress":{"Pincode":192121, "District":"Pulwama"}},
 }
+
+dt[1]['Name']['lname'] = 'Waqas'
+print(dt[1]['Adress']['Pincode'])
+dt[5] = {"Name":{"fname":"Faizan",'lname':"khan"},"Adress":{"Pincode":190000, "District":"Budgam"}}
+
+del dt[1]
+print(dt[1])
 print(dt)
+
+
+
