@@ -371,20 +371,63 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 
 
 
-dt ={
-    1:{"Name":{"fname":"Sheikh" ,"lname":'Wasiq'},"Adress":{"Pincode":190001,"District":'sgr'}},
-    2:{"Name":{"fname":"Malik",'lname':"Rubhan"},"Adress":{"Pincode":190001, "District":"sgr"}},
-    3:{"Name":{"fname":"Mir",'lname':"Madeeha"},"Adress":{"Pincode":190002, "District":"kup"}},
-    4:{"Name":{"fname":"ubaid",'lname':"khan"},"Adress":{"Pincode":192121, "District":"Pulwama"}},
-}
+# dt ={
+#     1:{"Name":{"fname":"Sheikh" ,"lname":'Wasiq'},"Adress":{"Pincode":190001,"District":'sgr'}},
+#     2:{"Name":{"fname":"Malik",'lname':"Rubhan"},"Adress":{"Pincode":190001, "District":"sgr"}},
+#     3:{"Name":{"fname":"Mir",'lname':"Madeeha"},"Adress":{"Pincode":190002, "District":"kup"}},
+#     4:{"Name":{"fname":"ubaid",'lname':"khan"},"Adress":{"Pincode":192121, "District":"Pulwama"}},
+# }
 
-dt[1]['Name']['lname'] = 'Waqas'
-print(dt[1]['Adress']['Pincode'])
-dt[5] = {"Name":{"fname":"Faizan",'lname':"khan"},"Adress":{"Pincode":190000, "District":"Budgam"}}
+# dt[1]['Name']['lname'] = 'Waqas'
+# print(dt[1]['Adress']['Pincode'])
+# dt[5] = {"Name":{"fname":"Faizan",'lname':"khan"},"Adress":{"Pincode":190000, "District":"Budgam"}}
 
-del dt[1]
-print(dt[1])
-print(dt)
+# del dt[1]
+# print(dt[1])
+# print(dt)
 
 
 
+
+#indentation reprsents block of code 
+#type-casting means converting one data type to another
+#input() by defaults gives string value
+# age = int(input("Enter an age:-"))
+
+# if age>18:
+#     print("You are elgible")
+# else:
+#     print("You are not elgible")
+
+
+
+# grade = input("Enter you Grade:-")
+
+# if grade == 'A':
+#     print("Topper ")
+# else:
+#     print("Fail")
+
+
+
+#when we to check multiple conditions we use concept of elif
+# grade = input("Enter your grade:-")
+
+# if grade == 'A':
+#     print("Topper")
+# elif grade == 'B':
+#     print("Good")
+# elif grade == 'C':
+#     print("Average")
+# else:
+#     print("Fail")
+
+
+n = int(input("Enter an number:-"))
+
+if n >0:
+    print("Positive number")
+elif n == 0:
+    print("You entered zero")
+else:
+    print("Negative number")
