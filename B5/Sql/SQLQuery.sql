@@ -559,3 +559,101 @@ drop view highestsalary
 alter view avg_salary as
 select * from employ
 where salary > 50000 and age >30
+
+
+
+
+
+use mydb1
+select * from employ
+select * from department
+
+
+--Common table expression(CTE) is a view that dont get stored in your database
+
+select e.empname, e.salary, d.deptname from employ e
+join department d
+on e.Deptid = d.Deptid
+
+
+with alldet as
+(
+
+select e.empname, e.salary, d.deptname from employ e
+join department d
+on e.Deptid = d.Deptid
+
+)
+select * from alldet
+
+
+
+
+
+
+--View is a virtual that get save in your database it maintain code re usabilty
+
+
+
+create view alldet as
+
+(
+
+select e.empname, e.salary, d.deptname from employ e
+join department d
+on e.Deptid = d.Deptid
+
+
+)
+/*
+A CTE is a temporary, query-scoped result set that exists only during the execution of a single query,
+while a View is a permanent database object stored in the database metadata that can be reused across
+different queries and users until it is explicitly dropped
+*/
+
+
+
+
+select * from alldet
+
+
+alter view alldet as
+
+(
+
+select e.empname, e.age, d.deptlocation from employ e
+join department d
+on e.Deptid = d.Deptid
+
+)
+
+
+drop view alldet
+
+
+
+
+
+
+
+select * from employ
+select * from department
+
+
+select e.empname , d.deptname from employ e
+join department d 
+on e.deptid = d.Deptid
+
+
+
+select e.empname , d.deptname from department d left join  employ e
+on e.Deptid = d.Deptid
+
+
+select e.empname , d.deptname from employ e right join department d
+on e.Deptid = d.Deptid
+
+
+
+select e.empname , d.deptname from employ e full outer join department d
+on e.Deptid = d.Deptid
