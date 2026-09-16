@@ -423,11 +423,98 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 #     print("Fail")
 
 
-n = int(input("Enter an number:-"))
+# n = int(input("Enter an number:-"))
 
-if n >0:
-    print("Positive number")
-elif n == 0:
-    print("You entered zero")
+# if n >0:
+#     print("Positive number")
+# elif n == 0:
+#     print("You entered zero")
+# else:
+#     print("Negative number")
+
+
+# '19'
+# a = int(input("Enter your age:-"))
+# print(a>18)
+
+# age = int(input("Enter your age:-"))
+
+
+# if age>18:
+#     print("You are egible")
+# else:
+#     print("you are not elgible")
+
+
+# grade = input("Enter you grade:-")
+# # if grade == 'A':
+# #     print("Topper")
+# # else:
+# #     print("Fail")
+
+
+# if grade == 'A':
+#     print("Topper")
+# elif grade == 'B':
+#     print("Good")
+# elif grade == 'C':
+#     print("Average")
+# else:
+#     print("Fail")
+
+# '34'
+
+# n = int(input("Enter an number:-"))
+# if n >0:
+#     print("Positive")
+# elif n == 0:
+#     print("You entered zero")
+# else:
+#     print("Negative number")
+
+
+
+# age = float(input("Enter you age:-"))
+# print(age>18)
+
+
+
+
+# n1 = float(input("Enter an ist number:-"))
+# op = input("Enter an operator:-(+,-,/,*,%)")
+# n2 = float(input("Enter an second number:-"))
+
+
+# if op == '+':
+#     print(n1+n2)
+# elif op == '-':
+#     print(n1-n2)
+# elif op == '*':
+#     print(n1*n2)
+# elif op == '/':
+#     print(n1/n2)
+# elif op == '%':
+#     print(n1%n2)
+# else:
+#     print("Invalid operator")
+
+
+# n = int(input("Enter an number:-"))
+# if n % 2 ==0:
+#     print("Even")
+# else:
+    
+#     print("odd number")
+
+usern = input("Enter you username:-")
+passw = input("Enter an password")
+
+if usern =='wasiq':
+    if passw =='1234':
+        print("Login sucessfull")
+    else:
+        print("invalid password")
 else:
-    print("Negative number")
+    print("Invalid username") 
+    
+    
