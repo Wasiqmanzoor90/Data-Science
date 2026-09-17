@@ -248,7 +248,7 @@ WHERE empid = 104
 
 --Group by is a clause that organize  rows with same value into group
 
-select adress , count(*) from employe
+select adress , count(*) from employ
 group by adress
 
 select * from employe
@@ -657,3 +657,26 @@ on e.Deptid = d.Deptid
 
 select e.empname , d.deptname from employ e full outer join department d
 on e.Deptid = d.Deptid
+
+
+use mydb1
+/*The fundamental difference is that GROUP BY collapses your rows to provide a high-level summary,
+while window functions preserve individual rows so you can view granular details alongside aggregated data
+*/
+
+
+
+--it gives here unique rank to each row
+--but based on a rule you give in over
+select *, ROW_NUMBER() over(order by age desc) as rn
+from employ
+
+--rank() gives same rank if values are same
+--but skiping the iteration
+select*, RANK() over(order by salary desc) as rk
+from employ
+
+
+--same value , same rank but skipping of ranks
+select *, DENSE_RANK() over(order by salary desc) as drank
+from employ
