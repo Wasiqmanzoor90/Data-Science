@@ -575,13 +575,19 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 #     print(i)
 
 
-tab = int(input("Enter an number:-"))
+# tab = int(input("Enter an number:-"))
 
-for i in range(1,11):
-    res = tab*i
-    print(tab,'x',i,'=',res)
+# for i in range(1,11):
+#     res = tab*i
+#     print(tab,'x',i,'=',res)
    
 
+a = float(input("Enter an number:-"))
+print(a)
 
+
+#string = 23  int to float 23.0
+#int 23 #float to int 23.56   23
+#float 23.0
 
 
