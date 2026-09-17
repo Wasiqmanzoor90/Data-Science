@@ -506,15 +506,82 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
     
 #     print("odd number")
 
-usern = input("Enter you username:-")
-passw = input("Enter an password")
+# usern = input("Enter you username:-")
+# passw = input("Enter an password")
 
-if usern =='wasiq':
-    if passw =='1234':
-        print("Login sucessfull")
-    else:
-        print("invalid password")
-else:
-    print("Invalid username") 
+# if usern =='wasiq':
+#     if passw =='1234':
+#         print("Login sucessfull")
+#     else:
+#         print("invalid password")
+# else:
+#     print("Invalid username") 
     
     
+
+
+
+
+# age  = int(input("Enter an number:-"))
+# if age>18:
+#     print("You are elgible")
+
+
+#23.56 float
+#23 int 
+
+#int ---float 
+#float ---int 23.56--
+
+
+# a = float(input("Entera number:-"))
+# print(a)
+
+
+
+#And means both the condition should be true
+#or means one of the conitions should be true
+# b_age = int(input("Enter your age:-"))
+# g_age = int(input("Enter you age"))
+
+
+# if b_age>21 or g_age>18:
+#     print("You are welcome")
+# else:
+#     print("You are not allowed")
+
+
+# print("My nam e is wasiq")
+# print("My nam e is wasiq")
+# print("My nam e is wasiq")
+# print("My nam e is wasiq")
+# print("My nam e is wasiq")
+
+
+#Loop is a program that runs multiple time until met specific condition
+#i is a temporary variable 
+#i have a default value 0
+
+#i = 0
+#i=i+1
+#i=i+1
+#i=i+1
+# for i in range(10):
+#     print("My name is wasiq")#0 1 ,2 ,3,.......,9
+    
+    
+    
+# for i in range(1,20,2):
+#     print(i)
+
+
+tab = int(input("Enter an number:-"))
+
+for i in range(1,11):
+    res = tab*i
+    print(tab,'x',i,'=',res)
+   
+
+
+
+
