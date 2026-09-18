@@ -582,8 +582,8 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 #     print(tab,'x',i,'=',res)
    
 
-a = float(input("Enter an number:-"))
-print(a)
+# a = float(input("Enter an number:-"))
+# print(a)
 
 
 #string = 23  int to float 23.0
@@ -591,3 +591,89 @@ print(a)
 #float 23.0
 
 
+#break stops the current number iteration
+# for i in range(10):
+#     if i == 5:
+#         break
+#     print(i)
+    
+    
+#continue skips curent number of iteration
+
+# for i in range(10):
+#     if i == 6:
+#         continue
+#     print(i)
+    
+
+
+# lt = ['wasiq','abdul',121,34,True,420]
+
+
+
+# for i in lt:
+#     if i == 121:
+#         break
+#     print(i)
+
+
+
+# dt = {
+#     "name":'wasiq',
+#     "roll-no":21,
+#     "pincode":190001
+# }
+
+
+# for key,value in dt.items():
+#     print(key,':-',value)
+
+
+
+
+
+# lt =[12,45,90,34,91,54,8,2,101,30]
+
+# x = int(input("Enter an number"))
+# flag = 0
+# for num in lt:
+#     if num == x:
+#         flag = 1
+        
+# if flag == 0:
+#     print(x,'is not in list')
+# else:
+#     print(x,'is in list')
+
+
+#11
+# 2,4,5,6,7,8,9,10
+
+
+    
+#prime 11   1 and 11
+
+
+
+#7
+#6
+n = int(input("Enter an number:-"))
+
+if n <=1:
+    print("Not Prime")
+else:
+    #2 to 6
+    #2to 5
+    for i in range(2,n):
+        #7%2 ==0
+        #7%3==0
+        #7%4 ==0
+        #7%5 ==0
+        #7%6 ==0
+        #6%2 ==0
+        if n%i==0:
+            print("Not Prime")
+            break
+    else:
+        print("Prime number")
+            
