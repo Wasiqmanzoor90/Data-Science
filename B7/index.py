@@ -677,3 +677,4 @@ else:
     else:
         print("Prime number")
             
+            
