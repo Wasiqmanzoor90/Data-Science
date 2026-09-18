@@ -680,3 +680,35 @@ from employ
 --same value , same rank but skipping of ranks
 select *, DENSE_RANK() over(order by salary desc) as drank
 from employ
+
+
+use mydb1
+--partition simply split the data into seprate groups , then do calculation inside each group
+select empid, empname, deptid, salary,
+ROW_NUMBER() over(partition by deptid order by salary desc) as rowNum,
+rank() over(partition by deptid order by salary desc) as rankN,
+DENSE_RANK()over(partition by deptid order by salary desc) as dr
+from employ
+
+--here we got total salary colun and average salary without ignoring any row
+select empid, empname, deptid , salary,
+sum(salary) over(partition by deptid) as totalsalary,
+AVG(salary) over(partition by deptid) as averagesal
+from employ
+
+
+
+
+--lag shows previous value, lead shows next value(based on order)
+--lead forwar
+select empid, empname, deptid, salary,
+lead(salary,1) over(partition by deptid order by salary) as forwardsal
+from employ
+
+
+--lag backward
+select empid, empname, deptid, salary,
+lag(salary,1) over(partition by deptid order by salary) as forwardsal
+from employ
+
+
