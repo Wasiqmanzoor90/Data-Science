@@ -708,7 +708,45 @@ from employ
 
 --lag backward
 select empid, empname, deptid, salary,
-lag(salary,1) over(partition by deptid order by salary) as forwardsal
+lag(salary,1) over(partition by deptid order by salary) as previoussal
 from employ
+
+
+
+
+--Rank employees inside each department
+select e.empname, e.salary , d.deptname, 
+ROW_NUMBER() over(partition by d.deptname order by salary desc) as rankinDept
+from employ e join department d
+on e.Deptid = d.Deptid
+
+
+select e.empname, e.salary, d.deptname,
+RANK() over(partition by d.deptname order by salary desc) as RankInDept
+from employ e  join department d
+on e.Deptid = d.Deptid
+
+select e.empname, e.salary, d.deptname,
+DENSE_RANK() over(partition by d.deptname order by salary desc) as RankInDept
+from employ e  join department d
+on e.Deptid = d.Deptid
+
+
+select e.empname ,e.age, d.deptname , e.salary,
+sum(e.salary) over (partition by d.deptname order by salary desc) as DeptTotalSalary
+from employ e join department d
+on e.Deptid = d.Deptid
+
+
+select e.empname ,e.age, d.deptname , e.salary,
+avg(e.salary) over (partition by d.deptname order by salary desc) as DeptTotalSalary
+from employ e join department d
+on e.Deptid = d.Deptid
+
+
+
+
+use mydb1
+
 
 
