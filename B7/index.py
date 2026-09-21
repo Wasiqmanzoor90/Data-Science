@@ -655,26 +655,137 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 
 
 
-#7
-#6
-n = int(input("Enter an number:-"))
+# #7
+# #6
+# n = int(input("Enter an number:-"))
 
-if n <=1:
-    print("Not Prime")
-else:
-    #2 to 6
-    #2to 5
-    for i in range(2,n):
-        #7%2 ==0
-        #7%3==0
-        #7%4 ==0
-        #7%5 ==0
-        #7%6 ==0
-        #6%2 ==0
-        if n%i==0:
-            print("Not Prime")
-            break
-    else:
-        print("Prime number")
+# if n <=1:
+#     print("Not Prime")
+# else:
+#     #2 to 6
+#     #2to 5
+#     for i in range(2,n):
+#         #7%2 ==0
+#         #7%3==0
+#         #7%4 ==0
+#         #7%5 ==0
+#         #7%6 ==0
+#         #6%2 ==0
+#         if n%i==0:
+#             print("Not Prime")
+#             break
+#     else:
+#         print("Prime number")
             
             
+
+
+# #hello
+# #mom
+# word = input("Enter an word:-")
+# rev =''
+
+
+# for ch in word:
+#     #'' = h + ''
+#     #h = e + h
+#     #eh= l + eh = leh
+#     #leh = l+leh =lleh
+#     #lleh = o + lleh = olleh
+    
+    
+#     #'' = m+'' = m
+#     #m = o +m = om
+#     #om = m +om = mom
+#     rev = ch+rev
+    
+# if rev == word:
+#     print('Palindrome')
+# else:
+#     print("Not Palindrome")
+
+
+
+
+
+# n = input("Enter an word:-")
+# word = n[::-1]
+
+# if n == word:
+#     print("Palindrome")
+# else:
+#     print("Not Palindrome")
+
+
+# n =5
+# for i in range(n, 0,-1):
+#     print('*'*i)
+
+
+
+# for i in range(5):
+#     for j in range(3):
+#         print(j)
+
+
+# for i in range(5):
+#     print()
+#     for j in range(3):
+#         print("Hello")
+
+
+#Exception handling in Python is a mechanism used to manage runtime errors gracefully, preventing your program from crashing abruptly
+
+# try:
+#     a = 10
+#     b =0
+#     print(a/b)
+# except ZeroDivisionError:
+#     print("Cant divide by zero")
+
+
+# try:
+#     a = 'wasiq'
+#     a.append('a')
+#     print(a)
+# except AttributeError:
+#     print("string doesn't have this feature")
+
+# try:
+#     age = 13
+#     if age>18:
+#     print("You are elgible")
+#     else:
+#      print("You are not")
+# except IndentationError:
+#     print("Indentation is wrong")
+
+# try:
+#     lt =['wasiq',12]
+#     print(lt[4])
+# except IndexError:
+#     print("There is noe specific index")
+
+# try:
+#     a = 'wasiq'
+#     b = 10
+#     print(a+b)
+# except TypeError:
+#     print("cant add string and integer")
+    
+# try:   
+#     a = int(input("Enter an number"))
+#     print(a)
+# except ValueError:
+#     print("cant convert word to numerical value")
+
+# try:
+#     a ='wasiq'
+#     print(a)
+# except SyntaxError:
+#     print("ok")
+
+# try:
+#     print(a)
+# except NameError:
+#     print("This thing doesnt exist")
