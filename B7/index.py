@@ -682,28 +682,32 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 
 # #hello
 # #mom
-# word = input("Enter an word:-")
-# rev =''
+
+while True:
+    word = input("Enter an word:-")
+    rev =''
 
 
-# for ch in word:
-#     #'' = h + ''
-#     #h = e + h
-#     #eh= l + eh = leh
-#     #leh = l+leh =lleh
-#     #lleh = o + lleh = olleh
-    
-    
-#     #'' = m+'' = m
-#     #m = o +m = om
-#     #om = m +om = mom
-#     rev = ch+rev
-    
-# if rev == word:
-#     print('Palindrome')
-# else:
-#     print("Not Palindrome")
-
+    for ch in word:
+        #'' = h + ''
+        #h = e + h
+        #eh= l + eh = leh
+        #leh = l+leh =lleh
+        #lleh = o + lleh = olleh
+        
+        
+        #'' = m+'' = m
+        #m = o +m = om
+        #om = m +om = mom
+        rev = ch+rev
+        
+    if rev == word:
+        print('Palindrome')
+    else:
+        print("Not Palindrome")
+    choice = input("Enter yes to repeat:-")
+    if choice != 'yes':
+        break
 
 
 
@@ -789,3 +793,39 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 #     print(a)
 # except NameError:
 #     print("This thing doesnt exist")
+
+
+
+
+
+# for i in range(10)
+
+#in while loop we don't know the current number of iterations on the other hand in for loop
+# we know the current number of iterations already
+# i = 0
+# while i <30:
+#     i = int(input("Enter an number:-"))
+#     print(i)
+
+
+
+
+# while True:
+#     n = int(input("Enter an number:-"))
+#     if n % 2==0:
+#         print("Even number")
+#     else:
+#         print("Odd number")
+#     ch = input("Enter(yes/no) to repeat:-")
+#     if ch != 'yes':
+#         break
+
+
+
+
+
+
+
+
+
+
