@@ -683,31 +683,31 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 # #hello
 # #mom
 
-while True:
-    word = input("Enter an word:-")
-    rev =''
+# while True:
+#     word = input("Enter an word:-")
+#     rev =''
 
 
-    for ch in word:
-        #'' = h + ''
-        #h = e + h
-        #eh= l + eh = leh
-        #leh = l+leh =lleh
-        #lleh = o + lleh = olleh
+#     for ch in word:
+#         #'' = h + ''
+#         #h = e + h
+#         #eh= l + eh = leh
+#         #leh = l+leh =lleh
+#         #lleh = o + lleh = olleh
         
         
-        #'' = m+'' = m
-        #m = o +m = om
-        #om = m +om = mom
-        rev = ch+rev
+#         #'' = m+'' = m
+#         #m = o +m = om
+#         #om = m +om = mom
+#         rev = ch+rev
         
-    if rev == word:
-        print('Palindrome')
-    else:
-        print("Not Palindrome")
-    choice = input("Enter yes to repeat:-")
-    if choice != 'yes':
-        break
+#     if rev == word:
+#         print('Palindrome')
+#     else:
+#         print("Not Palindrome")
+#     choice = input("Enter yes to repeat:-")
+#     if choice != 'yes':
+#         break
 
 
 
@@ -823,9 +823,41 @@ while True:
 
 
 
+#funtion is a block of code which is used to perform a specific task, it can be called multiple times in a program
+#argument pass means passing a value from function where it called to real function
+# def add(x,y):
+#     print(x+y)
+
+
+
+# a = int(input("Enter an number:-"))
+# b=int(input("Enter an number:-"))
+# add(a,b)
 
 
 
 
+# def sq(x):
+#     print(x*x)
+    
+# sq(3)
+
+
+
+# def sub(a,b):
+#     return a-b
+
+# s = sub(10,2)
+# print(s)
+
+
+
+
+
+# def work():
+#     for i in range(10):
+#         print(i)
+
+# work()
 
 
