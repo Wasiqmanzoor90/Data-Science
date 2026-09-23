@@ -750,3 +750,97 @@ use mydb1
 
 
 
+--stored procedure
+--A stored procedure is a prepared piece of SQL code that you save in your database so that you can reuse it over and over again
+
+create procedure getemploybyid
+@id int
+as
+begin
+select * from employ
+where empid = @id
+end
+
+getemploybyid @id =2
+
+
+
+
+create procedure getemploybyname
+
+@name varchar(20)
+as
+begin
+select * from employ
+where empname = @name
+end
+
+
+
+getemploybyname @name='John Doe'
+
+
+
+
+
+
+
+create procedure deleteemploy
+@id int
+as
+begin
+delete  employ
+where empid = @id
+end
+
+
+
+select * from employ
+
+deleteemploy @id= 1
+
+
+
+
+
+create procedure updateemploy
+@id int,
+@salary int,
+@age int
+
+as
+begin
+update employ
+set salary = @salary, age = @age
+where empid = @id
+end
+
+select * from employ
+
+--here we are updating the existing procedure saved in DB
+alter procedure updateemploy
+@id int,
+@salary int
+as
+begin
+ 
+ update employ
+set salary = @salary
+where empid = @id
+
+end
+
+
+--drop the procedure
+drop procedure updateemploy
+
+updateemploy @id=21,@salary = 1000
+
+
+
+
+
+
+
+
+
