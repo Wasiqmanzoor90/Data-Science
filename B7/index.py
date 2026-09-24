@@ -861,3 +861,60 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 # work()
 
 
+# def add(x,y):
+#     return x+y
+
+# add(10,12)
+
+
+#Lambda function is anomnys function and basically used for smaller tasks!
+# a = lambda x,y: x+y
+
+# print(a(12,4))
+
+
+# sq = lambda x: x*x
+
+# n =int(input("Enter an number:-"))
+# print(sq(n))
+
+
+# pos = lambda x: 'Negative' if x<0 else 'Positive'
+
+
+# n =int(input("Enter an number:-"))
+# print(pos(n))
+
+
+# evenodd = lambda x: 'even' if x%2==0 else 'odd'
+
+# print(evenodd(4))
+
+
+
+# lt = ['12','45','67','89','101']
+# tp = list(map(int,lt)) 
+# print(tp)
+
+
+
+# names =['BOB','ALICE','KEVIN','ABDUL','KHAN']
+
+# n = list(map(str.lower,names))
+# print(n)
+
+
+# num = [2,4,6,8,10,12]
+# sq = list(map(lambda x: x*x,num))
+# print(sq)
+
+
+
+# num = [-21,-56,34,67,-89,67-11,-1]
+# neg = list(filter(lambda x: x<0,num))
+# print(neg)
+
+
+# num = [2,3,4,5,6,7,8,9,10]
+# n = list(filter(lambda x: x%2==0,num))
+# print(n)
