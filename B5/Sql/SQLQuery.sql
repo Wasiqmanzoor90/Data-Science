@@ -837,10 +837,80 @@ drop procedure updateemploy
 updateemploy @id=21,@salary = 1000
 
 
+use mydb1
+
+
+
+
+--Triggers
+--Triggers is a database object that automatically get executed in response
+--it deals with
+--insert
+--update
+--delete
 
 
 
 
 
+
+create trigger trg_delete
+on employ
+after delete
+as
+begin
+print('You deleted arow sucessfuly')
+end
+
+
+delete employ
+where empid = 2
+
+
+create trigger insert_trg
+on employ
+after insert
+as begin
+print('Your data inserted sucessfully')
+end
+
+
+
+insert into employ(empid,empname,salary,age,Deptid)
+values(23,'Tahir',12000,23,100)
+select * from employ
+
+
+
+
+
+create trigger upd_trg
+on employ
+after update
+as begin
+Print('Your data updated sucessfully')
+end
+
+
+
+
+update employ
+set empname ='Tony'
+where empid = 3
+
+
+
+--here we altered the trigger
+alter trigger trg_delete
+on employ
+after delete
+as begin
+print('You deleted a row sucessfully')
+end
+
+
+
+--here we deleted a triggeer
+drop trigger trg_delete
 
 
