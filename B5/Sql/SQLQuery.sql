@@ -277,7 +277,7 @@ group by adress
 --sub query means query within query
 
 select max(salary) from employ
-
+--10000>seconf>yhis
 --second largest salary
 select max(salary) from employ 
 where salary <(select max(salary) from employ)
@@ -914,3 +914,6 @@ end
 drop trigger trg_delete
 
 
+use mydb1
+
+select * from titanic

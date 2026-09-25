@@ -918,3 +918,66 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 # num = [2,3,4,5,6,7,8,9,10]
 # n = list(filter(lambda x: x%2==0,num))
 # print(n)
+
+
+
+# def add(x,y):
+#     return x+y
+
+
+# print(add(10,12))
+
+
+# add = lambda x,y: x+y
+
+# print(add(10,12))
+
+
+
+# sq = lambda x: x*x
+
+
+# n = int(input("Enter an number:-"))
+# print(sq(n))
+
+
+# evenodd =lambda x: 'even' if x%2==0 else 'odd'
+
+
+# x = int(input("Enter an number:-"))
+# print(evenodd(x))
+
+
+
+# num = [12,34,12,89,10,11,89]
+# uq = list(set(num))
+# print(uq)
+
+
+
+# num = [12,34,12,89,10,11,9]
+# num.sort(reverse=True)
+# print(num[-1])
+
+
+
+# a = 10
+# b =20
+
+# a,b = b,a
+# # c = a
+# # a = b
+# # b =c
+# print(a)
+# print(b)
+
+
+
+# fruits = ['Mango','kiwi','pineapple','banana','Custardapple']
+# f = list(filter(lambda x: len(x)>6,fruits))
+# print(f)
+
+
+lt = [34,5,76,89,28,27,64]
+o = list(filter(lambda x:x%3==0,lt))
+print(o)
