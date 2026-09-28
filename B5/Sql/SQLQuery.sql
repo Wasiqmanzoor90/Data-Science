@@ -917,3 +917,57 @@ drop trigger trg_delete
 use mydb1
 
 select * from titanic
+
+
+
+use mydb1
+
+
+--transation is the comond that is used to manage changes in database  it used with dml comands
+--commit is used to save data permanently in database
+--rollback is a command that restores the databse to last commit state 
+
+--ACID--
+
+/*
+A --Atomicity:- All or nothing
+C --Consitency:- valid stae maintence
+I --isolation -- Transaction do not effect each othere
+D--Durabilty ---permanent chages after comitment
+*/
+
+
+create table acount
+(
+accntid int,
+holdername varchar(30),
+bal int
+)
+
+insert into acount  values(1,'wasiq',10000), (2,'Maryam',5000)
+
+select * from acount
+
+
+begin transaction
+begin try
+
+update acount set bal= bal-1200 where accntid =0
+--
+--
+--
+--
+update acount set bal = bal+1200 where accntid = 3
+commit
+end try
+begin catch 
+rollback
+end catch
+
+
+
+
+
+
+
+
