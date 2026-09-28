@@ -978,6 +978,6 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 # print(f)
 
 
-lt = [34,5,76,89,28,27,64]
-o = list(filter(lambda x:x%3==0,lt))
-print(o)
+# lt = [34,5,76,89,28,27,64]
+# o = list(filter(lambda x:x%3==0,lt))
+# print(o)
