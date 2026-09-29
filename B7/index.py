@@ -981,3 +981,45 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 # lt = [34,5,76,89,28,27,64]
 # o = list(filter(lambda x:x%3==0,lt))
 # print(o)
+
+
+#object oriented programing language which is also knwn as OOPS Is way to write your code in more mannered, resusable, clean and in organized way
+#it defines how you write your code
+
+#OOPS have four basic pillars
+#Encpasulation
+#polymorphism
+#inheritence
+#Abstarction
+
+
+# we can acheive oops with the hel classes and objects!
+
+
+
+#class is a blue print or template for creating an object
+class Ils:
+    def python(self):
+        print("This is python class")
+    
+    def java(self):
+        print(self)
+        print("This is java class")
+    
+    def exl():
+        print("This is excel class")
+        
+        
+i = Ils()
+
+
+#object is a instance of a class, or we can say it's a real part that get created from class
+
+# Encapsulation in Python is an object-oriented programming (OOP) concept that binds data (attributes) and the methods (functions) that manipulate that data into a single unit—a class.
+
+
+# Abstraction in Python is the core Object-Oriented Programming (OOP) concept of hiding complex implementation details from the user and exposing only the essential features.
+i.python()
+i.java()
+
+print()
