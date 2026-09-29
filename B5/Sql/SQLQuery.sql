@@ -965,6 +965,53 @@ rollback
 end catch
 
 
+use mydb1
+
+--index is a powerfull peformence structred created on databse tbale to speed up data retrival and reduce query response time
+--clusterd
+
+
+--clustered index 
+--insted of reading a full book(table) you directly jump to the page(data)
+
+
+--non clustered
+
+
+select * from employ
+
+
+exec sp_helpindex 'employ'
+
+create Nonclustered  index idx_name
+on employ(empname)
+
+drop index idx_name on employ
+
+
+
+
+create table student
+(
+std_id int primary key,
+name varchar(30),
+created_at datetime,
+utc datetime,
+ts datetime
+)
+
+
+insert into student(std_id, name, created_at,utc,ts)
+values(1,'Ayaan',GETDATE(), GETUTCDATE(),CURRENT_TIMESTAMP)
+
+
+
+
+select * from student
+
+
+
+
 
 
 
