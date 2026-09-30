@@ -997,29 +997,118 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 
 
 
-#class is a blue print or template for creating an object
-class Ils:
-    def python(self):
-        print("This is python class")
+# #class is a blue print or template for creating an object
+# class Ils:
+#     def python(self):
+#         print("This is python class")
     
-    def java(self):
-        print(self)
-        print("This is java class")
+#     def java(self):
+#         print(self)
+#         print("This is java class")
     
-    def exl():
-        print("This is excel class")
+#     def exl():
+#         print("This is excel class")
         
         
-i = Ils()
+# i = Ils()
 
 
-#object is a instance of a class, or we can say it's a real part that get created from class
+# #object is a instance of a class, or we can say it's a real part that get created from class
 
-# Encapsulation in Python is an object-oriented programming (OOP) concept that binds data (attributes) and the methods (functions) that manipulate that data into a single unit—a class.
+# # Encapsulation in Python is an object-oriented programming (OOP) concept that binds data (attributes) and the methods (functions) that manipulate that data into a single unit—a class.
 
 
-# Abstraction in Python is the core Object-Oriented Programming (OOP) concept of hiding complex implementation details from the user and exposing only the essential features.
-i.python()
-i.java()
+# # Abstraction in Python is the core Object-Oriented Programming (OOP) concept of hiding complex implementation details from the user and exposing only the essential features.
+# i.python()
+# i.java()
 
-print()
+# print()
+
+
+
+
+# class ils:
+#     def education(self):
+#         print("This is ils srinagar")
+
+
+
+
+# class il2(ils):
+#     def institute(self):
+#         print("This is ils budgam")
+
+
+
+# i = il2()
+# i.institute()
+# i.education()
+
+# Inheritance is a core concept in Object-Oriented Programming (OOP) that allows a child class (subclass) to adopt attributes and methods from a parent class (base class). 
+
+# class A:
+#     def Apple(self):
+#         print("This is from a class")
+        
+
+
+# class B(A):
+#     def Mango(self):
+#         print("This is from B class")
+        
+        
+# b1 = B()
+# b1.Apple()
+# b1.Mango()
+
+
+
+
+
+# Multiple inheritance in Python occurs when a child class inherits attributes and methods from more than one parent class.
+
+
+# class A:
+#     def aa(self):
+#         print("This is from class A")
+
+
+# class B:
+#     def bb(self):
+#         print("This is from class B")
+        
+
+
+# class C(A,B):
+#     pass
+
+
+# c = C()
+# c.aa()
+# c.bb()
+
+
+
+# Multilevel inheritance in Python is an object-oriented programming feature where a derived (child) class inherits from another derived class, forming a sequential "grandparent-parent-child" chain.
+
+
+
+class A:
+    def aa(self):
+        print("This is from class A")
+
+
+class B(A):
+    def bb (self):
+        print("This is from class B")
+        
+        
+class C(B):
+    def cc(self):
+        print("This is from class c")
+        
+        
+c = C()
+c.aa()
+c.bb()
+c.cc()
