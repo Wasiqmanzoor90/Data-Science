@@ -1018,3 +1018,50 @@ select * from student
 
 
 
+
+
+
+use mydb1
+
+
+select * from employ
+
+select Deptid , count(*) from employ
+group by Deptid
+
+
+
+select salary, count(*) from employ
+group by salary
+
+
+
+
+
+
+
+
+
+select * from employ
+select * from department
+
+
+
+select e.empname, d.deptname from employ e join department d
+on e.Deptid = d.Deptid
+
+
+
+
+select e.empname, d.deptname from  department d left join  employ e
+on e.Deptid = d.Deptid
+
+
+
+select e.empname, d.deptname from employ e right join department d
+on e.Deptid = d.Deptid
+
+
+
+select e.empname, d.deptname from employ e full outer join department d
+on e.Deptid = d.Deptid

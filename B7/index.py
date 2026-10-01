@@ -1093,22 +1093,87 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 
 
 
-class A:
-    def aa(self):
-        print("This is from class A")
+# class A:
+#     def aa(self):
+#         print("This is from class A")
 
 
-class B(A):
-    def bb (self):
-        print("This is from class B")
+# class B(A):
+#     def bb (self):
+#         print("This is from class B")
         
         
-class C(B):
-    def cc(self):
-        print("This is from class c")
+# class C(B):
+#     def cc(self):
+#         print("This is from class c")
         
         
-c = C()
-c.aa()
-c.bb()
-c.cc()
+# c = C()
+# c.aa()
+# c.bb()
+# c.cc()
+
+
+
+
+# Polymorphism in Python refers to the ability of a single function, method, or operator to behave differently depending on the class or data type of the object it is interacting with. 
+
+
+
+# class dog:
+#     def speak(self):
+#         print("Bow Bow!")
+        
+# class cat:
+#     def speak(self):
+#         print("Meow Meow")
+        
+# c = cat()
+# d = dog()
+# c.speak()
+# d.speak()
+
+
+# Method overriding in Python occurs when a child class (subclass) provides a specific implementation of a method that is already defined in its parent class (superclass)
+
+
+# In Python, the super() function is a built-in tool used to call methods from a parent (or sibling) class inside a child class.
+
+# class ils:
+#     def institute(self):
+#         print("This is ils sgr")
+        
+
+
+
+# class techbox(ils):
+#     def institute(self):
+#         super().institute()
+#         print("This is the branch of ils")
+        
+        
+    
+# t = techbox()
+# t.institute()
+
+
+# In Python, access modifiers are implemented using naming conventions rather than strict language enforcement or keywords. Python provides three types of access visibility to support encapsulation: Public, Protected, and Private.
+
+class ils:
+    
+    def __init__(self):
+        print('This is from constructor')
+        self.__fee()
+    def hello(self):
+        print("This is from public")
+    
+    def _bye(self):
+        print("This is from protected")
+    
+    def __fee(self):
+        print("This is private class")
+        
+i =ils()
+i.hello()
+i._bye()
+# i.__fee()
