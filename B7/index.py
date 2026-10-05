@@ -1159,21 +1159,135 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 
 # In Python, access modifiers are implemented using naming conventions rather than strict language enforcement or keywords. Python provides three types of access visibility to support encapsulation: Public, Protected, and Private.
 
-class ils:
+# class ils:
     
-    def __init__(self):
-        print('This is from constructor')
-        self.__fee()
-    def hello(self):
-        print("This is from public")
+#     def __init__(self):
+#         print('This is from constructor')
+#         self.__fee()
+#     def hello(self):
+#         print("This is from public")
     
-    def _bye(self):
-        print("This is from protected")
+#     def _bye(self):
+#         print("This is from protected")
     
-    def __fee(self):
-        print("This is private class")
+#     def __fee(self):
+#         print("This is private class")
         
-i =ils()
-i.hello()
-i._bye()
-# i.__fee()
+# i =ils()
+# i.hello()
+# i._bye()
+# # i.__fee()
+
+
+
+
+
+
+
+
+# class A:
+#     def ok (self):
+#         print("This is from class A")
+        
+
+
+
+# class B:
+#     def ok (self):
+#         print("This is from class B")
+        
+        
+# class C(A,B):
+#     pass
+
+
+# c  = C()
+
+# c.ok()
+# print(C.mro())
+
+
+
+
+# a = 357
+# b = 357
+# print(a is b)
+
+
+# a = 'wasiq is a good boy'
+# b = 'wasiq is a good boy'
+# print(a is b)
+
+
+
+# a = [1,2,3,4]
+# b =[1,2,3,4]
+# print(a == b)
+
+
+
+# a = (1,2,3,4)
+# b =(1,2,3,4)
+# print(a is b)
+
+
+# a = [1,2,3,4]
+# print(1 in a)
+
+
+
+
+#file handling is a process of reading and writing data into a file, it is used to store data permanently into a file
+
+#file handling modes
+# r - read mode
+# w - write mode
+# a - append mode
+# x - create mode
+
+
+
+# f = open('file.txt','w')
+# f.write("Hello World")
+# f.close()
+
+
+# f = open('file.txt','r')
+# dt = f.read()
+# print(dt)
+
+
+# f = open('file.txt','a')
+# f.write(' im from file handling')
+# f.close()
+
+
+
+# f = open('file.txt','w')
+# f.write(' and my name is wasiq')
+# f.close()
+
+# f = open('file.txt','r')
+# dt = f.read()
+# print(dt)
+
+
+
+# f = open('file.txt','x')
+# f.write('Hello bayi')
+# f.close()
+
+
+# f = open(r'C:\Users\Dell\Desktop\file.txt','w')
+# f.write("Hello world")
+# f.close()
+
+
+# f = open(r"C:\Users\Dell\Downloads\react.txt",'r')
+# dt = f.read()
+# print(dt)
+
+
+# with open(r"C:\Users\Dell\Downloads\react.txt",'r') as f:
+#     data = f.read()
+#     print(data)
