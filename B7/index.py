@@ -1291,3 +1291,22 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 # with open(r"C:\Users\Dell\Downloads\react.txt",'r') as f:
 #     data = f.read()
 #     print(data)
+
+
+
+
+# from index2 import add
+# print(add(12,10))
+
+# a = 12
+# b =20
+# print(a+b)
+
+
+a = 10
+b =12
+
+a.__sub__(b)
+# a+b
+c =a.__add__(b)
+print(c)
