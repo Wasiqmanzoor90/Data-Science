@@ -1,0 +1,36 @@
+,PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+7,8,0,3,"Palsson, Master. Gosta Leonard",male,2.0,3,1,349909,21.075,,S
+16,17,0,3,"Rice, Master. Eugene",male,2.0,4,1,382652,29.125,,Q
+50,51,0,3,"Panula, Master. Juha Niilo",male,7.0,4,1,3101295,39.6875,,S
+59,60,0,3,"Goodwin, Master. William Frederick",male,11.0,5,2,CA 2144,46.9,,S
+63,64,0,3,"Skoog, Master. Harald",male,4.0,3,2,347088,27.9,,S
+86,87,0,3,"Ford, Mr. William Neal",male,16.0,1,3,W./C. 6608,34.375,,S
+138,139,0,3,"Osen, Mr. Olaf Elon",male,16.0,0,0,7534,9.2167,,S
+163,164,0,3,"Calic, Mr. Jovo",male,17.0,0,0,315093,8.6625,,S
+164,165,0,3,"Panula, Master. Eino Viljami",male,1.0,4,1,3101295,39.6875,,S
+171,172,0,3,"Rice, Master. Arthur",male,4.0,4,1,382652,29.125,,Q
+182,183,0,3,"Asplund, Master. Clarence Gustaf Hugo",male,9.0,4,2,347077,31.3875,,S
+266,267,0,3,"Panula, Mr. Ernesti Arvid",male,16.0,4,1,3101295,39.6875,,S
+278,279,0,3,"Rice, Master. Eric",male,7.0,4,1,382652,29.125,,Q
+282,283,0,3,"de Pelsmaeker, Mr. Alfons",male,16.0,0,0,345778,9.5,,S
+333,334,0,3,"Vander Planke, Mr. Leo Edmondus",male,16.0,2,0,345764,18.0,,S
+352,353,0,3,"Elias, Mr. Tannous",male,15.0,1,1,2695,7.2292,,C
+386,387,0,3,"Goodwin, Master. Sidney Leonard",male,1.0,5,2,CA 2144,46.9,,S
+433,434,0,3,"Kallio, Mr. Nikolai Erland",male,17.0,0,0,STON/O 2. 3101274,7.125,,S
+480,481,0,3,"Goodwin, Master. Harold Victor",male,9.0,5,2,CA 2144,46.9,,S
+500,501,0,3,"Calic, Mr. Petar",male,17.0,0,0,315086,8.6625,,S
+532,533,0,3,"Elias, Mr. Joseph Jr",male,17.0,1,1,2690,7.2292,,C
+574,575,0,3,"Rush, Mr. Alfred George John",male,16.0,0,0,A/4. 20589,8.05,,S
+683,684,0,3,"Goodwin, Mr. Charles Edward",male,14.0,5,2,CA 2144,46.9,,S
+686,687,0,3,"Panula, Mr. Jaako Arnold",male,14.0,4,1,3101295,39.6875,,S
+721,722,0,3,"Jensen, Mr. Svend Lauritz",male,17.0,1,0,350048,7.0542,,S
+731,732,0,3,"Hassan, Mr. Houssein G N",male,11.0,0,0,2699,18.7875,,C
+746,747,0,3,"Abbott, Mr. Rossmore Edward",male,16.0,1,1,C.A. 2673,20.25,,S
+764,765,0,3,"Eklund, Mr. Hans Linus",male,16.0,0,0,347074,7.775,,S
+787,788,0,3,"Rice, Master. George Hugh",male,8.0,4,1,382652,29.125,,Q
+791,792,0,2,"Gaskell, Mr. Alfred",male,16.0,0,0,239865,26.0,,S
+819,820,0,3,"Skoog, Master. Karl Thorsten",male,10.0,3,2,347088,27.9,,S
+824,825,0,3,"Panula, Master. Urho Abraham",male,2.0,4,1,3101295,39.6875,,S
+841,842,0,2,"Mudd, Mr. Thomas Charles",male,16.0,0,0,S.O./P.P. 3,10.5,,S
+844,845,0,3,"Culumovic, Mr. Jeso",male,17.0,0,0,315090,8.6625,,S
+850,851,0,3,"Andersson, Master. Sigvard Harald Elias",male,4.0,4,2,347082,31.275,,S
