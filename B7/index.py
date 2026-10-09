@@ -1303,10 +1303,79 @@ lt = [   [  ['hanan',12,True,'Abdul'], ['khan','umer' ,45 ]  ],    [ ['Kinza','i
 # print(a+b)
 
 
-a = 10
-b =12
+# a = 10
+# b =12
 
-a.__sub__(b)
-# a+b
-c =a.__add__(b)
-print(c)
+# a.__sub__(b)
+# # a+b
+# c =a.__add__(b)
+# print(c)
+
+
+
+
+# num = [12,34,56,78,90,101]
+
+# # del num[0:2]
+
+# print(num.pop(1))
+# print(num)
+
+
+# a = 10
+# del a
+
+
+
+# a = 10
+
+
+a = 10
+b = a
+
+
+
+# from index2 import cal
+# c = cal()
+# print(c.add(12,10))
+
+
+
+# def ok():
+#     x = 10
+#     print(x)
+
+
+# print(x)
+
+
+
+
+
+
+# def hello():
+#     x = 10
+#     def hi():
+#         print("Hello world")
+#         x = 15
+#         print(x)
+
+#     hi()
+    
+    
+# hello()
+
+
+
+# dt={
+#     1:{{},{}},
+#     2:{{},{}},
+#     3:{{},{}}
+# }
+
+
+tab = 4
+
+for i in range(1,11):
+    res = tab * i
+    print(tab,'x',i,'=',res)

@@ -1,11 +1,12 @@
 
+# class cal:
+#         def add(self,x,y):
+#                 return x+y
+        
+        
+#         def sub(x,y):
+#                 return x-y
+    
 
-def add(x,y):
-        return x+y
-    
-    
-def sub(x,y):
-        return x-y
-    
-    
-print(len())
+# c = cal
+# c.add()
