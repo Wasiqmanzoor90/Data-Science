@@ -222,3 +222,111 @@ insert into employ(id,Email,Adress,age, salary)
 values(4,'m@gmail','BLR',34,10000)
 
 SELECT * FROM EMPLOY
+
+
+
+
+
+use mydb2
+
+
+truncate table employ
+select * from employ
+
+
+
+
+
+INSERT INTO employ (id, Name, Email, Adress, age, salary)
+VALUES
+(1, 'Ayaan', 'ayaan@gmail.com', 'Srinagar', 22, 25000),
+(2, 'Rahul', 'rahul@gmail.com', 'Delhi', 25, 30000),
+(3, 'Amit', 'amit@gmail.com', 'Mumbai', 24, 28000),
+(4, 'Priya', 'priya@gmail.com', 'Jammu', 23, 32000),
+(5, 'Sara', 'sara@gmail.com', 'Srinagar', 26, 35000),
+(6, 'Arjun', 'arjun@gmail.com', 'Chandigarh', 28, 40000),
+(7, 'Neha', 'neha@gmail.com', 'Delhi', 21, 22000),
+(8, 'Rohan', 'rohan@gmail.com', 'Pune', 27, 38000),
+(9, 'Zoya', 'zoya@gmail.com', 'Srinagar', 24, 31000),
+(10, 'Adil', 'adil@gmail.com', 'Anantnag', 29, 45000),
+(11, 'Karan', 'karan@gmail.com', 'Mumbai', 30, 50000),
+(12, 'Isha', 'isha@gmail.com', 'Jammu', 22, 26000),
+(13, 'Vikas', 'vikas@gmail.com', 'Delhi', 31, 55000),
+(14, 'Anaya', 'anaya@gmail.com', 'Pune', 25, 36000),
+(15, 'Kabir', 'kabir@gmail.com', 'Srinagar', 28, 42000),
+(16, 'Meera', 'meera@gmail.com', 'Jammu', 23, 29000),
+(17, 'Farhan', 'farhan@gmail.com', 'Baramulla', 27, 39000),
+(18, 'Simran', 'simran@gmail.com', 'Chandigarh', 26, 34000),
+(19, 'Danish', 'danish@gmail.com', 'Anantnag', 32, 60000),
+(20, 'Ayesha', 'ayesha@gmail.com', 'Srinagar', 24, 33000)
+
+
+
+
+select * from employ
+
+
+--Aaggergate--
+select max(salary) as highest_sal from employ
+
+
+select min(salary) from 
+
+select avg(age) from employ
+
+
+select  count(*) from employ
+
+select sum(salary) from employ
+
+
+select * from employ
+
+
+
+select * from employ
+where salary>20000 and Adress = 'Srinagar'
+
+
+
+select * from employ
+where salary>20000 or Adress = 'Srinagr'
+
+
+
+select * from employ
+where salary between 20000 and 40000
+
+
+select * from employ
+where salary >20000 and salary<=40000
+
+
+select * from employ
+where name like '%a'
+
+
+
+select * from employ
+where name like 'ay%'
+
+
+
+select sum(salary) from employ
+where adress = 'Srinagar'
+
+
+select count(*) as Total_employ from employ
+where adress = 'Srinagar'
+
+
+select * from employ
+where adress = 'Srinagar'
+
+
+
+select top 1 * from employ
+order by salary desc
+
+
+
