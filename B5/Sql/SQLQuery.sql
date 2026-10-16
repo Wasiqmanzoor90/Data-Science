@@ -1065,3 +1065,10 @@ on e.Deptid = d.Deptid
 
 select e.empname, d.deptname from employ e full outer join department d
 on e.Deptid = d.Deptid
+
+
+
+
+
+
+use mydb2
