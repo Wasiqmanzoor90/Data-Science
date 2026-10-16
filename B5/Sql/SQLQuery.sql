@@ -1072,3 +1072,112 @@ on e.Deptid = d.Deptid
 
 
 use mydb2
+
+
+
+--Group by--
+
+--group by is a clause that organizes row with same value into groups
+select adress, count(*) from employ
+group by adress
+
+
+select adress, COUNT(*) as no_employ from employ
+group by adress
+order by no_employ desc
+
+
+select adress, max(salary) from employ
+group by adress
+
+
+
+select adress , avg(salary)from employ
+group by adress
+
+select adress, COUNT(*) from employ
+group by adress
+having COUNT(*)>3
+
+select adress, AVG(salary) from employ
+group by adress
+having avg(salary)>30000
+
+
+select adress, sum(salary) from employ
+group by adress
+having sum(salary) >50000
+
+
+select adress, avg(age) from employ
+group by adress
+having AVG(age)>25
+
+
+
+select * from employ
+
+
+use mydb2
+
+select * from employ
+
+
+select adress, count(*) from employ
+group by Adress
+
+
+
+select  count(*) from employ
+where adress = 'Srinagar'
+
+
+select adress, count(*) from employ
+group by Adress
+
+
+
+select adress, count(*) as no_employ from employ
+group by adress
+order by no_employ desc
+
+
+select adress, max(salary) from employ
+group by adress
+
+
+select adress , COUNT(*) from employ
+group by adress
+having COUNT(*)>3
+
+
+
+select  AVG(salary) from employ
+where Adress = 'Delhi'
+
+
+--Adresses earning average more than 35k
+select adress, AVG(salary) from employ
+group by adress
+having AVG(salary)>35000
+
+
+
+
+
+select adress, sum(salary) from employ
+group by adress
+having sum(salary)>100000
+
+
+
+select AVG(age) from employ
+where Adress = 'delhi'
+
+
+select adress, avg(age) from employ
+group by adress
+having AVG(age)>25
+
+
+
