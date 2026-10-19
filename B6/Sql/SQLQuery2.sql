@@ -330,3 +330,157 @@ order by salary desc
 
 
 
+select * from employ
+
+
+use mydb2
+
+select * from employ
+
+
+select adress, count(*) from employ
+group by Adress
+
+
+
+select  count(*) from employ
+where adress = 'Srinagar'
+
+
+select adress, count(*) from employ
+group by Adress
+
+
+
+select adress, count(*) as no_employ from employ
+group by adress
+order by no_employ desc
+
+
+select adress, max(salary) from employ
+group by adress
+
+
+select adress , COUNT(*) from employ
+group by adress
+having COUNT(*)>3
+
+
+
+select  AVG(salary) from employ
+where Adress = 'Delhi'
+
+
+--Adresses earning average more than 35k
+select adress, AVG(salary) from employ
+group by adress
+having AVG(salary)>35000
+
+
+
+
+
+select adress, sum(salary) from employ
+group by adress
+having sum(salary)>100000
+
+
+
+select AVG(age) from employ
+where Adress = 'delhi'
+
+
+select adress, avg(age) from employ
+group by adress
+having AVG(age)>25
+
+
+use mydb2
+
+
+
+
+drop table department
+
+
+
+create table department
+(
+deptid int primary key,
+deptname varchar(30),
+deptlocation varchar(30)
+)
+
+
+create table employ
+(
+empid int primary key,
+name varchar(40),
+salary int,
+age int,
+deptid int,
+foreign key(deptid) references department(deptid)
+
+)
+
+insert into department(deptid,deptname,deptlocation)
+values(100,'HR','BLR'),(101,'SALES','SXR'),(102,'CS','DEL')
+
+
+
+select * from department
+
+
+create table employ
+
+
+
+
+
+INSERT INTO employ (empid, name, salary, age, deptid)
+VALUES
+(1, 'Amit', 35000, 25, 100),
+(2, 'Priya', 42000, 28, 101),
+(3, 'Rahul', 50000, 30, 102),
+(4, 'Sneha', 38000, 26, 100),
+(5, 'Vikas', 45000, 32, 101),
+(6, 'Neha', 55000, 29, 102),
+(7, 'Arjun', 30000, 24, 100),
+(8, 'Pooja', 48000, 31, 101),
+(9, 'Karan', 60000, 35, 102),
+(10, 'Anjali', 40000, 27, 100),
+(11, 'Rohit', 52000, 33, 101),
+(12, 'Simran', 65000, 36, 102),
+(13, 'Deepak', 32000, 23, 100),
+(14, 'Kavita', 47000, 29, 101),
+(15, 'Manish', 58000, 34, 102),
+(16, 'Riya', 36000, 25, 100),
+(17, 'Sahil', 44000, 28, 101),
+(18, 'Divya', 70000, 38, 102),
+(19, 'Varun', 39000, 26, 100),
+(20, 'Meena', 51000, 32, 101),
+(21, 'Akash', 62000, 35, 102),
+(22, 'Nisha', 34000, 24, 100),
+(23, 'Tarun', 46000, 30, 101),
+(24, 'Isha', 75000, 40, 102),
+(25, 'Mohit', 41000, 27, 100),
+(26, 'Kiran', 53000, 33, 101),
+(27, 'Sonia', 68000, 37, 102),
+(28, 'Ajay', 37000, 25, 100),
+(29, 'Komal', 49000, 31, 101),
+(30, 'Ramesh', 80000, 42, 102)
+
+
+
+
+
+
+select * from employ
+select * from department
+
+
+
+
+
+select max(salary) from employ
+where salary<(select max(salary) from employ)
