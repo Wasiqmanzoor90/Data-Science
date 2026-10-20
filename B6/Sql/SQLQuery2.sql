@@ -486,8 +486,54 @@ select max(salary) from employ
 where salary<(select max(salary) from employ)
 
 
+--employes earning less than averages
+
+select * from employ
+where salary<(select AVG(salary) from employ)
 
 
 
 
+
+--department of rahul
+
+select deptname from department
+where deptid = 
+(
+select deptid from employ
+where name = 'Rahul'
+
+)
+
+
+--highest salary in each department
+select * from employ e
+where salary=(
+
+select max(salary) from employ
+where deptid = e.deptid
+)
+
+select * from department
+
+--employes which have dept location SXR
+
+select * from employ
+where deptid in
+(
+select deptid from department
+where deptlocation = 'SXR'
+
+)
+
+select max(salary) as Thirdsal from employ
+where salary <(select max(salary) from employ
+where salary<(select max(salary) from employ )
+)
+
+
+
+
+
+-- 30 question subqueris
 
