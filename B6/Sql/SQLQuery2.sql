@@ -484,3 +484,10 @@ select * from department
 
 select max(salary) from employ
 where salary<(select max(salary) from employ)
+
+
+
+
+
+
+
