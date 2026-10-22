@@ -537,3 +537,46 @@ where salary<(select max(salary) from employ )
 
 -- 30 question subqueris
 
+
+use mydb2
+
+
+
+
+
+
+select * from employ
+select * from department
+
+
+--inner join means retreiving data from two diffrent table based on condition
+select e.name , d.deptname from employ e join department d
+on e.deptid = d.deptid
+
+
+
+--left join
+--left join keyword returns all the rows from the left side of the table , along matching rows from
+--the right side of the table
+select e.name, e.salary , d.deptname from department d  left join employ e
+on e.deptid = d.deptid
+
+
+--right join
+--right join keyword returns all the rows from the right side of the table , along matching rows from
+--the left side of the table
+select e.name, e.salary , d.deptname from employ e right join department d
+on e.deptid = d.deptid
+
+--full outer join
+--full outer join returns all the rows from the both table wether match exists or not
+select e.name, e.salary , d.deptname from employ e full outer join department d
+on e.deptid = d.deptid
+
+
+
+insert into employ(empid,name, salary, age)
+values(32,'Ayat',20000,21)
+
+
+
