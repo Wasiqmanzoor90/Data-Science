@@ -580,3 +580,48 @@ values(32,'Ayat',20000,21)
 
 
 
+
+
+use mydb2
+
+
+--find the second largest salary with the department name
+
+select e.name, e.salary, d.deptname from employ e join department d
+on e.deptid = d.deptid
+where e.salary =(
+
+select max(salary) from employ
+where salary<(select max(salary) from employ)
+
+)
+
+
+
+--find the employes who earn more than average salary with their names
+
+select e.name , e.salary, d.deptname from employ e  join department d
+on e.deptid = d.deptid
+where e.salary>
+(
+
+select AVG(salary) from employ
+)
+
+
+--find employ who works in same department as rohit and earn more than rohit
+
+select e.name , e.salary, d.deptname
+from employ e join department d on e.deptid = d.deptid
+
+where e.deptid = 
+(
+select deptid from employ
+where name = 'Rohit' --100
+)
+And e.salary>
+(
+
+select salary from employ
+where name = 'Rohit'
+)
