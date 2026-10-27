@@ -625,3 +625,55 @@ And e.salary>
 select salary from employ
 where name = 'Rohit'
 )
+
+
+
+
+
+
+use mydb2
+
+--Common table expression(Cte) are the view that dont get store in database
+
+
+select e.name , d.deptname from employ e join department d
+on e.deptid = d.deptid
+
+
+
+
+with op as
+(
+select e.name , d.deptname from employ e join department d
+on e.deptid = d.deptid
+
+)
+select * from op
+
+
+
+
+
+create view alldet as
+(
+
+select e.name, e.salary, d.deptname from employ e join department d
+on e.deptid = d.deptid
+
+
+
+)
+
+alter view alldet as 
+(
+
+
+select e.name, e.salary,e.age, d.deptname from employ e join department d
+on e.deptid = d.deptid
+
+
+)
+
+
+
+select * from alldet
