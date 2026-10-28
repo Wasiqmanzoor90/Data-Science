@@ -677,3 +677,80 @@ on e.deptid = d.deptid
 
 
 select * from alldet
+
+
+
+
+
+
+
+use mydb2
+
+/*
+A stored procedure is a prepared collection of SQL statements that 
+you save in your database so that you can reuse the code over and over again.
+*/
+
+
+create procedure getalldet
+as
+begin
+select * from employ
+end
+
+
+
+
+getalldet
+
+
+
+
+create procedure getemploybyid
+@id int
+as 
+begin
+select * from employ
+where empid = @id
+end
+
+
+
+getemploybyid @id =10
+
+
+
+
+
+create procedure getemploybyname
+@name varchar(30)
+as
+begin
+select * from employ
+where name = @name
+end
+
+
+
+getemploybyname @name = 'wasiq'
+
+
+
+
+
+
+
+
+alter procedure getemploybyname
+@id int,
+@name varchar(30)
+as
+begin
+select * from employ
+where name= @name and empid = @id
+end
+
+
+
+
+getemploybyname 31,'wasiq'
