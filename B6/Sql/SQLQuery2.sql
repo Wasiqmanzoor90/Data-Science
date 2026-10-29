@@ -174,7 +174,7 @@ constraint are rules that are applied to a table
 4. check ---apply condtion
 5. unique -- duplicate value are not allowed
 6. foreign key -- establish relationship netween two tables
-
+Fpri
 */
 
 
@@ -754,3 +754,133 @@ end
 
 
 getemploybyname 31,'wasiq'
+
+
+
+use mydb2
+
+
+
+create procedure getemploybysalary
+@salary int
+as
+begin
+select * from employ
+where salary > @salary
+end
+
+
+
+getemploybysalary @salary = 45000
+
+
+
+create procedure employbydepartmnetid
+@id int
+as
+begin
+
+select * from employ
+where deptid = @id
+end
+
+employbydepartmnetid @id =100
+
+
+
+
+
+
+create procedure defaultid
+@id int = 100
+
+as
+begin
+select * from employ
+where deptid = @id
+end
+
+
+
+defaultid @id =101
+
+
+
+create procedure betweensalary
+@maxsal int,
+@minsal int
+as
+begin
+
+select  * from employ
+where salary between @maxsal and @minsal
+end
+
+
+
+betweensalary 30000 , 45000
+
+--sql server has it's own stored procedure
+
+sp_help 'employ'
+
+
+sp_tables
+
+sp_columns 'employ'
+
+
+sp_spaceused 'employ'
+
+
+sp_rename 'employ', 'employee'
+
+
+select * from employee
+
+sp_rename 'employee.name','empname','column'
+
+
+alter table employee
+drop column age
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+create table emp
+(
+empid int primary key,
+email varchar(30) not null,
+name varchar(40),
+salary int,
+age int check(age>=18),
+
+)
+
+
+alter table emp
+drop constraint CK__emp__age__31B762FC
+
+alter table emp
+drop column age 
