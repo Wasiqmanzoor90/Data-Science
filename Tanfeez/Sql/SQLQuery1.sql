@@ -46,3 +46,54 @@ CRUD --
 2. insert -- inserts data in table
 3 update --- updates existing data in table
 4. delete  -- its delets an indivdual row in table
+
+
+
+Transaction Control Laguage(TCL)
+1. Commit
+2. RollBack
+
+
+
+Data Query Language (DQL)
+1. Select
+*/
+
+
+
+/*
+Data Type tells us which type of data a variable holds
+
+1. int --holds numerical data
+2. varchar --- it holds textual data
+3. char -- it holds textual data
+4. float --holds decimal value
+5. DateTime
+
+
+
+*/
+
+
+
+
+Create table student
+(
+
+id int,
+name varchar(40),
+roll_no varchar(20)
+)
+
+
+select * from student
+
+
+
+
+
+
+
+
+
+
