@@ -1115,3 +1115,46 @@ having AVG(age)>25
 
 
 
+
+
+
+use mydb2
+
+
+
+
+/*
+SQL window functions perform calculations across a set of rows
+related to the current row without collapsing the result into a single row
+*/
+--it gives unique row number to each row
+select *, ROW_NUMBER() over(order by salary desc) as rn
+from employee
+
+
+
+
+--rank() gives here rank to each row
+--but skipping iteration
+select *, Rank() over(order by salary desc) as rn
+from employee
+
+
+--same value, same rank but doenst skip iteration
+select *, dense_rank() over(order by salary desc) as rn
+from employee
+
+select deptid, empname,sum(salary) from employee
+group by deptid
+
+
+/*
+The PARTITION BY clause is a logical tool used inside analytical window
+functions (like ROW_NUMBER(), RANK(), or SUM()). It groups query rows into 
+temporary subsets to calculate localized values without collapsing rows into a
+single summary like GROUP BY does
+*/
+select empname,salary, deptid,
+sum(salary) over(partition by deptid) as totalsal,
+avg(salary) over(partition by deptid) as avgsal
+from employee
