@@ -884,3 +884,13 @@ drop constraint CK__emp__age__31B762FC
 
 alter table emp
 drop column age 
+
+
+
+
+
+use mydb2
+
+
+
+
