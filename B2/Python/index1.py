@@ -8,6 +8,9 @@
 # file.write("Hello, this is a file handling example.")
 # file.close()
 
+
+
+
 # r represents reading a file
 # file = open("file.txt", "r")
 # # content = file.read()

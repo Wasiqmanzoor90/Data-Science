@@ -182,3 +182,97 @@ order by salary desc
 
 select * from student
 where salary between 10000 and 15000
+
+
+
+use mydb
+
+
+
+
+--Aggeregate 
+
+
+
+select max(salary) from student
+select min(salary) from student
+select avg(salary) from student
+select COUNT(*) from student
+
+
+
+--The SQL Server GROUP BY clause is used to arrange identical data into groups.
+
+drop table student
+
+
+create table student
+(
+id int,
+name varchar(30),
+salary int,
+adress varchar(30)
+
+)
+
+
+
+INSERT INTO student (id, name, salary, adress)
+VALUES
+(1, 'Aamir', 25000, 'Srinagar'),
+(2, 'Rahul', 30000, 'Delhi'),
+(3, 'Wasiq', 45000, 'Kashmir'),
+(4, 'Ayesha', 28000, 'Jammu'),
+(5, 'Zubair', 35000, 'Anantnag'),
+(6, 'Rohan', 40000, 'Mumbai'),
+(7, 'Sana', 32000, 'Srinagar'),
+(8, 'Arjun', 50000, 'Delhi'),
+(9, 'Irfan', 22000, 'Baramulla'),
+(10, 'Priya', 38000, 'Pune'),
+(11, 'Adil', 27000, 'Sopore'),
+(12, 'Neha', 42000, 'Chennai'),
+(13, 'Sameer', 33000, 'Jammu'),
+(14, 'Karan', 55000, 'Jammu'),
+(15, 'Zoya', 29000, 'Srinagar'),
+(16, 'Bilal', 48000, 'Anantnag'),
+(17, 'Vikram', 36000, 'Hyderabad'),
+(18, 'Hina', 31000, 'Pulwama'),
+(19, 'Danish', 60000, 'Delhi'),
+(20, 'Mehak', 34000, 'Srinagar')
+
+
+select * from student
+
+
+select adress,count(*) from student
+group by adress
+
+
+
+select adress,avg(salary) from student
+group by adress
+
+
+
+select adress, sum(salary) from student
+group by adress
+
+
+
+select * from student
+where adress = 'Srinagar' and salary = 30000
+
+
+select * from student
+where adress = 'Srinagar' or salary = 30000
+
+
+
+select adress, COUNT(*) as no_employ from student
+group by adress
+order by no_employ desc
+
+
+select adress, COUNT(*) from student
+group by adress
+having count(*)>2
