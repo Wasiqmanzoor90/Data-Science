@@ -933,3 +933,41 @@ select empname,salary, deptid,
 sum(salary) over(partition by deptid) as totalsal,
 avg(salary) over(partition by deptid) as avgsal
 from employee
+
+
+
+
+use mydb2
+
+
+
+
+
+select empname,salary, deptid,
+max(salary) over(partition by deptid) as highestsal
+from employee
+
+
+
+select empname,salary, deptid,
+min(salary) over(partition by deptid) as highestsal
+from employee
+
+
+
+--Diffrence between department average salary and employ salary 
+select empname , salary , deptid,
+avg(salary) over(partition by deptid ) as averageDsal,
+salary-AVG(salary) over(partition by deptid) as salarydiffrence
+from employee
+
+select salary, count(*) as no_employ from employee
+group by salary
+order by no_employ
+
+
+
+select empname, salary ,
+count(*) over(partition by salary) as salarycount
+from employee
+
