@@ -276,3 +276,100 @@ order by no_employ desc
 select adress, COUNT(*) from student
 group by adress
 having count(*)>2
+
+
+
+
+
+
+use mydb
+
+
+select * from student
+
+select adress, max(salary) from student
+group by adress
+
+
+select AVG(salary) from student
+where adress = 'Delhi'
+
+
+
+
+select adress, AVG(salary) from student
+group by adress
+having AVG(salary)>40000
+
+
+select adress, sum(salary) from student
+group by adress
+having sum(salary)>100000
+
+
+
+
+
+
+/*
+constraint are the rules that are applied to particular table
+
+1 . Primary key --uniquely identifies each row
+2. Not null -- it doesn't allowed empty value
+3. Unique --- it doesnt allow duplicate value
+4. check -- it cheks the the condition
+5. foreign key --it establish relationship beyween two tables
+6. Default-- pre defined value
+
+*/
+
+
+
+
+
+
+create table employ
+(
+
+id int primary key,
+Name varchar(30) not null,
+email varchar(50) unique,
+adress varchar(30) default 'Srinagar',
+salary int,
+age int check(age>=18)
+)
+
+
+
+
+insert into employ(id,Name,email,adress,salary,age)
+values(1,'wasiq','w@gmail.com','BLR',100000,25)
+
+
+--not null
+insert into employ(id,email,adress,salary,age)
+values(2,'T@gmail.com','BLR',300000,25)
+
+
+--unique
+insert into employ(id,Name,email,adress,salary,age)
+values(3,'w@gmail.com','BLR',50000,25)
+
+
+--salary null
+insert into employ(id,name,email,salary,age)
+values(4,'Aahil','a@gmail.com',45000,25)
+
+
+--check
+insert into employ(id,name,email,salary,age)
+values(5,'ubaid','u@gmail.com',45000,17)
+
+select * from employ
+
+
+
+
+
+
+
