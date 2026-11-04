@@ -971,3 +971,29 @@ select empname, salary ,
 count(*) over(partition by salary) as salarycount
 from employee
 
+
+
+
+use mydb2
+
+
+
+select * from employee
+
+
+
+
+
+--lag shows previous value, lead shows next value(based on order)
+
+
+select empid, empname , deptid , salary,
+lag(salary ,2) over(partition by deptid order by salary desc) as previous_salary
+from employee
+
+
+
+select empid, empname , deptid , salary,
+lead(salary ,1) over(partition by deptid order by salary desc) as next_salary
+from employee
+
