@@ -997,3 +997,4 @@ select empid, empname , deptid , salary,
 lead(salary ,1) over(partition by deptid order by salary desc) as next_salary
 from employee
 
+---hello world
