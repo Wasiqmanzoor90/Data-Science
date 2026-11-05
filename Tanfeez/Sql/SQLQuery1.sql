@@ -373,3 +373,83 @@ select * from employ
 
 
 
+use mydb
+
+
+drop table employ
+
+
+
+create table department
+(
+deptid int primary key,
+deptname varchar(30),
+deptlocation varchar(60)
+)
+
+
+
+create table employ
+(
+
+id int primary key,
+Name varchar(30),
+salary int,
+age int check(age>=18),
+deptid int,
+foreign key(deptid) references department(deptid)
+)
+
+
+
+select * from department
+select * from employ
+
+
+
+insert into department(deptid,deptname,deptlocation)
+values(100,'CS','UK'),(101,'HR','NY'),(102,'Sales','BLR')
+
+
+
+
+INSERT INTO employ (id, Name, salary, age, deptid)
+VALUES
+(1, 'Aarav', 45000, 24, 100),
+(2, 'Rahul', 55000, 28, 101),
+(3, 'Priya', 60000, 30, 102),
+(4, 'Amit', 35000, 22, 100),
+(5, 'Sneha', 48000, 26, 101),
+(6, 'Vikram', 75000, 35, 102),
+(7, 'Neha', 40000, 23, 100),
+(8, 'Rohan', 65000, 32, 101),
+(9, 'Anjali', 52000, 27, 102),
+(10, 'Karan', 38000, 21, 100),
+(11, 'Pooja', 58000, 29, 101),
+(12, 'Arjun', 80000, 38, 102),
+(13, 'Ishita', 42000, 25, 100),
+(14, 'Varun', 62000, 31, 101),
+(15, 'Meera', 47000, 24, 102),
+(16, 'Sahil', 90000, 40, 100),
+(17, 'Kavita', 53000, 28, 101),
+(18, 'Aditya', 70000, 34, 102),
+(19, 'Simran', 39000, 22, 100),
+(20, 'Manish', 56000, 30, 101),
+(21, 'Divya', 64000, 33, 102),
+(22, 'Nikhil', 44000, 26, 100),
+(23, 'Tanya', 72000, 36, 101),
+(24, 'Mohit', 50000, 27, 102),
+(25, 'Riya', 37000, 20, 100),
+(26, 'Deepak', 85000, 39, 101),
+(27, 'Ayesha', 61000, 32, 102),
+(28, 'Kabir', 46000, 25, 100),
+(29, 'Shreya', 68000, 34, 101),
+(30, 'Farhan', 54000, 29, 102);
+
+
+select * from employ
+
+
+--In SQL Server, JOINs are used to combine rows from two or more tables based on a related column between them
+select e.name,d.deptname, d.deptid, d.deptlocation from employ e  join department d
+on e.deptid = d.deptid

@@ -988,7 +988,7 @@ select * from employee
 
 
 select empid, empname , deptid , salary,
-lag(salary ,2) over(partition by deptid order by salary desc) as previous_salary
+lag(salary ,1) over(partition by deptid order by salary desc) as previous_salary
 from employee
 
 
