@@ -998,3 +998,56 @@ lead(salary ,1) over(partition by deptid order by salary desc) as next_salary
 from employee
 
 ---hello world
+
+
+
+
+
+use mydb2
+
+/*
+An SQL transaction is a single logical unit of work that groups one or more
+SQL queries together to ensure they either all succeed or all fail as a pack.
+
+1. commit is uded to save data permanantly in databse
+2. rollback is a commod that restores the database to last comit state
+
+*/
+
+
+
+create table account(
+
+accntid int,
+holdername varchar(50),
+bal int
+)
+
+
+insert into account values(1,'wasiq',1000),(2,'Madeeha',5000)
+
+select * from account
+
+
+
+begin transaction
+begin try
+
+
+update account 
+set bal=bal-300 
+where accntid = 3
+--
+---
+--
+---
+---
+---x
+update account
+set bal = bal+300
+where accntid = 2
+commit
+end try
+begin catch
+rollback
+end catch
