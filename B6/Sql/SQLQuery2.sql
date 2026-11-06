@@ -1051,3 +1051,24 @@ end try
 begin catch
 rollback
 end catch
+
+
+
+use mydb2
+
+
+/*
+ACID
+In SQL Server, ACID stands for Atomicity, Consistency, Isolation, and Durability. 
+These four fundamental properties guarantee that database transactions are processed reliably, 
+maintaining data integrity even during system failures, crashes, or concurrent user activity
+
+1. A--Atomicity (All or nothing)
+2. C-- Consistency (Valid State to Valid State)
+3. I--Isolation (Independent Execution)
+4. D--Durability (Permanence)
+
+
+
+
+
