@@ -415,7 +415,7 @@ values(100,'CS','UK'),(101,'HR','NY'),(102,'Sales','BLR')
 
 INSERT INTO employ (id, Name, salary, age, deptid)
 VALUES
-(1, 'Aarav', 45000, 24, 100),
+(31, 'Aarav', 45000, 24, 100),
 (2, 'Rahul', 55000, 28, 101),
 (3, 'Priya', 60000, 30, 102),
 (4, 'Amit', 35000, 22, 100),
@@ -446,10 +446,58 @@ VALUES
 (29, 'Shreya', 68000, 34, 101),
 (30, 'Farhan', 54000, 29, 102);
 
-
+use mydb
 select * from employ
+select * from department
 
+
+INSERT INTO employ (id, Name, salary, age)
+VALUES
+(31, 'Aarav', 45000, 24),
+(32, 'Aahil', 55000, 28)
+
+insert into department(deptid,deptname,deptlocation)
+values(103,'T-Support','SXR')
 
 --In SQL Server, JOINs are used to combine rows from two or more tables based on a related column between them
+--An INNER JOIN in SQL selects rows that have matching values in both tables
 select e.name,d.deptname, d.deptid, d.deptlocation from employ e  join department d
 on e.deptid = d.deptid
+
+/*
+right join
+A RIGHT JOIN (or RIGHT OUTER JOIN) in SQL is used to return all records from the 
+right table, along with the matching records from the left table.
+*/
+select e.name , d.deptname from employ e  right join department d
+on e.deptid = d.deptid
+
+
+/*
+Left Join
+A LEFT JOIN (or LEFT OUTER JOIN) in SQL is used to return all records from the 
+LEFT table, along with the matching records from the right table. 
+*/
+
+select e.name, d.deptname from department d left join employ e
+on e.deptid = d.deptid
+
+/*
+FULL OUTER JOIN
+
+A FULL OUTER JOIN  in SQL is used to return all records from the 
+both table
+*/
+select e.name, d.deptname from employ e full outer join department d
+on e.deptid = d.deptid
+
+
+
+
+
+
+
+
+
+
+
