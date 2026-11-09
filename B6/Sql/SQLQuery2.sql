@@ -1068,7 +1068,61 @@ maintaining data integrity even during system failures, crashes, or concurrent u
 3. I--Isolation (Independent Execution)
 4. D--Durability (Permanence)
 
+*/
+
+select * from employee
+
+use mydb2
+
+
+create trigger upd_trg
+on employee
+after update
+as begin
+print('Your data updated sucessfully!')
+end
+
+
+alter trigger upd_trg
+on employee
+after delete
+as begin
+print('Your row deleted sucessfully')
+end
+
+--In SQL Server, a trigger is a special type of stored procedure that executes automatically 
+--in response to a specific event occurring on the database server
+update employee
+set empname = 'Maria'
+where empid = 1
+
+
+
+create trigger tg_del
+on employee
+after delete
+as begin
+print('Your data deleted sucessfully!')
+end
+
+
+drop trigger tg_del
 
 
 
 
+delete from employee
+where empid = 30
+
+
+
+
+
+--An index in SQL Server is a specialized, on-disk data structure associated with a table or view that speeds up data retrieval.
+
+sp_helpindex 'employee'
+
+create nonclustered index idx_name
+on employee(empname)
+
+drop index idx_name on employee
