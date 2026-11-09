@@ -492,7 +492,69 @@ select e.name, d.deptname from employ e full outer join department d
 on e.deptid = d.deptid
 
 
+use mydb
 
+
+select * from employ
+
+select max(salary) from employ
+select AVG(salary) from employ
+
+
+--second largest salary
+select max(salary) from employ
+where salary<(select max(salary) from employ)
+
+
+--departmentname of rahul
+
+select deptname from department
+where deptid=(
+select deptid from employ
+where name = 'Rahul'
+)
+
+
+
+--highest salary in each department
+select * from employ e
+where salary=(
+
+select max(salary) from employ
+where deptid = e.deptid
+)
+
+
+--empoyes from same department as rahul
+
+select * from employ
+where deptid=(
+select deptid from employ
+where name  = 'Rahul'
+)
+
+
+--employ oder than average age
+
+select * from employ
+where age>(select AVG(age) from employ)
+
+
+select * from department
+
+
+select name from employ
+where deptid in(
+select deptid from department
+where deptlocation = 'BLR'
+)
+
+
+
+
+--employ earn less than average salary
+select name, salary from employ
+where salary<(select AVG(salary) from employ)
 
 
 
