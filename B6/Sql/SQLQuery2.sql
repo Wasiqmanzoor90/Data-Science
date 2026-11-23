@@ -1126,3 +1126,23 @@ create nonclustered index idx_name
 on employee(empname)
 
 drop index idx_name on employee
+
+
+
+
+use mydb2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

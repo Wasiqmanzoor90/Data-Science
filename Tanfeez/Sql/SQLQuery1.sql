@@ -148,7 +148,7 @@ update student
 set salary = 17000
 where id =5
 
-
+use mydb
 
 
 select * from student
@@ -169,7 +169,7 @@ where name like 't%'
 
 
 select * from student
-where name like '%d'
+where name like '%q'
 
 
 
@@ -382,7 +382,7 @@ drop table employ
 
 create table department
 (
-deptid int primary key,
+pdeptid int primary key,
 deptname varchar(30),
 deptlocation varchar(60)
 )

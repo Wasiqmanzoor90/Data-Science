@@ -967,19 +967,19 @@
 # print(b)
 
 
-import copy
-# a = [1,2,3,4,5]
-# b = copy.deepcopy(a)
-# b.append(6)
+# import copy
+# # a = [1,2,3,4,5]
+# # b = copy.deepcopy(a)
+# # b.append(6)
 
+# # print(a)
+# # print(b)
+
+
+
+# a = [1,2,3,4,5]
+# b = copy.copy(a)
+# b.append(6)
 # print(a)
 # print(b)
-
-
-
-a = [1,2,3,4,5]
-b = copy.copy(a)
-b.append(6)
-print(a)
-print(b)
 
