@@ -558,8 +558,37 @@ where salary<(select AVG(salary) from employ)
 
 
 
+use mydb
+
+
+
+select * from employ
+
+
+
+select e.name , d.deptname from employ e join department d
+on e.deptid = d.deptid
+
+
+--In SQL Server, a view is a virtual table whose contents are defined by a saved SELECT query.
+create view alldetails as
+(
+select e.name,d.deptname from employ e join department d
+on e.deptid = d.deptid
+)
+select * from department
 
 
 
 
+alter view alldetails as
+(
+select e.name,d.deptname, d.deptlocation from employ e join department d
+on e.deptid = d.deptid
+
+)
+
+drop view alldetails
+
+select * from alldetails
 
