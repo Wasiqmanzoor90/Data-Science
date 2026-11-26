@@ -46,3 +46,39 @@ and delete the actual data stored inside database tables.
 
 
 
+
+Create database ilsdb
+
+
+drop database ilsdb
+
+use ilsdb
+
+
+
+
+
+
+
+
+
+
+
+create table Student
+(
+Roll_no int,
+name varchar(30),
+class varchar(20)
+)
+
+
+
+select * from STUDENT
+
+
+alter table  student
+add adress varchar(50)
+
+
+alter table student
+drop column adress
