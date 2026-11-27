@@ -55,6 +55,51 @@
 
 
 #Not equal to
-a = 10
-b =10
-print(a!=b)
+# a = 10
+# b =10
+# print(a!=b)
+
+
+# #greater than
+# a = 10
+# b =12
+# print(a>b)
+
+
+# #less than 
+# a = 12
+# b = 10
+# print(a<b)
+
+
+#greater than equal 
+# age = 18
+# print(age>=18)
+
+
+
+#less than equal to
+# b = 13
+# print(b<=13)
+
+
+
+#Assignment Operator
+
+# a = 10
+# # a = a+5
+# a+=5
+# print(a)
+
+
+
+# a = 2
+# a -=1
+# print(a)
+
+
+# v = 10
+# v*=2
+# print(v)
+
+

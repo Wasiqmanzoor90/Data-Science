@@ -82,3 +82,85 @@ add adress varchar(50)
 
 alter table student
 drop column adress
+
+
+
+
+
+
+
+use ilsdb
+
+
+select * from Student
+
+
+
+insert into Student(Roll_no,name,class)
+values(1,'wasiq','ist'),(2,'Himu','ist')
+
+
+update Student
+set class = '3rd'
+where Roll_no=1
+
+
+delete from Student
+where Roll_no = 1
+
+
+truncate table student
+drop table Student
+select * from Student
+
+
+
+
+
+
+
+create table employe
+(
+id int,
+name varchar(30),
+salary int,
+deptname varchar(30)
+
+)
+
+
+select * from employe
+
+
+insert into employe(id,name,salary,deptname)
+values
+(4,'Rubhaan',40,'Sales'),
+(1,'wasiq',100,'CS'),
+(2,'hemu',20,'HR'),
+(3,'Zayiem',10,'CS'),
+
+(4,'Rubhaan',40,'Sales')
+
+
+select * from employe
+where salary =100
+
+select * from employe
+where salary >=40
+
+
+select * from employe
+where id = 1
+
+
+select name from employe
+
+select * from employe
+
+
+update employe
+set name ='hanan'
+where id = 4
+
+
+
